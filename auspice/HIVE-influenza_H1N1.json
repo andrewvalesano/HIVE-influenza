@@ -1,0 +1,3094 @@
+{
+  "meta": {
+    "build_url": "https://github.com/nextstrain/zika-tutorial",
+    "colorings": [
+      {
+        "key": "clade_membership",
+        "title": "Clade",
+        "type": "categorical"
+      },
+      {
+        "key": "gt",
+        "title": "Genotype",
+        "type": "categorical"
+      },
+      {
+        "key": "num_date",
+        "title": "Date",
+        "type": "continuous"
+      },
+      {
+        "key": "country",
+        "scale": [
+          [
+            "usa",
+            "#DC2F24"
+          ]
+        ],
+        "title": "Country",
+        "type": "categorical"
+      },
+      {
+        "key": "region",
+        "scale": [
+          [
+            "north america",
+            "#DC2F24"
+          ]
+        ],
+        "title": "Region",
+        "type": "categorical"
+      }
+    ],
+    "display_defaults": {
+      "color_by": "clade_membership",
+      "map_triplicate": true
+    },
+    "filters": [
+      "country",
+      "region"
+    ],
+    "genome_annotations": {
+      "HA1": {
+        "end": 1052,
+        "seqid": "config/H1N1_HA_reference_nextstrain.gb",
+        "start": 72,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "HA2": {
+        "end": 1718,
+        "seqid": "config/H1N1_HA_reference_nextstrain.gb",
+        "start": 1053,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "SigPep": {
+        "end": 71,
+        "seqid": "config/H1N1_HA_reference_nextstrain.gb",
+        "start": 21,
+        "strand": "+",
+        "type": "CDS"
+      },
+      "nuc": {
+        "end": 1752,
+        "seqid": "config/H1N1_HA_reference_nextstrain.gb",
+        "start": 1,
+        "strand": "+",
+        "type": "source"
+      }
+    },
+    "geo_resolutions": [
+      {
+        "demes": {
+          "michigan": {
+            "latitude": 42.2808,
+            "longitude": -83.743
+          }
+        },
+        "key": "division"
+      },
+      {
+        "demes": {
+          "usa": {
+            "latitude": 37.0902,
+            "longitude": -95.7129
+          }
+        },
+        "key": "country"
+      },
+      {
+        "demes": {
+          "north america": {
+            "latitude": 28.2367447,
+            "longitude": -97.738017
+          }
+        },
+        "key": "region"
+      }
+    ],
+    "maintainers": [
+      {
+        "name": "Andrew Valesano",
+        "url": "https://lauringlab.wordpress.com/"
+      }
+    ],
+    "panels": [
+      "tree",
+      "map",
+      "entropy"
+    ],
+    "title": "Influenza HA Sequences from the HIVE Study",
+    "updated": "2020-04-23"
+  },
+  "tree": {
+    "branch_attrs": {
+      "labels": {
+        "clade": "3"
+      },
+      "mutations": {}
+    },
+    "children": [
+      {
+        "branch_attrs": {
+          "mutations": {}
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "HA2: N114K, I186V"
+              },
+              "mutations": {
+                "HA2": [
+                  "N114K",
+                  "I186V"
+                ],
+                "nuc": [
+                  "T953C",
+                  "T1040C",
+                  "T1211C",
+                  "G1226A",
+                  "T1394G",
+                  "A1608G",
+                  "G1694A",
+                  "C1752T"
+                ]
+              }
+            },
+            "name": "M53523",
+            "node_attrs": {
+              "clade_membership": {
+                "value": "3"
+              },
+              "country": {
+                "value": "usa"
+              },
+              "div": 0.005145733621172282,
+              "division": {
+                "value": "michigan"
+              },
+              "num_date": {
+                "confidence": [
+                  2011.0643835616438,
+                  2011.0643835616438
+                ],
+                "value": 2011.0643835616438
+              },
+              "region": {
+                "value": "north america"
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "mutations": {
+                "nuc": [
+                  "G551A",
+                  "A1151G",
+                  "T1751C"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "HA1: K283N; HA2: K121R; SigPep: L5P, N16S"
+                  },
+                  "mutations": {
+                    "HA1": [
+                      "K283N"
+                    ],
+                    "HA2": [
+                      "K121R"
+                    ],
+                    "SigPep": [
+                      "L5P",
+                      "N16S"
+                    ],
+                    "nuc": [
+                      "T34C",
+                      "A67G",
+                      "T512C",
+                      "T575C",
+                      "A749G",
+                      "G920T",
+                      "A1414G",
+                      "G1583A"
+                    ]
+                  }
+                },
+                "name": "M54028",
+                "node_attrs": {
+                  "clade_membership": {
+                    "value": "3"
+                  },
+                  "country": {
+                    "value": "usa"
+                  },
+                  "div": 0.0068560029549755075,
+                  "division": {
+                    "value": "michigan"
+                  },
+                  "num_date": {
+                    "confidence": [
+                      2011.1219178082192,
+                      2011.1219178082192
+                    ],
+                    "value": 2011.1219178082192
+                  },
+                  "region": {
+                    "value": "north america"
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "HA1: N129D, A141S, I295V; HA2: V152I"
+                  },
+                  "mutations": {
+                    "HA1": [
+                      "N129D",
+                      "A141S",
+                      "I295V"
+                    ],
+                    "HA2": [
+                      "V152I"
+                    ],
+                    "nuc": [
+                      "A456G",
+                      "G492T",
+                      "A815G",
+                      "T923G",
+                      "C941T",
+                      "A954G",
+                      "G1506A"
+                    ]
+                  }
+                },
+                "name": "M54391",
+                "node_attrs": {
+                  "clade_membership": {
+                    "value": "3"
+                  },
+                  "country": {
+                    "value": "usa"
+                  },
+                  "div": 0.006284708816824424,
+                  "division": {
+                    "value": "michigan"
+                  },
+                  "num_date": {
+                    "confidence": [
+                      2011.1657534246576,
+                      2011.1657534246576
+                    ],
+                    "value": 2011.1657534246576
+                  },
+                  "region": {
+                    "value": "north america"
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000002",
+            "node_attrs": {
+              "clade_membership": {
+                "value": "3"
+              },
+              "country": {
+                "value": "usa"
+              },
+              "div": 0.0022820315036113197,
+              "num_date": {
+                "confidence": [
+                  2009.3749352288958,
+                  2010.69832086953
+                ],
+                "value": 2010.0146015994314
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000001",
+        "node_attrs": {
+          "clade_membership": {
+            "value": "3"
+          },
+          "country": {
+            "value": "usa"
+          },
+          "div": 0.0005702356100030354,
+          "num_date": {
+            "confidence": [
+              2007.7909718802935,
+              2010.2303599724555
+            ],
+            "value": 2009.6947140143952
+          }
+        }
+      },
+      {
+        "branch_attrs": {
+          "labels": {
+            "aa": "HA1: T134A, P183S, S185T; HA2: E47K, S124N"
+          },
+          "mutations": {
+            "HA1": [
+              "T134A",
+              "P183S",
+              "S185T"
+            ],
+            "HA2": [
+              "E47K",
+              "S124N"
+            ],
+            "nuc": [
+              "A471G",
+              "C618T",
+              "G625C",
+              "T1076C",
+              "G1191A",
+              "G1423A",
+              "T1484C"
+            ]
+          }
+        },
+        "children": [
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "HA1: S84G, S143G, K163I, A197T; HA2: V193A; SigPep: L8M",
+                "clade": "7"
+              },
+              "mutations": {
+                "HA1": [
+                  "S84G",
+                  "S143G",
+                  "K163I",
+                  "A197T"
+                ],
+                "HA2": [
+                  "V193A"
+                ],
+                "SigPep": [
+                  "L8M"
+                ],
+                "nuc": [
+                  "C42A",
+                  "C164T",
+                  "A321G",
+                  "G428A",
+                  "A498G",
+                  "A559T",
+                  "G660A",
+                  "C836T",
+                  "C887T",
+                  "C1073T",
+                  "C1457T",
+                  "C1526T",
+                  "T1630C",
+                  "C1634T",
+                  "C1676T"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "HA1: I216V"
+                  },
+                  "mutations": {
+                    "HA1": [
+                      "I216V"
+                    ],
+                    "nuc": [
+                      "G338A",
+                      "A374G",
+                      "A717G",
+                      "G1226A",
+                      "C1241T",
+                      "G1445A"
+                    ]
+                  }
+                },
+                "name": "MH2936",
+                "node_attrs": {
+                  "clade_membership": {
+                    "value": "7"
+                  },
+                  "country": {
+                    "value": "usa"
+                  },
+                  "div": 0.01547232881259597,
+                  "division": {
+                    "value": "michigan"
+                  },
+                  "num_date": {
+                    "confidence": [
+                      2013.0369863013698,
+                      2013.0369863013698
+                    ],
+                    "value": 2013.0369863013698
+                  },
+                  "region": {
+                    "value": "north america"
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "HA2: E29G"
+                  },
+                  "mutations": {
+                    "HA2": [
+                      "E29G"
+                    ],
+                    "nuc": [
+                      "A5C",
+                      "G371A",
+                      "C443A",
+                      "T575C",
+                      "A1138G",
+                      "C1163T",
+                      "G1738A",
+                      "C1752T"
+                    ]
+                  }
+                },
+                "name": "MH3978",
+                "node_attrs": {
+                  "clade_membership": {
+                    "value": "7"
+                  },
+                  "country": {
+                    "value": "usa"
+                  },
+                  "div": 0.01662273405527271,
+                  "division": {
+                    "value": "michigan"
+                  },
+                  "num_date": {
+                    "confidence": [
+                      2013.1712328767123,
+                      2013.1712328767123
+                    ],
+                    "value": 2013.1712328767123
+                  },
+                  "region": {
+                    "value": "north america"
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000004",
+            "node_attrs": {
+              "clade_membership": {
+                "value": "7"
+              },
+              "country": {
+                "value": "usa"
+              },
+              "div": 0.012041707494985864,
+              "num_date": {
+                "confidence": [
+                  2010.1344331592882,
+                  2012.64633631336
+                ],
+                "value": 2012.2651477868617
+              }
+            }
+          },
+          {
+            "branch_attrs": {
+              "labels": {
+                "aa": "HA1: D97N",
+                "clade": "6"
+              },
+              "mutations": {
+                "HA1": [
+                  "D97N"
+                ],
+                "nuc": [
+                  "G360A"
+                ]
+              }
+            },
+            "children": [
+              {
+                "branch_attrs": {
+                  "labels": {
+                    "aa": "HA1: A186T"
+                  },
+                  "mutations": {
+                    "HA1": [
+                      "A186T"
+                    ],
+                    "nuc": [
+                      "G627A",
+                      "C797T",
+                      "G1169A",
+                      "T1673C"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "C1752T"
+                        ]
+                      }
+                    },
+                    "name": "M54205",
+                    "node_attrs": {
+                      "clade_membership": {
+                        "value": "6"
+                      },
+                      "country": {
+                        "value": "usa"
+                      },
+                      "div": 0.006858196844782165,
+                      "division": {
+                        "value": "michigan"
+                      },
+                      "num_date": {
+                        "confidence": [
+                          2011.1465753424657,
+                          2011.1465753424657
+                        ],
+                        "value": 2011.1465753424657
+                      },
+                      "region": {
+                        "value": "north america"
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "mutations": {}
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "M54207",
+                        "node_attrs": {
+                          "clade_membership": {
+                            "value": "6"
+                          },
+                          "country": {
+                            "value": "usa"
+                          },
+                          "div": 0.006287591888869249,
+                          "division": {
+                            "value": "michigan"
+                          },
+                          "num_date": {
+                            "confidence": [
+                              2011.1465753424657,
+                              2011.1465753424657
+                            ],
+                            "value": 2011.1465753424657
+                          },
+                          "region": {
+                            "value": "north america"
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "name": "M54206",
+                        "node_attrs": {
+                          "clade_membership": {
+                            "value": "6"
+                          },
+                          "country": {
+                            "value": "usa"
+                          },
+                          "div": 0.006287591888869249,
+                          "division": {
+                            "value": "michigan"
+                          },
+                          "num_date": {
+                            "confidence": [
+                              2011.1465753424657,
+                              2011.1465753424657
+                            ],
+                            "value": 2011.1465753424657
+                          },
+                          "region": {
+                            "value": "north america"
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000007",
+                    "node_attrs": {
+                      "clade_membership": {
+                        "value": "6"
+                      },
+                      "country": {
+                        "value": "usa"
+                      },
+                      "div": 0.006287591888869233,
+                      "num_date": {
+                        "confidence": [
+                          2011.0386458409764,
+                          2011.1465753424657
+                        ],
+                        "value": 2011.1465753424657
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000006",
+                "node_attrs": {
+                  "clade_membership": {
+                    "value": "6"
+                  },
+                  "country": {
+                    "value": "usa"
+                  },
+                  "div": 0.0062875918888692164,
+                  "num_date": {
+                    "confidence": [
+                      2010.8808411475595,
+                      2011.1372565072695
+                    ],
+                    "value": 2011.054600795769
+                  }
+                }
+              },
+              {
+                "branch_attrs": {
+                  "mutations": {
+                    "nuc": [
+                      "A599G",
+                      "A1406G"
+                    ]
+                  }
+                },
+                "children": [
+                  {
+                    "branch_attrs": {
+                      "mutations": {
+                        "nuc": [
+                          "T1751C"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "HA1: A186T, R205K, T245N"
+                          },
+                          "mutations": {
+                            "HA1": [
+                              "A186T",
+                              "R205K",
+                              "T245N"
+                            ],
+                            "nuc": [
+                              "G410A",
+                              "G627A",
+                              "G685A",
+                              "A743G",
+                              "C805A",
+                              "C1344T"
+                            ]
+                          }
+                        },
+                        "name": "M54062",
+                        "node_attrs": {
+                          "clade_membership": {
+                            "value": "6"
+                          },
+                          "country": {
+                            "value": "usa"
+                          },
+                          "div": 0.009143667876913831,
+                          "division": {
+                            "value": "michigan"
+                          },
+                          "num_date": {
+                            "confidence": [
+                              2011.127397260274,
+                              2011.127397260274
+                            ],
+                            "value": 2011.127397260274
+                          },
+                          "region": {
+                            "value": "north america"
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "A6G",
+                                  "T980C"
+                                ]
+                              }
+                            },
+                            "name": "M54056",
+                            "node_attrs": {
+                              "clade_membership": {
+                                "value": "6"
+                              },
+                              "country": {
+                                "value": "usa"
+                              },
+                              "div": 0.00685458236930627,
+                              "division": {
+                                "value": "michigan"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2011.127397260274,
+                                  2011.127397260274
+                                ],
+                                "value": 2011.127397260274
+                              },
+                              "region": {
+                                "value": "north america"
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "G3A",
+                                      "G4A"
+                                    ]
+                                  }
+                                },
+                                "name": "M54380",
+                                "node_attrs": {
+                                  "clade_membership": {
+                                    "value": "6"
+                                  },
+                                  "country": {
+                                    "value": "usa"
+                                  },
+                                  "div": 0.006854961005324387,
+                                  "division": {
+                                    "value": "michigan"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2011.1657534246576,
+                                      2011.1657534246576
+                                    ],
+                                    "value": 2011.1657534246576
+                                  },
+                                  "region": {
+                                    "value": "north america"
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "M54454",
+                                    "node_attrs": {
+                                      "clade_membership": {
+                                        "value": "6"
+                                      },
+                                      "country": {
+                                        "value": "usa"
+                                      },
+                                      "div": 0.005714108815536863,
+                                      "division": {
+                                        "value": "michigan"
+                                      },
+                                      "num_date": {
+                                        "confidence": [
+                                          2011.1794520547944,
+                                          2011.1794520547944
+                                        ],
+                                        "value": 2011.1794520547944
+                                      },
+                                      "region": {
+                                        "value": "north america"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "C1484T"
+                                        ]
+                                      }
+                                    },
+                                    "name": "M53668",
+                                    "node_attrs": {
+                                      "clade_membership": {
+                                        "value": "6"
+                                      },
+                                      "country": {
+                                        "value": "usa"
+                                      },
+                                      "div": 0.006284223907355429,
+                                      "division": {
+                                        "value": "michigan"
+                                      },
+                                      "num_date": {
+                                        "confidence": [
+                                          2011.072602739726,
+                                          2011.072602739726
+                                        ],
+                                        "value": 2011.072602739726
+                                      },
+                                      "region": {
+                                        "value": "north america"
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000012",
+                                "node_attrs": {
+                                  "clade_membership": {
+                                    "value": "6"
+                                  },
+                                  "country": {
+                                    "value": "usa"
+                                  },
+                                  "div": 0.005714108815536846,
+                                  "num_date": {
+                                    "confidence": [
+                                      2010.8975455306029,
+                                      2011.069683908578
+                                    ],
+                                    "value": 2011.0189149312507
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000011",
+                            "node_attrs": {
+                              "clade_membership": {
+                                "value": "6"
+                              },
+                              "country": {
+                                "value": "usa"
+                              },
+                              "div": 0.00571410881553683,
+                              "num_date": {
+                                "confidence": [
+                                  2010.7927032912578,
+                                  2011.0673161464624
+                                ],
+                                "value": 2010.9401033121148
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000010",
+                        "node_attrs": {
+                          "clade_membership": {
+                            "value": "6"
+                          },
+                          "country": {
+                            "value": "usa"
+                          },
+                          "div": 0.005714108815536813,
+                          "num_date": {
+                            "confidence": [
+                              2010.6679952282832,
+                              2011.0338217148578
+                            ],
+                            "value": 2010.8427336951368
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000009",
+                    "node_attrs": {
+                      "clade_membership": {
+                        "value": "6"
+                      },
+                      "country": {
+                        "value": "usa"
+                      },
+                      "div": 0.005714108815536797,
+                      "num_date": {
+                        "confidence": [
+                          2010.3271725376403,
+                          2011.0392077795652
+                        ],
+                        "value": 2010.7158278793547
+                      }
+                    }
+                  },
+                  {
+                    "branch_attrs": {
+                      "labels": {
+                        "aa": "HA1: K163Q, A256T, K283E; HA2: E172K",
+                        "clade": "6b"
+                      },
+                      "mutations": {
+                        "HA1": [
+                          "K163Q",
+                          "A256T",
+                          "K283E"
+                        ],
+                        "HA2": [
+                          "E172K"
+                        ],
+                        "nuc": [
+                          "C293T",
+                          "T485C",
+                          "A558C",
+                          "G837A",
+                          "A918G",
+                          "A986G",
+                          "T1061C",
+                          "G1178A",
+                          "A1250G",
+                          "G1566A",
+                          "T1673C",
+                          "C1752T"
+                        ]
+                      }
+                    },
+                    "children": [
+                      {
+                        "branch_attrs": {
+                          "mutations": {
+                            "nuc": [
+                              "A398C",
+                              "T434C",
+                              "T608C",
+                              "G695A",
+                              "C1067T",
+                              "G1703A"
+                            ]
+                          }
+                        },
+                        "name": "MH4087",
+                        "node_attrs": {
+                          "clade_membership": {
+                            "value": "6b"
+                          },
+                          "country": {
+                            "value": "usa"
+                          },
+                          "div": 0.015444290472560497,
+                          "division": {
+                            "value": "michigan"
+                          },
+                          "num_date": {
+                            "confidence": [
+                              2013.182191780822,
+                              2013.182191780822
+                            ],
+                            "value": 2013.182191780822
+                          },
+                          "region": {
+                            "value": "north america"
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "HA2: I133T"
+                          },
+                          "mutations": {
+                            "HA2": [
+                              "I133T"
+                            ],
+                            "nuc": [
+                              "T50C",
+                              "G410A",
+                              "G551A",
+                              "G677A",
+                              "G1037A",
+                              "G1193A",
+                              "T1347C",
+                              "T1450C"
+                            ]
+                          }
+                        },
+                        "name": "MH6260",
+                        "node_attrs": {
+                          "clade_membership": {
+                            "value": "6b"
+                          },
+                          "country": {
+                            "value": "usa"
+                          },
+                          "div": 0.016590286275196264,
+                          "division": {
+                            "value": "michigan"
+                          },
+                          "num_date": {
+                            "confidence": [
+                              2014.1191780821919,
+                              2014.1191780821919
+                            ],
+                            "value": 2014.1191780821919
+                          },
+                          "region": {
+                            "value": "north america"
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "labels": {
+                            "aa": "HA1: V321I"
+                          },
+                          "mutations": {
+                            "HA1": [
+                              "V321I"
+                            ],
+                            "nuc": [
+                              "A77T",
+                              "G188T",
+                              "C557T",
+                              "C1016A",
+                              "G1032A",
+                              "T1211C"
+                            ]
+                          }
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "HA1: T120A"
+                              },
+                              "mutations": {
+                                "HA1": [
+                                  "T120A"
+                                ],
+                                "nuc": [
+                                  "A429G",
+                                  "G1169A",
+                                  "T1752C"
+                                ]
+                              }
+                            },
+                            "name": "MH6262",
+                            "node_attrs": {
+                              "clade_membership": {
+                                "value": "6b"
+                              },
+                              "country": {
+                                "value": "usa"
+                              },
+                              "div": 0.017158996556957705,
+                              "division": {
+                                "value": "michigan"
+                              },
+                              "num_date": {
+                                "confidence": [
+                                  2014.1219178082192,
+                                  2014.1219178082192
+                                ],
+                                "value": 2014.1219178082192
+                              },
+                              "region": {
+                                "value": "north america"
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {
+                                "nuc": [
+                                  "C1034A",
+                                  "A1283T"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "HA2: T147M"
+                                  },
+                                  "mutations": {
+                                    "HA2": [
+                                      "T147M"
+                                    ],
+                                    "nuc": [
+                                      "C1492T",
+                                      "T1751A"
+                                    ]
+                                  }
+                                },
+                                "name": "MH5644",
+                                "node_attrs": {
+                                  "clade_membership": {
+                                    "value": "6b"
+                                  },
+                                  "country": {
+                                    "value": "usa"
+                                  },
+                                  "div": 0.017730248948558385,
+                                  "division": {
+                                    "value": "michigan"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2013.995890410959,
+                                      2013.995890410959
+                                    ],
+                                    "value": 2013.995890410959
+                                  },
+                                  "region": {
+                                    "value": "north america"
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "A773T"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "MH5645",
+                                    "node_attrs": {
+                                      "clade_membership": {
+                                        "value": "6b"
+                                      },
+                                      "country": {
+                                        "value": "usa"
+                                      },
+                                      "div": 0.017159240891948813,
+                                      "division": {
+                                        "value": "michigan"
+                                      },
+                                      "num_date": {
+                                        "confidence": [
+                                          2013.995890410959,
+                                          2013.995890410959
+                                        ],
+                                        "value": 2013.995890410959
+                                      },
+                                      "region": {
+                                        "value": "north america"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "MH5646",
+                                    "node_attrs": {
+                                      "clade_membership": {
+                                        "value": "6b"
+                                      },
+                                      "country": {
+                                        "value": "usa"
+                                      },
+                                      "div": 0.017159240891948813,
+                                      "division": {
+                                        "value": "michigan"
+                                      },
+                                      "num_date": {
+                                        "confidence": [
+                                          2013.995890410959,
+                                          2013.995890410959
+                                        ],
+                                        "value": 2013.995890410959
+                                      },
+                                      "region": {
+                                        "value": "north america"
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000016",
+                                "node_attrs": {
+                                  "clade_membership": {
+                                    "value": "6b"
+                                  },
+                                  "country": {
+                                    "value": "usa"
+                                  },
+                                  "div": 0.017159240891948795,
+                                  "num_date": {
+                                    "confidence": [
+                                      2013.9223206468182,
+                                      2013.995890410959
+                                    ],
+                                    "value": 2013.995890410959
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000015",
+                            "node_attrs": {
+                              "clade_membership": {
+                                "value": "6b"
+                              },
+                              "country": {
+                                "value": "usa"
+                              },
+                              "div": 0.016588856362550565,
+                              "num_date": {
+                                "confidence": [
+                                  2013.6639775303981,
+                                  2013.9586330481518
+                                ],
+                                "value": 2013.8809038245593
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000014",
+                        "node_attrs": {
+                          "clade_membership": {
+                            "value": "6b"
+                          },
+                          "country": {
+                            "value": "usa"
+                          },
+                          "div": 0.015447206871916822,
+                          "num_date": {
+                            "confidence": [
+                              2013.2716196603906,
+                              2013.9805085655264
+                            ],
+                            "value": 2013.5405396366614
+                          }
+                        }
+                      },
+                      {
+                        "branch_attrs": {
+                          "mutations": {}
+                        },
+                        "children": [
+                          {
+                            "branch_attrs": {
+                              "labels": {
+                                "aa": "HA2: L38Q"
+                              },
+                              "mutations": {
+                                "HA2": [
+                                  "L38Q"
+                                ],
+                                "nuc": [
+                                  "A977G",
+                                  "T1165A",
+                                  "C1457T"
+                                ]
+                              }
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "A1749C",
+                                      "C1750T",
+                                      "T1752G"
+                                    ]
+                                  }
+                                },
+                                "name": "MH5549",
+                                "node_attrs": {
+                                  "clade_membership": {
+                                    "value": "6b"
+                                  },
+                                  "country": {
+                                    "value": "usa"
+                                  },
+                                  "div": 0.015440590818852953,
+                                  "division": {
+                                    "value": "michigan"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2013.9876712328767,
+                                      2013.9876712328767
+                                    ],
+                                    "value": 2013.9876712328767
+                                  },
+                                  "region": {
+                                    "value": "north america"
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {}
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "name": "MH5548",
+                                    "node_attrs": {
+                                      "clade_membership": {
+                                        "value": "6b"
+                                      },
+                                      "country": {
+                                        "value": "usa"
+                                      },
+                                      "div": 0.013728215468874127,
+                                      "division": {
+                                        "value": "michigan"
+                                      },
+                                      "num_date": {
+                                        "confidence": [
+                                          2013.9876712328767,
+                                          2013.9876712328767
+                                        ],
+                                        "value": 2013.9876712328767
+                                      },
+                                      "region": {
+                                        "value": "north america"
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {
+                                        "nuc": [
+                                          "A6G"
+                                        ]
+                                      }
+                                    },
+                                    "name": "MH5552",
+                                    "node_attrs": {
+                                      "clade_membership": {
+                                        "value": "6b"
+                                      },
+                                      "country": {
+                                        "value": "usa"
+                                      },
+                                      "div": 0.014298141959525225,
+                                      "division": {
+                                        "value": "michigan"
+                                      },
+                                      "num_date": {
+                                        "confidence": [
+                                          2013.9876712328767,
+                                          2013.9876712328767
+                                        ],
+                                        "value": 2013.9876712328767
+                                      },
+                                      "region": {
+                                        "value": "north america"
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000019",
+                                "node_attrs": {
+                                  "clade_membership": {
+                                    "value": "6b"
+                                  },
+                                  "country": {
+                                    "value": "usa"
+                                  },
+                                  "div": 0.013728215468874112,
+                                  "num_date": {
+                                    "confidence": [
+                                      2013.749871005198,
+                                      2013.9876712328767
+                                    ],
+                                    "value": 2013.9134317801993
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000021",
+                            "node_attrs": {
+                              "clade_membership": {
+                                "value": "6b"
+                              },
+                              "country": {
+                                "value": "usa"
+                              },
+                              "div": 0.013728215468874096,
+                              "num_date": {
+                                "confidence": [
+                                  2013.4667619358897,
+                                  2013.983365750485
+                                ],
+                                "value": 2013.7107153913264
+                              }
+                            }
+                          },
+                          {
+                            "branch_attrs": {
+                              "mutations": {}
+                            },
+                            "children": [
+                              {
+                                "branch_attrs": {
+                                  "labels": {
+                                    "aa": "HA1: R45K"
+                                  },
+                                  "mutations": {
+                                    "HA1": [
+                                      "R45K"
+                                    ],
+                                    "nuc": [
+                                      "G205A",
+                                      "G1007A",
+                                      "T1751A"
+                                    ]
+                                  }
+                                },
+                                "name": "MH5455",
+                                "node_attrs": {
+                                  "clade_membership": {
+                                    "value": "6b"
+                                  },
+                                  "country": {
+                                    "value": "usa"
+                                  },
+                                  "div": 0.013728656290490557,
+                                  "division": {
+                                    "value": "michigan"
+                                  },
+                                  "num_date": {
+                                    "confidence": [
+                                      2013.9630136986302,
+                                      2013.9630136986302
+                                    ],
+                                    "value": 2013.9630136986302
+                                  },
+                                  "region": {
+                                    "value": "north america"
+                                  }
+                                }
+                              },
+                              {
+                                "branch_attrs": {
+                                  "mutations": {
+                                    "nuc": [
+                                      "T614C"
+                                    ]
+                                  }
+                                },
+                                "children": [
+                                  {
+                                    "branch_attrs": {
+                                      "labels": {
+                                        "aa": "HA1: A48S, S83P, I96V, R259K"
+                                      },
+                                      "mutations": {
+                                        "HA1": [
+                                          "A48S",
+                                          "S83P",
+                                          "I96V",
+                                          "R259K"
+                                        ],
+                                        "nuc": [
+                                          "G213T",
+                                          "T318C",
+                                          "A357G",
+                                          "G847A",
+                                          "C1382T"
+                                        ]
+                                      }
+                                    },
+                                    "children": [
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "name": "MH5405",
+                                        "node_attrs": {
+                                          "clade_membership": {
+                                            "value": "6b"
+                                          },
+                                          "country": {
+                                            "value": "usa"
+                                          },
+                                          "div": 0.015441612590343212,
+                                          "division": {
+                                            "value": "michigan"
+                                          },
+                                          "num_date": {
+                                            "confidence": [
+                                              2013.9575342465753,
+                                              2013.9575342465753
+                                            ],
+                                            "value": 2013.9575342465753
+                                          },
+                                          "region": {
+                                            "value": "north america"
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {}
+                                        },
+                                        "name": "MH5726",
+                                        "node_attrs": {
+                                          "clade_membership": {
+                                            "value": "6b"
+                                          },
+                                          "country": {
+                                            "value": "usa"
+                                          },
+                                          "div": 0.015441612590343212,
+                                          "division": {
+                                            "value": "michigan"
+                                          },
+                                          "num_date": {
+                                            "confidence": [
+                                              2014.017808219178,
+                                              2014.017808219178
+                                            ],
+                                            "value": 2014.017808219178
+                                          },
+                                          "region": {
+                                            "value": "north america"
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000024",
+                                    "node_attrs": {
+                                      "clade_membership": {
+                                        "value": "6b"
+                                      },
+                                      "country": {
+                                        "value": "usa"
+                                      },
+                                      "div": 0.015441612590343197,
+                                      "num_date": {
+                                        "confidence": [
+                                          2013.8803500797342,
+                                          2013.9575342465753
+                                        ],
+                                        "value": 2013.9575342465753
+                                      }
+                                    }
+                                  },
+                                  {
+                                    "branch_attrs": {
+                                      "mutations": {}
+                                    },
+                                    "children": [
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "G1583A"
+                                            ]
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "A536G",
+                                                  "C611T",
+                                                  "C1685T",
+                                                  "C1722T"
+                                                ]
+                                              }
+                                            },
+                                            "name": "MH5651",
+                                            "node_attrs": {
+                                              "clade_membership": {
+                                                "value": "6b"
+                                              },
+                                              "country": {
+                                                "value": "usa"
+                                              },
+                                              "div": 0.015439179217093549,
+                                              "division": {
+                                                "value": "michigan"
+                                              },
+                                              "num_date": {
+                                                "confidence": [
+                                                  2013.995890410959,
+                                                  2013.995890410959
+                                                ],
+                                                "value": 2013.995890410959
+                                              },
+                                              "region": {
+                                                "value": "north america"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "T758C"
+                                                ]
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "children": [
+                                                  {
+                                                    "branch_attrs": {
+                                                      "labels": {
+                                                        "aa": "HA1: K40R"
+                                                      },
+                                                      "mutations": {
+                                                        "HA1": [
+                                                          "K40R"
+                                                        ],
+                                                        "nuc": [
+                                                          "A190G"
+                                                        ]
+                                                      }
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {
+                                                            "nuc": [
+                                                              "T1752C"
+                                                            ]
+                                                          }
+                                                        },
+                                                        "name": "MH5639",
+                                                        "node_attrs": {
+                                                          "clade_membership": {
+                                                            "value": "6b"
+                                                          },
+                                                          "country": {
+                                                            "value": "usa"
+                                                          },
+                                                          "div": 0.014866162792383,
+                                                          "division": {
+                                                            "value": "michigan"
+                                                          },
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2013.995890410959,
+                                                              2013.995890410959
+                                                            ],
+                                                            "value": 2013.995890410959
+                                                          },
+                                                          "region": {
+                                                            "value": "north america"
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "name": "MH5677",
+                                                        "node_attrs": {
+                                                          "clade_membership": {
+                                                            "value": "6b"
+                                                          },
+                                                          "country": {
+                                                            "value": "usa"
+                                                          },
+                                                          "div": 0.014296287223355185,
+                                                          "division": {
+                                                            "value": "michigan"
+                                                          },
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2014.004109589041,
+                                                              2014.004109589041
+                                                            ],
+                                                            "value": 2014.004109589041
+                                                          },
+                                                          "region": {
+                                                            "value": "north america"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "name": "NODE_0000042",
+                                                    "node_attrs": {
+                                                      "clade_membership": {
+                                                        "value": "6b"
+                                                      },
+                                                      "country": {
+                                                        "value": "usa"
+                                                      },
+                                                      "div": 0.014296287223355169,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2013.884193983077,
+                                                          2013.995890410959
+                                                        ],
+                                                        "value": 2013.9487187332948
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "G368A"
+                                                        ]
+                                                      }
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "name": "MH5545",
+                                                        "node_attrs": {
+                                                          "clade_membership": {
+                                                            "value": "6b"
+                                                          },
+                                                          "country": {
+                                                            "value": "usa"
+                                                          },
+                                                          "div": 0.014296398797190737,
+                                                          "division": {
+                                                            "value": "michigan"
+                                                          },
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2013.9876712328767,
+                                                              2013.9876712328767
+                                                            ],
+                                                            "value": 2013.9876712328767
+                                                          },
+                                                          "region": {
+                                                            "value": "north america"
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "name": "MH5546",
+                                                        "node_attrs": {
+                                                          "clade_membership": {
+                                                            "value": "6b"
+                                                          },
+                                                          "country": {
+                                                            "value": "usa"
+                                                          },
+                                                          "div": 0.014296398797190737,
+                                                          "division": {
+                                                            "value": "michigan"
+                                                          },
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2013.9876712328767,
+                                                              2013.9876712328767
+                                                            ],
+                                                            "value": 2013.9876712328767
+                                                          },
+                                                          "region": {
+                                                            "value": "north america"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "name": "NODE_0000041",
+                                                    "node_attrs": {
+                                                      "clade_membership": {
+                                                        "value": "6b"
+                                                      },
+                                                      "country": {
+                                                        "value": "usa"
+                                                      },
+                                                      "div": 0.014296398797190722,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2013.9143445384784,
+                                                          2013.9876712328767
+                                                        ],
+                                                        "value": 2013.9876712328767
+                                                      }
+                                                    }
+                                                  }
+                                                ],
+                                                "name": "NODE_0000028",
+                                                "node_attrs": {
+                                                  "clade_membership": {
+                                                    "value": "6b"
+                                                  },
+                                                  "country": {
+                                                    "value": "usa"
+                                                  },
+                                                  "div": 0.013726334281920782,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2013.6856292573414,
+                                                      2013.9503852298278
+                                                    ],
+                                                    "value": 2013.877967038769
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "A1547G"
+                                                    ]
+                                                  }
+                                                },
+                                                "children": [
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "C1750T",
+                                                          "T1751A"
+                                                        ]
+                                                      }
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {
+                                                            "nuc": [
+                                                              "G368A",
+                                                              "G1547A"
+                                                            ]
+                                                          }
+                                                        },
+                                                        "name": "MH5544",
+                                                        "node_attrs": {
+                                                          "clade_membership": {
+                                                            "value": "6b"
+                                                          },
+                                                          "country": {
+                                                            "value": "usa"
+                                                          },
+                                                          "div": 0.01657771546289865,
+                                                          "division": {
+                                                            "value": "michigan"
+                                                          },
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2013.9876712328767,
+                                                              2013.9876712328767
+                                                            ],
+                                                            "value": 2013.9876712328767
+                                                          },
+                                                          "region": {
+                                                            "value": "north america"
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "name": "MH5847",
+                                                        "node_attrs": {
+                                                          "clade_membership": {
+                                                            "value": "6b"
+                                                          },
+                                                          "country": {
+                                                            "value": "usa"
+                                                          },
+                                                          "div": 0.015437032935060602,
+                                                          "division": {
+                                                            "value": "michigan"
+                                                          },
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2014.0397260273974,
+                                                              2014.0397260273974
+                                                            ],
+                                                            "value": 2014.0397260273974
+                                                          },
+                                                          "region": {
+                                                            "value": "north america"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "name": "NODE_0000044",
+                                                    "node_attrs": {
+                                                      "clade_membership": {
+                                                        "value": "6b"
+                                                      },
+                                                      "country": {
+                                                        "value": "usa"
+                                                      },
+                                                      "div": 0.015437032935060586,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2013.8931954058742,
+                                                          2013.9796880538024
+                                                        ],
+                                                        "value": 2013.9417196820634
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "T1752C"
+                                                        ]
+                                                      }
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "name": "MH5680",
+                                                        "node_attrs": {
+                                                          "clade_membership": {
+                                                            "value": "6b"
+                                                          },
+                                                          "country": {
+                                                            "value": "usa"
+                                                          },
+                                                          "div": 0.014866162792383016,
+                                                          "division": {
+                                                            "value": "michigan"
+                                                          },
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2014.0068493150684,
+                                                              2014.0068493150684
+                                                            ],
+                                                            "value": 2014.0068493150684
+                                                          },
+                                                          "region": {
+                                                            "value": "north america"
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {
+                                                            "nuc": [
+                                                              "T1641C"
+                                                            ]
+                                                          }
+                                                        },
+                                                        "name": "MH5712",
+                                                        "node_attrs": {
+                                                          "clade_membership": {
+                                                            "value": "6b"
+                                                          },
+                                                          "country": {
+                                                            "value": "usa"
+                                                          },
+                                                          "div": 0.015435995833300922,
+                                                          "division": {
+                                                            "value": "michigan"
+                                                          },
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2014.017808219178,
+                                                              2014.017808219178
+                                                            ],
+                                                            "value": 2014.017808219178
+                                                          },
+                                                          "region": {
+                                                            "value": "north america"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "name": "NODE_0000046",
+                                                    "node_attrs": {
+                                                      "clade_membership": {
+                                                        "value": "6b"
+                                                      },
+                                                      "country": {
+                                                        "value": "usa"
+                                                      },
+                                                      "div": 0.014866162792383,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2013.908818613363,
+                                                          2014.0068493150684
+                                                        ],
+                                                        "value": 2013.9960758239017
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            },
+                                                            "name": "MH5708",
+                                                            "node_attrs": {
+                                                              "clade_membership": {
+                                                                "value": "6b"
+                                                              },
+                                                              "country": {
+                                                                "value": "usa"
+                                                              },
+                                                              "div": 0.014296287223355216,
+                                                              "division": {
+                                                                "value": "michigan"
+                                                              },
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2014.017808219178,
+                                                                  2014.017808219178
+                                                                ],
+                                                                "value": 2014.017808219178
+                                                              },
+                                                              "region": {
+                                                                "value": "north america"
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            },
+                                                            "name": "MH5709",
+                                                            "node_attrs": {
+                                                              "clade_membership": {
+                                                                "value": "6b"
+                                                              },
+                                                              "country": {
+                                                                "value": "usa"
+                                                              },
+                                                              "div": 0.014296287223355216,
+                                                              "division": {
+                                                                "value": "michigan"
+                                                              },
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2014.017808219178,
+                                                                  2014.017808219178
+                                                                ],
+                                                                "value": 2014.017808219178
+                                                              },
+                                                              "region": {
+                                                                "value": "north america"
+                                                              }
+                                                            }
+                                                          }
+                                                        ],
+                                                        "name": "NODE_0000035",
+                                                        "node_attrs": {
+                                                          "clade_membership": {
+                                                            "value": "6b"
+                                                          },
+                                                          "country": {
+                                                            "value": "usa"
+                                                          },
+                                                          "div": 0.0142962872233552,
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2013.954259872272,
+                                                              2014.017808219178
+                                                            ],
+                                                            "value": 2014.017808219178
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            },
+                                                            "name": "MH5848",
+                                                            "node_attrs": {
+                                                              "clade_membership": {
+                                                                "value": "6b"
+                                                              },
+                                                              "country": {
+                                                                "value": "usa"
+                                                              },
+                                                              "div": 0.014296287223355216,
+                                                              "division": {
+                                                                "value": "michigan"
+                                                              },
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2014.0397260273974,
+                                                                  2014.0397260273974
+                                                                ],
+                                                                "value": 2014.0397260273974
+                                                              },
+                                                              "region": {
+                                                                "value": "north america"
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            },
+                                                            "name": "MH5849",
+                                                            "node_attrs": {
+                                                              "clade_membership": {
+                                                                "value": "6b"
+                                                              },
+                                                              "country": {
+                                                                "value": "usa"
+                                                              },
+                                                              "div": 0.014296287223355216,
+                                                              "division": {
+                                                                "value": "michigan"
+                                                              },
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2014.0397260273974,
+                                                                  2014.0397260273974
+                                                                ],
+                                                                "value": 2014.0397260273974
+                                                              },
+                                                              "region": {
+                                                                "value": "north america"
+                                                              }
+                                                            }
+                                                          }
+                                                        ],
+                                                        "name": "NODE_0000036",
+                                                        "node_attrs": {
+                                                          "clade_membership": {
+                                                            "value": "6b"
+                                                          },
+                                                          "country": {
+                                                            "value": "usa"
+                                                          },
+                                                          "div": 0.0142962872233552,
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2013.9660316371385,
+                                                              2014.0397260273974
+                                                            ],
+                                                            "value": 2014.0397260273974
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "name": "NODE_0000034",
+                                                    "node_attrs": {
+                                                      "clade_membership": {
+                                                        "value": "6b"
+                                                      },
+                                                      "country": {
+                                                        "value": "usa"
+                                                      },
+                                                      "div": 0.014296287223355185,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2013.885649592422,
+                                                          2014.0152276795595
+                                                        ],
+                                                        "value": 2013.9760329538847
+                                                      }
+                                                    }
+                                                  }
+                                                ],
+                                                "name": "NODE_0000043",
+                                                "node_attrs": {
+                                                  "clade_membership": {
+                                                    "value": "6b"
+                                                  },
+                                                  "country": {
+                                                    "value": "usa"
+                                                  },
+                                                  "div": 0.014296287223355169,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2013.7579619440426,
+                                                      2013.9419754719463
+                                                    ],
+                                                    "value": 2013.8745814096937
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000039",
+                                            "node_attrs": {
+                                              "clade_membership": {
+                                                "value": "6b"
+                                              },
+                                              "country": {
+                                                "value": "usa"
+                                              },
+                                              "div": 0.013726334281920782,
+                                              "num_date": {
+                                                "confidence": [
+                                                  2013.5713471569438,
+                                                  2013.9343739852407
+                                                ],
+                                                "value": 2013.7389646026545
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000038",
+                                        "node_attrs": {
+                                          "clade_membership": {
+                                            "value": "6b"
+                                          },
+                                          "country": {
+                                            "value": "usa"
+                                          },
+                                          "div": 0.013156304665986551,
+                                          "num_date": {
+                                            "confidence": [
+                                              2013.3980663664522,
+                                              2013.9217881777638
+                                            ],
+                                            "value": 2013.5828840428578
+                                          }
+                                        }
+                                      },
+                                      {
+                                        "branch_attrs": {
+                                          "mutations": {
+                                            "nuc": [
+                                              "G1088A"
+                                            ]
+                                          }
+                                        },
+                                        "children": [
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "T1751A"
+                                                ]
+                                              }
+                                            },
+                                            "name": "MH5300",
+                                            "node_attrs": {
+                                              "clade_membership": {
+                                                "value": "6b"
+                                              },
+                                              "country": {
+                                                "value": "usa"
+                                              },
+                                              "div": 0.013726590615379656,
+                                              "division": {
+                                                "value": "michigan"
+                                              },
+                                              "num_date": {
+                                                "confidence": [
+                                                  2013.9191780821918,
+                                                  2013.9191780821918
+                                                ],
+                                                "value": 2013.9191780821918
+                                              },
+                                              "region": {
+                                                "value": "north america"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {
+                                              "labels": {
+                                                "aa": "HA1: N156K"
+                                              },
+                                              "mutations": {
+                                                "HA1": [
+                                                  "N156K"
+                                                ],
+                                                "nuc": [
+                                                  "A110T",
+                                                  "T539A",
+                                                  "T1136C"
+                                                ]
+                                              }
+                                            },
+                                            "name": "MH5641",
+                                            "node_attrs": {
+                                              "clade_membership": {
+                                                "value": "6b"
+                                              },
+                                              "country": {
+                                                "value": "usa"
+                                              },
+                                              "div": 0.014868915631899229,
+                                              "division": {
+                                                "value": "michigan"
+                                              },
+                                              "num_date": {
+                                                "confidence": [
+                                                  2013.995890410959,
+                                                  2013.995890410959
+                                                ],
+                                                "value": 2013.995890410959
+                                              },
+                                              "region": {
+                                                "value": "north america"
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "T1752C"
+                                                ]
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "name": "MH5229",
+                                                "node_attrs": {
+                                                  "clade_membership": {
+                                                    "value": "6b"
+                                                  },
+                                                  "country": {
+                                                    "value": "usa"
+                                                  },
+                                                  "div": 0.013726334281920782,
+                                                  "division": {
+                                                    "value": "michigan"
+                                                  },
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2013.8835616438357,
+                                                      2013.8835616438357
+                                                    ],
+                                                    "value": 2013.8835616438357
+                                                  },
+                                                  "region": {
+                                                    "value": "north america"
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "labels": {
+                                                    "aa": "HA1: T185I"
+                                                  },
+                                                  "mutations": {
+                                                    "HA1": [
+                                                      "T185I"
+                                                    ],
+                                                    "nuc": [
+                                                      "G3A",
+                                                      "G4A",
+                                                      "C625T",
+                                                      "G1100A",
+                                                      "T1751A"
+                                                    ]
+                                                  }
+                                                },
+                                                "name": "MH5679",
+                                                "node_attrs": {
+                                                  "clade_membership": {
+                                                    "value": "6b"
+                                                  },
+                                                  "country": {
+                                                    "value": "usa"
+                                                  },
+                                                  "div": 0.016582910371715203,
+                                                  "division": {
+                                                    "value": "michigan"
+                                                  },
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2014.004109589041,
+                                                      2014.004109589041
+                                                    ],
+                                                    "value": 2014.004109589041
+                                                  },
+                                                  "region": {
+                                                    "value": "north america"
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000029",
+                                            "node_attrs": {
+                                              "clade_membership": {
+                                                "value": "6b"
+                                              },
+                                              "country": {
+                                                "value": "usa"
+                                              },
+                                              "div": 0.013726334281920782,
+                                              "num_date": {
+                                                "confidence": [
+                                                  2013.626559193269,
+                                                  2013.8835616438357
+                                                ],
+                                                "value": 2013.7563984902818
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {
+                                                "nuc": [
+                                                  "A278G",
+                                                  "G1735A"
+                                                ]
+                                              }
+                                            },
+                                            "children": [
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {
+                                                    "nuc": [
+                                                      "T1752A"
+                                                    ]
+                                                  }
+                                                },
+                                                "name": "MH5648",
+                                                "node_attrs": {
+                                                  "clade_membership": {
+                                                    "value": "6b"
+                                                  },
+                                                  "country": {
+                                                    "value": "usa"
+                                                  },
+                                                  "div": 0.014867132665558395,
+                                                  "division": {
+                                                    "value": "michigan"
+                                                  },
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2013.995890410959,
+                                                      2013.995890410959
+                                                    ],
+                                                    "value": 2013.995890410959
+                                                  },
+                                                  "region": {
+                                                    "value": "north america"
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "name": "MH5656",
+                                                "node_attrs": {
+                                                  "clade_membership": {
+                                                    "value": "6b"
+                                                  },
+                                                  "country": {
+                                                    "value": "usa"
+                                                  },
+                                                  "div": 0.014296846716165306,
+                                                  "division": {
+                                                    "value": "michigan"
+                                                  },
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2013.995890410959,
+                                                      2013.995890410959
+                                                    ],
+                                                    "value": 2013.995890410959
+                                                  },
+                                                  "region": {
+                                                    "value": "north america"
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000030",
+                                            "node_attrs": {
+                                              "clade_membership": {
+                                                "value": "6b"
+                                              },
+                                              "country": {
+                                                "value": "usa"
+                                              },
+                                              "div": 0.01429684671616529,
+                                              "num_date": {
+                                                "confidence": [
+                                                  2013.851190575725,
+                                                  2013.995890410959
+                                                ],
+                                                "value": 2013.938438456744
+                                              }
+                                            }
+                                          },
+                                          {
+                                            "branch_attrs": {
+                                              "mutations": {}
+                                            },
+                                            "children": [
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "children": [
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "name": "MH5193",
+                                                    "node_attrs": {
+                                                      "clade_membership": {
+                                                        "value": "6b"
+                                                      },
+                                                      "country": {
+                                                        "value": "usa"
+                                                      },
+                                                      "div": 0.013156304665986598,
+                                                      "division": {
+                                                        "value": "michigan"
+                                                      },
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2013.8643835616438,
+                                                          2013.8643835616438
+                                                        ],
+                                                        "value": 2013.8643835616438
+                                                      },
+                                                      "region": {
+                                                        "value": "north america"
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "name": "MH5194",
+                                                    "node_attrs": {
+                                                      "clade_membership": {
+                                                        "value": "6b"
+                                                      },
+                                                      "country": {
+                                                        "value": "usa"
+                                                      },
+                                                      "div": 0.013156304665986598,
+                                                      "division": {
+                                                        "value": "michigan"
+                                                      },
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2013.8643835616438,
+                                                          2013.8643835616438
+                                                        ],
+                                                        "value": 2013.8643835616438
+                                                      },
+                                                      "region": {
+                                                        "value": "north america"
+                                                      }
+                                                    }
+                                                  }
+                                                ],
+                                                "name": "NODE_0000045",
+                                                "node_attrs": {
+                                                  "clade_membership": {
+                                                    "value": "6b"
+                                                  },
+                                                  "country": {
+                                                    "value": "usa"
+                                                  },
+                                                  "div": 0.013156304665986582,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2013.7558277678568,
+                                                      2013.8643835616438
+                                                    ],
+                                                    "value": 2013.8643835616438
+                                                  }
+                                                }
+                                              },
+                                              {
+                                                "branch_attrs": {
+                                                  "mutations": {}
+                                                },
+                                                "children": [
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "name": "MH5499",
+                                                        "node_attrs": {
+                                                          "clade_membership": {
+                                                            "value": "6b"
+                                                          },
+                                                          "country": {
+                                                            "value": "usa"
+                                                          },
+                                                          "div": 0.013156304665986614,
+                                                          "division": {
+                                                            "value": "michigan"
+                                                          },
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2013.968493150685,
+                                                              2013.968493150685
+                                                            ],
+                                                            "value": 2013.968493150685
+                                                          },
+                                                          "region": {
+                                                            "value": "north america"
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "name": "MH5295",
+                                                        "node_attrs": {
+                                                          "clade_membership": {
+                                                            "value": "6b"
+                                                          },
+                                                          "country": {
+                                                            "value": "usa"
+                                                          },
+                                                          "div": 0.013156304665986614,
+                                                          "division": {
+                                                            "value": "michigan"
+                                                          },
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2013.9054794520548,
+                                                              2013.9054794520548
+                                                            ],
+                                                            "value": 2013.9054794520548
+                                                          },
+                                                          "region": {
+                                                            "value": "north america"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "name": "NODE_0000048",
+                                                    "node_attrs": {
+                                                      "clade_membership": {
+                                                        "value": "6b"
+                                                      },
+                                                      "country": {
+                                                        "value": "usa"
+                                                      },
+                                                      "div": 0.013156304665986598,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2013.8298659899024,
+                                                          2013.9054794520548
+                                                        ],
+                                                        "value": 2013.9054794520548
+                                                      }
+                                                    }
+                                                  },
+                                                  {
+                                                    "branch_attrs": {
+                                                      "mutations": {}
+                                                    },
+                                                    "children": [
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "name": "MH5245",
+                                                        "node_attrs": {
+                                                          "clade_membership": {
+                                                            "value": "6b"
+                                                          },
+                                                          "country": {
+                                                            "value": "usa"
+                                                          },
+                                                          "div": 0.013156304665986614,
+                                                          "division": {
+                                                            "value": "michigan"
+                                                          },
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2013.886301369863,
+                                                              2013.886301369863
+                                                            ],
+                                                            "value": 2013.886301369863
+                                                          },
+                                                          "region": {
+                                                            "value": "north america"
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "children": [
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            },
+                                                            "name": "MH6042",
+                                                            "node_attrs": {
+                                                              "clade_membership": {
+                                                                "value": "6b"
+                                                              },
+                                                              "country": {
+                                                                "value": "usa"
+                                                              },
+                                                              "div": 0.01315630466598663,
+                                                              "division": {
+                                                                "value": "michigan"
+                                                              },
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2014.0753424657535,
+                                                                  2014.0753424657535
+                                                                ],
+                                                                "value": 2014.0753424657535
+                                                              },
+                                                              "region": {
+                                                                "value": "north america"
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            },
+                                                            "name": "MH5817",
+                                                            "node_attrs": {
+                                                              "clade_membership": {
+                                                                "value": "6b"
+                                                              },
+                                                              "country": {
+                                                                "value": "usa"
+                                                              },
+                                                              "div": 0.01315630466598663,
+                                                              "division": {
+                                                                "value": "michigan"
+                                                              },
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2014.0342465753424,
+                                                                  2014.0342465753424
+                                                                ],
+                                                                "value": 2014.0342465753424
+                                                              },
+                                                              "region": {
+                                                                "value": "north america"
+                                                              }
+                                                            }
+                                                          }
+                                                        ],
+                                                        "name": "NODE_0000050",
+                                                        "node_attrs": {
+                                                          "clade_membership": {
+                                                            "value": "6b"
+                                                          },
+                                                          "country": {
+                                                            "value": "usa"
+                                                          },
+                                                          "div": 0.013156304665986614,
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2013.9241983640436,
+                                                              2014.0342465753424
+                                                            ],
+                                                            "value": 2014.0342465753424
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "name": "NODE_0000049",
+                                                    "node_attrs": {
+                                                      "clade_membership": {
+                                                        "value": "6b"
+                                                      },
+                                                      "country": {
+                                                        "value": "usa"
+                                                      },
+                                                      "div": 0.013156304665986598,
+                                                      "num_date": {
+                                                        "confidence": [
+                                                          2013.8230793497837,
+                                                          2013.886301369863
+                                                        ],
+                                                        "value": 2013.886301369863
+                                                      }
+                                                    }
+                                                  }
+                                                ],
+                                                "name": "NODE_0000047",
+                                                "node_attrs": {
+                                                  "clade_membership": {
+                                                    "value": "6b"
+                                                  },
+                                                  "country": {
+                                                    "value": "usa"
+                                                  },
+                                                  "div": 0.013156304665986582,
+                                                  "num_date": {
+                                                    "confidence": [
+                                                      2013.7332533144377,
+                                                      2013.8837208302446
+                                                    ],
+                                                    "value": 2013.8411938586808
+                                                  }
+                                                }
+                                              }
+                                            ],
+                                            "name": "NODE_0000040",
+                                            "node_attrs": {
+                                              "clade_membership": {
+                                                "value": "6b"
+                                              },
+                                              "country": {
+                                                "value": "usa"
+                                              },
+                                              "div": 0.013156304665986567,
+                                              "num_date": {
+                                                "confidence": [
+                                                  2013.6020421882854,
+                                                  2013.8618030220252
+                                                ],
+                                                "value": 2013.7500862735478
+                                              }
+                                            }
+                                          }
+                                        ],
+                                        "name": "NODE_0000026",
+                                        "node_attrs": {
+                                          "clade_membership": {
+                                            "value": "6b"
+                                          },
+                                          "country": {
+                                            "value": "usa"
+                                          },
+                                          "div": 0.013156304665986551,
+                                          "num_date": {
+                                            "confidence": [
+                                              2013.5035678852262,
+                                              2013.858090948701
+                                            ],
+                                            "value": 2013.7011063521904
+                                          }
+                                        }
+                                      }
+                                    ],
+                                    "name": "NODE_0000025",
+                                    "node_attrs": {
+                                      "clade_membership": {
+                                        "value": "6b"
+                                      },
+                                      "country": {
+                                        "value": "usa"
+                                      },
+                                      "div": 0.012586309602017185,
+                                      "num_date": {
+                                        "confidence": [
+                                          2013.2205176784994,
+                                          2013.674911063992
+                                        ],
+                                        "value": 2013.499586145858
+                                      }
+                                    }
+                                  }
+                                ],
+                                "name": "NODE_0000023",
+                                "node_attrs": {
+                                  "clade_membership": {
+                                    "value": "6b"
+                                  },
+                                  "country": {
+                                    "value": "usa"
+                                  },
+                                  "div": 0.01258630960201717,
+                                  "num_date": {
+                                    "confidence": [
+                                      2013.0832461500036,
+                                      2013.7020127664657
+                                    ],
+                                    "value": 2013.328510283697
+                                  }
+                                }
+                              }
+                            ],
+                            "name": "NODE_0000020",
+                            "node_attrs": {
+                              "clade_membership": {
+                                "value": "6b"
+                              },
+                              "country": {
+                                "value": "usa"
+                              },
+                              "div": 0.012016349358784038,
+                              "num_date": {
+                                "confidence": [
+                                  2012.8893437527797,
+                                  2013.7013144377381
+                                ],
+                                "value": 2013.1256008376315
+                              }
+                            }
+                          }
+                        ],
+                        "name": "NODE_0000017",
+                        "node_attrs": {
+                          "clade_membership": {
+                            "value": "6b"
+                          },
+                          "country": {
+                            "value": "usa"
+                          },
+                          "div": 0.012016349358784022,
+                          "num_date": {
+                            "confidence": [
+                              2012.659426672493,
+                              2013.6659813472265
+                            ],
+                            "value": 2013.0330830602015
+                          }
+                        }
+                      }
+                    ],
+                    "name": "NODE_0000013",
+                    "node_attrs": {
+                      "clade_membership": {
+                        "value": "6b"
+                      },
+                      "country": {
+                        "value": "usa"
+                      },
+                      "div": 0.012016349358784007,
+                      "num_date": {
+                        "confidence": [
+                          2012.189551736079,
+                          2013.182191780822
+                        ],
+                        "value": 2012.620077173061
+                      }
+                    }
+                  }
+                ],
+                "name": "NODE_0000008",
+                "node_attrs": {
+                  "clade_membership": {
+                    "value": "6"
+                  },
+                  "country": {
+                    "value": "usa"
+                  },
+                  "div": 0.005143993727459874,
+                  "num_date": {
+                    "confidence": [
+                      2010.054978335536,
+                      2010.991723873376
+                    ],
+                    "value": 2010.592069071062
+                  }
+                }
+              }
+            ],
+            "name": "NODE_0000005",
+            "node_attrs": {
+              "clade_membership": {
+                "value": "6"
+              },
+              "country": {
+                "value": "usa"
+              },
+              "div": 0.004003057087146253,
+              "num_date": {
+                "confidence": [
+                  2009.3272369100607,
+                  2010.7551455227149
+                ],
+                "value": 2010.4131651749567
+              }
+            }
+          }
+        ],
+        "name": "NODE_0000003",
+        "node_attrs": {
+          "clade_membership": {
+            "value": "3"
+          },
+          "country": {
+            "value": "usa"
+          },
+          "div": 0.003432752871822767,
+          "num_date": {
+            "confidence": [
+              2008.0123634208817,
+              2010.7226705047267
+            ],
+            "value": 2009.9290168464024
+          }
+        }
+      }
+    ],
+    "name": "NODE_0000000",
+    "node_attrs": {
+      "clade_membership": {
+        "value": "3"
+      },
+      "country": {
+        "value": "usa"
+      },
+      "div": 0,
+      "num_date": {
+        "confidence": [
+          2006.6466027653255,
+          2010.035821493351
+        ],
+        "value": 2009.127606506917
+      }
+    }
+  },
+  "version": "v2"
+}
