@@ -3,7 +3,7 @@
   "maintainers": [
     {"name": "Andrew Valesano", "url": "https://lauringlab.wordpress.com/"}
   ],
-  "build_url": "https://github.com/nextstrain/zika-tutorial",
+  "build_url": "https://github.com/andrewvalesano/HIVE-influenza",
   "colorings": [
     {
       "key": "gt",
@@ -38,6 +38,7 @@
   ],
   "display_defaults": {
     "map_triplicate": true,
+    "geo_resolution": "division",
     "color_by": "clade_membership"
   },
   "filters": [
