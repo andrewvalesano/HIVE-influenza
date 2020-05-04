@@ -24,6 +24,16 @@
       "key": "region",
       "title": "Region",
       "type": "categorical"
+    },
+    {
+      "key": "vaccination",
+      "title": "Vaccination Status",
+      "type": "categorical"
+    },
+    {
+      "key": "household",
+      "title": "Household ID",
+      "type": "categorical"
     }
   ],
   "geo_resolutions": [

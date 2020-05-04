@@ -38,6 +38,16 @@
         ],
         "title": "Region",
         "type": "categorical"
+      },
+      {
+        "key": "vaccination",
+        "title": "Vaccination Status",
+        "type": "categorical"
+      },
+      {
+        "key": "household",
+        "title": "Household ID",
+        "type": "categorical"
       }
     ],
     "display_defaults": {
@@ -120,19 +130,39 @@
       "entropy"
     ],
     "title": "Influenza HA Sequences from the HIVE Study",
-    "updated": "2020-04-29"
+    "updated": "2020-05-04"
   },
   "tree": {
     "branch_attrs": {
-      "labels": {
-        "clade": "3"
-      },
       "mutations": {}
     },
     "children": [
       {
         "branch_attrs": {
-          "mutations": {}
+          "labels": {
+            "aa": "HA1: A134T, S183P, T185S; HA2: K47E, N124S",
+            "clade": "3"
+          },
+          "mutations": {
+            "HA1": [
+              "A134T",
+              "S183P",
+              "T185S"
+            ],
+            "HA2": [
+              "K47E",
+              "N124S"
+            ],
+            "nuc": [
+              "G471A",
+              "T618C",
+              "C625G",
+              "C1076T",
+              "A1191G",
+              "A1423G",
+              "C1484T"
+            ]
+          }
         },
         "children": [
           {
@@ -165,9 +195,12 @@
               "country": {
                 "value": "usa"
               },
-              "div": 0.0045754977530184145,
+              "div": 0.006862090058693622,
               "division": {
                 "value": "michigan"
+              },
+              "household": {
+                "value": 1130
               },
               "num_date": {
                 "confidence": [
@@ -178,6 +211,9 @@
               },
               "region": {
                 "value": "north america"
+              },
+              "vaccination": {
+                "value": "Vaccinated"
               }
             }
           },
@@ -228,9 +264,12 @@
                   "country": {
                     "value": "usa"
                   },
-                  "div": 0.006285766546913653,
+                  "div": 0.008572357999939129,
                   "division": {
                     "value": "michigan"
+                  },
+                  "household": {
+                    "value": 1095
                   },
                   "num_date": {
                     "confidence": [
@@ -241,6 +280,9 @@
                   },
                   "region": {
                     "value": "north america"
+                  },
+                  "vaccination": {
+                    "value": "Not Vaccinated"
                   }
                 }
               },
@@ -277,9 +319,12 @@
                   "country": {
                     "value": "usa"
                   },
-                  "div": 0.0057144726694489095,
+                  "div": 0.008001064374602514,
                   "division": {
                     "value": "michigan"
+                  },
+                  "household": {
+                    "value": 1316
                   },
                   "num_date": {
                     "confidence": [
@@ -290,6 +335,9 @@
                   },
                   "region": {
                     "value": "north america"
+                  },
+                  "vaccination": {
+                    "value": "Vaccinated"
                   }
                 }
               }
@@ -302,13 +350,13 @@
               "country": {
                 "value": "usa"
               },
-              "div": 0.0017117956809760582,
+              "div": 0.0039983886749308225,
               "num_date": {
                 "confidence": [
-                  2009.4486436380403,
-                  2010.6819388783551
+                  2008.7614547954402,
+                  2010.7863590719003
                 ],
-                "value": 2010.3120494249886
+                "value": 2010.3124142221607
               }
             }
           }
@@ -321,41 +369,19 @@
           "country": {
             "value": "usa"
           },
-          "div": 1.6113176514816088e-17,
+          "div": 0.002286593530520182,
           "num_date": {
             "confidence": [
-              2007.8128123101612,
-              2010.1591767787618
+              2007.606652871666,
+              2010.6412817249404
             ],
-            "value": 2009.85989133432
+            "value": 2009.9559446168605
           }
         }
       },
       {
         "branch_attrs": {
-          "labels": {
-            "aa": "HA1: T134A, P183S, S185T; HA2: E47K, S124N"
-          },
-          "mutations": {
-            "HA1": [
-              "T134A",
-              "P183S",
-              "S185T"
-            ],
-            "HA2": [
-              "E47K",
-              "S124N"
-            ],
-            "nuc": [
-              "A471G",
-              "C618T",
-              "G625C",
-              "T1076C",
-              "G1191A",
-              "G1423A",
-              "T1484C"
-            ]
-          }
+          "mutations": {}
         },
         "children": [
           {
@@ -424,9 +450,12 @@
                   "country": {
                     "value": "usa"
                   },
-                  "div": 0.01604560852716022,
+                  "div": 0.01375170128341455,
                   "division": {
                     "value": "michigan"
+                  },
+                  "household": {
+                    "value": 3160
                   },
                   "num_date": {
                     "confidence": [
@@ -437,6 +466,9 @@
                   },
                   "region": {
                     "value": "north america"
+                  },
+                  "vaccination": {
+                    "value": "Vaccinated"
                   }
                 }
               },
@@ -469,9 +501,12 @@
                   "country": {
                     "value": "usa"
                   },
-                  "div": 0.017196013299649926,
+                  "div": 0.014902105403961755,
                   "division": {
                     "value": "michigan"
+                  },
+                  "household": {
+                    "value": 3277
                   },
                   "num_date": {
                     "confidence": [
@@ -482,6 +517,9 @@
                   },
                   "region": {
                     "value": "north america"
+                  },
+                  "vaccination": {
+                    "value": "Not Vaccinated"
                   }
                 }
               }
@@ -494,13 +532,13 @@
               "country": {
                 "value": "usa"
               },
-              "div": 0.012614986949950032,
+              "div": 0.010321080721419202,
               "num_date": {
                 "confidence": [
-                  2010.493793052849,
-                  2012.5526422996293
+                  2010.54579635332,
+                  2012.7086352314482
                 ],
-                "value": 2012.1177110984183
+                "value": 2011.2162548833794
               }
             }
           },
@@ -554,9 +592,12 @@
                       "country": {
                         "value": "usa"
                       },
-                      "div": 0.007431476466387711,
+                      "div": 0.005137571597804015,
                       "division": {
                         "value": "michigan"
+                      },
+                      "household": {
+                        "value": 1077
                       },
                       "num_date": {
                         "confidence": [
@@ -567,6 +608,9 @@
                       },
                       "region": {
                         "value": "north america"
+                      },
+                      "vaccination": {
+                        "value": "Vaccinated"
                       }
                     }
                   },
@@ -587,9 +631,12 @@
                           "country": {
                             "value": "usa"
                           },
-                          "div": 0.006860871548037498,
+                          "div": 0.0045669669955063314,
                           "division": {
                             "value": "michigan"
+                          },
+                          "household": {
+                            "value": 1077
                           },
                           "num_date": {
                             "confidence": [
@@ -600,6 +647,9 @@
                           },
                           "region": {
                             "value": "north america"
+                          },
+                          "vaccination": {
+                            "value": "Vaccinated"
                           }
                         }
                       },
@@ -615,9 +665,12 @@
                           "country": {
                             "value": "usa"
                           },
-                          "div": 0.006860871548037498,
+                          "div": 0.0045669669955063314,
                           "division": {
                             "value": "michigan"
+                          },
+                          "household": {
+                            "value": 1077
                           },
                           "num_date": {
                             "confidence": [
@@ -628,6 +681,9 @@
                           },
                           "region": {
                             "value": "north america"
+                          },
+                          "vaccination": {
+                            "value": "Vaccinated"
                           }
                         }
                       }
@@ -640,13 +696,13 @@
                       "country": {
                         "value": "usa"
                       },
-                      "div": 0.006860871548037482,
+                      "div": 0.004566966995506315,
                       "num_date": {
                         "confidence": [
-                          2010.9706110011357,
+                          2011.009274318533,
                           2011.1465753424657
                         ],
-                        "value": 2011.0890106723684
+                        "value": 2011.1465753424657
                       }
                     }
                   }
@@ -659,13 +715,13 @@
                   "country": {
                     "value": "usa"
                   },
-                  "div": 0.006860871548037465,
+                  "div": 0.0045669669955062985,
                   "num_date": {
                     "confidence": [
-                      2010.8609312507467,
-                      2011.144074180576
+                      2010.8203080500846,
+                      2011.1437225976047
                     ],
-                    "value": 2011.0130025544447
+                    "value": 2011.038100089428
                   }
                 }
               },
@@ -717,9 +773,12 @@
                           "country": {
                             "value": "usa"
                           },
-                          "div": 0.009716947547537172,
+                          "div": 0.007423042838437958,
                           "division": {
                             "value": "michigan"
+                          },
+                          "household": {
+                            "value": 1275
                           },
                           "num_date": {
                             "confidence": [
@@ -730,6 +789,9 @@
                           },
                           "region": {
                             "value": "north america"
+                          },
+                          "vaccination": {
+                            "value": "Not Vaccinated"
                           }
                         }
                       },
@@ -755,9 +817,12 @@
                               "country": {
                                 "value": "usa"
                               },
-                              "div": 0.007427862267739515,
+                              "div": 0.005133957792020091,
                               "division": {
                                 "value": "michigan"
+                              },
+                              "household": {
+                                "value": 1330
                               },
                               "num_date": {
                                 "confidence": [
@@ -768,6 +833,9 @@
                               },
                               "region": {
                                 "value": "north america"
+                              },
+                              "vaccination": {
+                                "value": "Not Vaccinated"
                               }
                             }
                           },
@@ -793,9 +861,12 @@
                                   "country": {
                                     "value": "usa"
                                   },
-                                  "div": 0.007428240926560538,
+                                  "div": 0.005134336053579655,
                                   "division": {
                                     "value": "michigan"
+                                  },
+                                  "household": {
+                                    "value": 1376
                                   },
                                   "num_date": {
                                     "confidence": [
@@ -806,6 +877,9 @@
                                   },
                                   "region": {
                                     "value": "north america"
+                                  },
+                                  "vaccination": {
+                                    "value": "Not Vaccinated"
                                   }
                                 }
                               },
@@ -826,9 +900,12 @@
                                       "country": {
                                         "value": "usa"
                                       },
-                                      "div": 0.00628738883369427,
+                                      "div": 0.0039934846062089175,
                                       "division": {
                                         "value": "michigan"
+                                      },
+                                      "household": {
+                                        "value": 1075
                                       },
                                       "num_date": {
                                         "confidence": [
@@ -839,6 +916,9 @@
                                       },
                                       "region": {
                                         "value": "north america"
+                                      },
+                                      "vaccination": {
+                                        "value": "Vaccinated"
                                       }
                                     }
                                   },
@@ -858,9 +938,12 @@
                                       "country": {
                                         "value": "usa"
                                       },
-                                      "div": 0.0068575036871626515,
+                                      "div": 0.004563599295699827,
                                       "division": {
                                         "value": "michigan"
+                                      },
+                                      "household": {
+                                        "value": 1079
                                       },
                                       "num_date": {
                                         "confidence": [
@@ -871,6 +954,9 @@
                                       },
                                       "region": {
                                         "value": "north america"
+                                      },
+                                      "vaccination": {
+                                        "value": "Vaccinated"
                                       }
                                     }
                                   }
@@ -883,13 +969,13 @@
                                   "country": {
                                     "value": "usa"
                                   },
-                                  "div": 0.006287388833694254,
+                                  "div": 0.003993484606208901,
                                   "num_date": {
                                     "confidence": [
-                                      2010.8816750482474,
-                                      2011.0636697300354
+                                      2010.8461185608417,
+                                      2011.072602739726
                                     ],
-                                    "value": 2011.0242510895016
+                                    "value": 2011.030425157704
                                   }
                                 }
                               }
@@ -902,13 +988,13 @@
                               "country": {
                                 "value": "usa"
                               },
-                              "div": 0.0062873888336942374,
+                              "div": 0.003993484606208885,
                               "num_date": {
                                 "confidence": [
-                                  2010.8327111291692,
-                                  2011.0685304831156
+                                  2010.7279884527745,
+                                  2011.0520386567523
                                 ],
-                                "value": 2010.9475490191005
+                                "value": 2010.9451849085372
                               }
                             }
                           }
@@ -921,13 +1007,13 @@
                           "country": {
                             "value": "usa"
                           },
-                          "div": 0.006287388833694221,
+                          "div": 0.003993484606208868,
                           "num_date": {
                             "confidence": [
-                              2010.718781262151,
-                              2011.0675991917196
+                              2010.5633260734442,
+                              2011.0340184921345
                             ],
-                            "value": 2010.8672951484998
+                            "value": 2010.7843224880407
                           }
                         }
                       }
@@ -940,13 +1026,13 @@
                       "country": {
                         "value": "usa"
                       },
-                      "div": 0.0062873888336942045,
+                      "div": 0.003993484606208852,
                       "num_date": {
                         "confidence": [
-                          2010.5757515165537,
-                          2010.9810999256388
+                          2010.3429350606218,
+                          2011.0335916366255
                         ],
-                        "value": 2010.8113828999917
+                        "value": 2010.6494182978265
                       }
                     }
                   },
@@ -1003,9 +1089,12 @@
                           "country": {
                             "value": "usa"
                           },
-                          "div": 0.016017569380815493,
+                          "div": 0.013723662390522175,
                           "division": {
                             "value": "michigan"
+                          },
+                          "household": {
+                            "value": 3085
                           },
                           "num_date": {
                             "confidence": [
@@ -1016,6 +1105,9 @@
                           },
                           "region": {
                             "value": "north america"
+                          },
+                          "vaccination": {
+                            "value": "Not Vaccinated"
                           }
                         }
                       },
@@ -1048,9 +1140,12 @@
                           "country": {
                             "value": "usa"
                           },
-                          "div": 0.01716356477583244,
+                          "div": 0.014869657890507981,
                           "division": {
                             "value": "michigan"
+                          },
+                          "household": {
+                            "value": 4075
                           },
                           "num_date": {
                             "confidence": [
@@ -1061,6 +1156,9 @@
                           },
                           "region": {
                             "value": "north america"
+                          },
+                          "vaccination": {
+                            "value": "Vaccinated"
                           }
                         }
                       },
@@ -1108,9 +1206,12 @@
                               "country": {
                                 "value": "usa"
                               },
-                              "div": 0.017732274740155086,
+                              "div": 0.015438367889166357,
                               "division": {
                                 "value": "michigan"
+                              },
+                              "household": {
+                                "value": 4133
                               },
                               "num_date": {
                                 "confidence": [
@@ -1121,6 +1222,9 @@
                               },
                               "region": {
                                 "value": "north america"
+                              },
+                              "vaccination": {
+                                "value": "Not Vaccinated"
                               }
                             }
                           },
@@ -1157,9 +1261,12 @@
                                   "country": {
                                     "value": "usa"
                                   },
-                                  "div": 0.018303527378271386,
+                                  "div": 0.016009620606384955,
                                   "division": {
                                     "value": "michigan"
+                                  },
+                                  "household": {
+                                    "value": 4100
                                   },
                                   "num_date": {
                                     "confidence": [
@@ -1170,6 +1277,9 @@
                                   },
                                   "region": {
                                     "value": "north america"
+                                  },
+                                  "vaccination": {
+                                    "value": "Vaccinated"
                                   }
                                 }
                               },
@@ -1194,9 +1304,12 @@
                                       "country": {
                                         "value": "usa"
                                       },
-                                      "div": 0.01773251965442597,
+                                      "div": 0.015438612674607914,
                                       "division": {
                                         "value": "michigan"
+                                      },
+                                      "household": {
+                                        "value": 4115
                                       },
                                       "num_date": {
                                         "confidence": [
@@ -1207,6 +1320,9 @@
                                       },
                                       "region": {
                                         "value": "north america"
+                                      },
+                                      "vaccination": {
+                                        "value": "Not Vaccinated"
                                       }
                                     }
                                   },
@@ -1222,9 +1338,12 @@
                                       "country": {
                                         "value": "usa"
                                       },
-                                      "div": 0.01773251965442597,
+                                      "div": 0.015438612674607914,
                                       "division": {
                                         "value": "michigan"
+                                      },
+                                      "household": {
+                                        "value": 4115
                                       },
                                       "num_date": {
                                         "confidence": [
@@ -1235,6 +1354,9 @@
                                       },
                                       "region": {
                                         "value": "north america"
+                                      },
+                                      "vaccination": {
+                                        "value": "Not Vaccinated"
                                       }
                                     }
                                   }
@@ -1247,13 +1369,13 @@
                                   "country": {
                                     "value": "usa"
                                   },
-                                  "div": 0.017732519654425953,
+                                  "div": 0.015438612674607898,
                                   "num_date": {
                                     "confidence": [
-                                      2013.8997257077576,
+                                      2013.903204650829,
                                       2013.995890410959
                                     ],
-                                    "value": 2013.9671080759103
+                                    "value": 2013.995890410959
                                   }
                                 }
                               }
@@ -1266,13 +1388,13 @@
                               "country": {
                                 "value": "usa"
                               },
-                              "div": 0.017162134995702204,
+                              "div": 0.014868228334072942,
                               "num_date": {
                                 "confidence": [
-                                  2013.7360183882365,
-                                  2013.968780515694
+                                  2013.6916436565673,
+                                  2013.9500106295038
                                 ],
-                                "value": 2013.8870651549496
+                                "value": 2013.8446226342053
                               }
                             }
                           }
@@ -1285,13 +1407,13 @@
                           "country": {
                             "value": "usa"
                           },
-                          "div": 0.01602048560963108,
+                          "div": 0.013726578880660395,
                           "num_date": {
                             "confidence": [
-                              2013.4080619537326,
-                              2013.9146691129224
+                              2013.4689070650186,
+                              2013.7945899826543
                             ],
-                            "value": 2013.6017264472564
+                            "value": 2013.6436738953298
                           }
                         }
                       },
@@ -1335,9 +1457,12 @@
                                   "country": {
                                     "value": "usa"
                                   },
-                                  "div": 0.01601386979532826,
+                                  "div": 0.013719962629098165,
                                   "division": {
                                     "value": "michigan"
+                                  },
+                                  "household": {
+                                    "value": 4092
                                   },
                                   "num_date": {
                                     "confidence": [
@@ -1348,6 +1473,9 @@
                                   },
                                   "region": {
                                     "value": "north america"
+                                  },
+                                  "vaccination": {
+                                    "value": "Not Vaccinated"
                                   }
                                 }
                               },
@@ -1368,9 +1496,12 @@
                                       "country": {
                                         "value": "usa"
                                       },
-                                      "div": 0.014301494295997683,
+                                      "div": 0.01200758793469431,
                                       "division": {
                                         "value": "michigan"
+                                      },
+                                      "household": {
+                                        "value": 4092
                                       },
                                       "num_date": {
                                         "confidence": [
@@ -1381,6 +1512,9 @@
                                       },
                                       "region": {
                                         "value": "north america"
+                                      },
+                                      "vaccination": {
+                                        "value": "Not Vaccinated"
                                       }
                                     }
                                   },
@@ -1400,9 +1534,12 @@
                                       "country": {
                                         "value": "usa"
                                       },
-                                      "div": 0.014871420738202627,
+                                      "div": 0.012577514472508497,
                                       "division": {
                                         "value": "michigan"
+                                      },
+                                      "household": {
+                                        "value": 4092
                                       },
                                       "num_date": {
                                         "confidence": [
@@ -1413,6 +1550,9 @@
                                       },
                                       "region": {
                                         "value": "north america"
+                                      },
+                                      "vaccination": {
+                                        "value": "Not Vaccinated"
                                       }
                                     }
                                   }
@@ -1425,13 +1565,13 @@
                                   "country": {
                                     "value": "usa"
                                   },
-                                  "div": 0.014301494295997667,
+                                  "div": 0.012007587934694294,
                                   "num_date": {
                                     "confidence": [
-                                      2013.8171160500187,
-                                      2013.9796241703673
+                                      2013.6925971197097,
+                                      2013.9804138122217
                                     ],
-                                    "value": 2013.9301065627794
+                                    "value": 2013.9241990529245
                                   }
                                 }
                               }
@@ -1444,13 +1584,13 @@
                               "country": {
                                 "value": "usa"
                               },
-                              "div": 0.014301494295997651,
+                              "div": 0.012007587934694279,
                               "num_date": {
                                 "confidence": [
-                                  2013.5422846234637,
-                                  2013.985170070987
+                                  2013.5258318213064,
+                                  2013.9607259226648
                                 ],
-                                "value": 2013.7887004208264
+                                "value": 2013.6825423503628
                               }
                             }
                           },
@@ -1483,9 +1623,12 @@
                                   "country": {
                                     "value": "usa"
                                   },
-                                  "div": 0.014301936107281893,
+                                  "div": 0.012008029389881459,
                                   "division": {
                                     "value": "michigan"
+                                  },
+                                  "household": {
+                                    "value": 4086
                                   },
                                   "num_date": {
                                     "confidence": [
@@ -1496,6 +1639,9 @@
                                   },
                                   "region": {
                                     "value": "north america"
+                                  },
+                                  "vaccination": {
+                                    "value": "Vaccinated"
                                   }
                                 }
                               },
@@ -1542,9 +1688,12 @@
                                           "country": {
                                             "value": "usa"
                                           },
-                                          "div": 0.016014891594741225,
+                                          "div": 0.013720984851812439,
                                           "division": {
                                             "value": "michigan"
+                                          },
+                                          "household": {
+                                            "value": 4185
                                           },
                                           "num_date": {
                                             "confidence": [
@@ -1555,6 +1704,9 @@
                                           },
                                           "region": {
                                             "value": "north america"
+                                          },
+                                          "vaccination": {
+                                            "value": "Not Vaccinated"
                                           }
                                         }
                                       },
@@ -1570,9 +1722,12 @@
                                           "country": {
                                             "value": "usa"
                                           },
-                                          "div": 0.016014891594741225,
+                                          "div": 0.013720984851812439,
                                           "division": {
                                             "value": "michigan"
+                                          },
+                                          "household": {
+                                            "value": 4163
                                           },
                                           "num_date": {
                                             "confidence": [
@@ -1583,6 +1738,9 @@
                                           },
                                           "region": {
                                             "value": "north america"
+                                          },
+                                          "vaccination": {
+                                            "value": "Not Vaccinated"
                                           }
                                         }
                                       }
@@ -1595,10 +1753,10 @@
                                       "country": {
                                         "value": "usa"
                                       },
-                                      "div": 0.016014891594741208,
+                                      "div": 0.013720984851812423,
                                       "num_date": {
                                         "confidence": [
-                                          2013.8674464908433,
+                                          2013.82708657963,
                                           2013.9575342465753
                                         ],
                                         "value": 2013.9575342465753
@@ -1638,9 +1796,12 @@
                                               "country": {
                                                 "value": "usa"
                                               },
-                                              "div": 0.016012458372475474,
+                                              "div": 0.013718550994577994,
                                               "division": {
                                                 "value": "michigan"
+                                              },
+                                              "household": {
+                                                "value": 4175
                                               },
                                               "num_date": {
                                                 "confidence": [
@@ -1651,6 +1812,9 @@
                                               },
                                               "region": {
                                                 "value": "north america"
+                                              },
+                                              "vaccination": {
+                                                "value": "Not Vaccinated"
                                               }
                                             }
                                           },
@@ -1699,9 +1863,12 @@
                                                           "country": {
                                                             "value": "usa"
                                                           },
-                                                          "div": 0.015439441700850851,
+                                                          "div": 0.013145534780967168,
                                                           "division": {
                                                             "value": "michigan"
+                                                          },
+                                                          "household": {
+                                                            "value": 4073
                                                           },
                                                           "num_date": {
                                                             "confidence": [
@@ -1712,6 +1879,9 @@
                                                           },
                                                           "region": {
                                                             "value": "north america"
+                                                          },
+                                                          "vaccination": {
+                                                            "value": "Vaccinated"
                                                           }
                                                         }
                                                       },
@@ -1727,9 +1897,12 @@
                                                           "country": {
                                                             "value": "usa"
                                                           },
-                                                          "div": 0.01486956623738673,
+                                                          "div": 0.01257565947341466,
                                                           "division": {
                                                             "value": "michigan"
+                                                          },
+                                                          "household": {
+                                                            "value": 4073
                                                           },
                                                           "num_date": {
                                                             "confidence": [
@@ -1740,6 +1913,9 @@
                                                           },
                                                           "region": {
                                                             "value": "north america"
+                                                          },
+                                                          "vaccination": {
+                                                            "value": "Vaccinated"
                                                           }
                                                         }
                                                       }
@@ -1752,13 +1928,13 @@
                                                       "country": {
                                                         "value": "usa"
                                                       },
-                                                      "div": 0.014869566237386715,
+                                                      "div": 0.012575659473414644,
                                                       "num_date": {
                                                         "confidence": [
-                                                          2013.8551180887594,
-                                                          2013.9869020466974
+                                                          2013.8229109965016,
+                                                          2013.9889717960089
                                                         ],
-                                                        "value": 2013.960936086468
+                                                        "value": 2013.9384531765309
                                                       }
                                                     }
                                                   },
@@ -1783,9 +1959,12 @@
                                                           "country": {
                                                             "value": "usa"
                                                           },
-                                                          "div": 0.014869678033607772,
+                                                          "div": 0.012575771199894418,
                                                           "division": {
                                                             "value": "michigan"
+                                                          },
+                                                          "household": {
+                                                            "value": 4140
                                                           },
                                                           "num_date": {
                                                             "confidence": [
@@ -1796,6 +1975,9 @@
                                                           },
                                                           "region": {
                                                             "value": "north america"
+                                                          },
+                                                          "vaccination": {
+                                                            "value": "Not Vaccinated"
                                                           }
                                                         }
                                                       },
@@ -1811,9 +1993,12 @@
                                                           "country": {
                                                             "value": "usa"
                                                           },
-                                                          "div": 0.014869678033607772,
+                                                          "div": 0.012575771199894418,
                                                           "division": {
                                                             "value": "michigan"
+                                                          },
+                                                          "household": {
+                                                            "value": 4140
                                                           },
                                                           "num_date": {
                                                             "confidence": [
@@ -1824,6 +2009,9 @@
                                                           },
                                                           "region": {
                                                             "value": "north america"
+                                                          },
+                                                          "vaccination": {
+                                                            "value": "Not Vaccinated"
                                                           }
                                                         }
                                                       }
@@ -1836,13 +2024,13 @@
                                                       "country": {
                                                         "value": "usa"
                                                       },
-                                                      "div": 0.014869678033607756,
+                                                      "div": 0.012575771199894403,
                                                       "num_date": {
                                                         "confidence": [
-                                                          2013.8849283682314,
+                                                          2013.8738115835883,
                                                           2013.9876712328767
                                                         ],
-                                                        "value": 2013.958888897828
+                                                        "value": 2013.9876712328767
                                                       }
                                                     }
                                                   }
@@ -1855,23 +2043,19 @@
                                                   "country": {
                                                     "value": "usa"
                                                   },
-                                                  "div": 0.014299613535522364,
+                                                  "div": 0.012005706885427273,
                                                   "num_date": {
                                                     "confidence": [
-                                                      2013.6420619564278,
-                                                      2013.969548171923
+                                                      2013.6357470103499,
+                                                      2013.8918906416238
                                                     ],
-                                                    "value": 2013.7932392291027
+                                                    "value": 2013.7472447741811
                                                   }
                                                 }
                                               },
                                               {
                                                 "branch_attrs": {
-                                                  "mutations": {
-                                                    "nuc": [
-                                                      "A1547G"
-                                                    ]
-                                                  }
+                                                  "mutations": {}
                                                 },
                                                 "children": [
                                                   {
@@ -1888,8 +2072,7 @@
                                                         "branch_attrs": {
                                                           "mutations": {
                                                             "nuc": [
-                                                              "G368A",
-                                                              "G1547A"
+                                                              "G368A"
                                                             ]
                                                           }
                                                         },
@@ -1901,9 +2084,12 @@
                                                           "country": {
                                                             "value": "usa"
                                                           },
-                                                          "div": 0.01715099411616407,
+                                                          "div": 0.013716852940134402,
                                                           "division": {
                                                             "value": "michigan"
+                                                          },
+                                                          "household": {
+                                                            "value": 4140
                                                           },
                                                           "num_date": {
                                                             "confidence": [
@@ -1914,12 +2100,19 @@
                                                           },
                                                           "region": {
                                                             "value": "north america"
+                                                          },
+                                                          "vaccination": {
+                                                            "value": "Not Vaccinated"
                                                           }
                                                         }
                                                       },
                                                       {
                                                         "branch_attrs": {
-                                                          "mutations": {}
+                                                          "mutations": {
+                                                            "nuc": [
+                                                              "A1547G"
+                                                            ]
+                                                          }
                                                         },
                                                         "name": "MH5847",
                                                         "node_attrs": {
@@ -1929,9 +2122,12 @@
                                                           "country": {
                                                             "value": "usa"
                                                           },
-                                                          "div": 0.016010311883147194,
+                                                          "div": 0.013716740918918769,
                                                           "division": {
                                                             "value": "michigan"
+                                                          },
+                                                          "household": {
+                                                            "value": 4159
                                                           },
                                                           "num_date": {
                                                             "confidence": [
@@ -1942,6 +2138,9 @@
                                                           },
                                                           "region": {
                                                             "value": "north america"
+                                                          },
+                                                          "vaccination": {
+                                                            "value": "Not Vaccinated"
                                                           }
                                                         }
                                                       }
@@ -1954,13 +2153,13 @@
                                                       "country": {
                                                         "value": "usa"
                                                       },
-                                                      "div": 0.016010311883147176,
+                                                      "div": 0.013146675929571538,
                                                       "num_date": {
                                                         "confidence": [
-                                                          2013.8582659557148,
-                                                          2013.9865468076434
+                                                          2013.7956880413367,
+                                                          2013.9765665876475
                                                         ],
-                                                        "value": 2013.9373910179502
+                                                        "value": 2013.931252929389
                                                       }
                                                     }
                                                   },
@@ -1968,105 +2167,25 @@
                                                     "branch_attrs": {
                                                       "mutations": {
                                                         "nuc": [
-                                                          "T1752C"
+                                                          "A1547G"
                                                         ]
                                                       }
                                                     },
                                                     "children": [
                                                       {
                                                         "branch_attrs": {
-                                                          "mutations": {}
-                                                        },
-                                                        "name": "MH5680",
-                                                        "node_attrs": {
-                                                          "clade_membership": {
-                                                            "value": "6b"
-                                                          },
-                                                          "country": {
-                                                            "value": "usa"
-                                                          },
-                                                          "div": 0.015439441700850851,
-                                                          "division": {
-                                                            "value": "michigan"
-                                                          },
-                                                          "num_date": {
-                                                            "confidence": [
-                                                              2014.0068493150684,
-                                                              2014.0068493150684
-                                                            ],
-                                                            "value": 2014.0068493150684
-                                                          },
-                                                          "region": {
-                                                            "value": "north america"
-                                                          }
-                                                        }
-                                                      },
-                                                      {
-                                                        "branch_attrs": {
                                                           "mutations": {
                                                             "nuc": [
-                                                              "T1641C"
+                                                              "T1752C"
                                                             ]
                                                           }
                                                         },
-                                                        "name": "MH5712",
-                                                        "node_attrs": {
-                                                          "clade_membership": {
-                                                            "value": "6b"
-                                                          },
-                                                          "country": {
-                                                            "value": "usa"
-                                                          },
-                                                          "div": 0.0160092748106376,
-                                                          "division": {
-                                                            "value": "michigan"
-                                                          },
-                                                          "num_date": {
-                                                            "confidence": [
-                                                              2014.017808219178,
-                                                              2014.017808219178
-                                                            ],
-                                                            "value": 2014.017808219178
-                                                          },
-                                                          "region": {
-                                                            "value": "north america"
-                                                          }
-                                                        }
-                                                      }
-                                                    ],
-                                                    "name": "NODE_0000046",
-                                                    "node_attrs": {
-                                                      "clade_membership": {
-                                                        "value": "6b"
-                                                      },
-                                                      "country": {
-                                                        "value": "usa"
-                                                      },
-                                                      "div": 0.015439441700850836,
-                                                      "num_date": {
-                                                        "confidence": [
-                                                          2013.8710850718603,
-                                                          2014.004209467602
-                                                        ],
-                                                        "value": 2013.958590821477
-                                                      }
-                                                    }
-                                                  },
-                                                  {
-                                                    "branch_attrs": {
-                                                      "mutations": {}
-                                                    },
-                                                    "children": [
-                                                      {
-                                                        "branch_attrs": {
-                                                          "mutations": {}
-                                                        },
                                                         "children": [
                                                           {
                                                             "branch_attrs": {
                                                               "mutations": {}
                                                             },
-                                                            "name": "MH5708",
+                                                            "name": "MH5680",
                                                             "node_attrs": {
                                                               "clade_membership": {
                                                                 "value": "6b"
@@ -2074,27 +2193,37 @@
                                                               "country": {
                                                                 "value": "usa"
                                                               },
-                                                              "div": 0.014869566237386746,
+                                                              "div": 0.013145534780967184,
                                                               "division": {
                                                                 "value": "michigan"
                                                               },
+                                                              "household": {
+                                                                "value": 4024
+                                                              },
                                                               "num_date": {
                                                                 "confidence": [
-                                                                  2014.017808219178,
-                                                                  2014.017808219178
+                                                                  2014.0068493150684,
+                                                                  2014.0068493150684
                                                                 ],
-                                                                "value": 2014.017808219178
+                                                                "value": 2014.0068493150684
                                                               },
                                                               "region": {
                                                                 "value": "north america"
+                                                              },
+                                                              "vaccination": {
+                                                                "value": "Vaccinated"
                                                               }
                                                             }
                                                           },
                                                           {
                                                             "branch_attrs": {
-                                                              "mutations": {}
+                                                              "mutations": {
+                                                                "nuc": [
+                                                                  "T1641C"
+                                                                ]
+                                                              }
                                                             },
-                                                            "name": "MH5709",
+                                                            "name": "MH5712",
                                                             "node_attrs": {
                                                               "clade_membership": {
                                                                 "value": "6b"
@@ -2102,9 +2231,12 @@
                                                               "country": {
                                                                 "value": "usa"
                                                               },
-                                                              "div": 0.014869566237386746,
+                                                              "div": 0.013715367798580588,
                                                               "division": {
                                                                 "value": "michigan"
+                                                              },
+                                                              "household": {
+                                                                "value": 4024
                                                               },
                                                               "num_date": {
                                                                 "confidence": [
@@ -2115,11 +2247,14 @@
                                                               },
                                                               "region": {
                                                                 "value": "north america"
+                                                              },
+                                                              "vaccination": {
+                                                                "value": "Vaccinated"
                                                               }
                                                             }
                                                           }
                                                         ],
-                                                        "name": "NODE_0000035",
+                                                        "name": "NODE_0000046",
                                                         "node_attrs": {
                                                           "clade_membership": {
                                                             "value": "6b"
@@ -2127,13 +2262,13 @@
                                                           "country": {
                                                             "value": "usa"
                                                           },
-                                                          "div": 0.01486956623738673,
+                                                          "div": 0.013145534780967168,
                                                           "num_date": {
                                                             "confidence": [
-                                                              2013.8836666209797,
-                                                              2014.017808219178
+                                                              2013.8911673194993,
+                                                              2014.0068493150684
                                                             ],
-                                                            "value": 2013.9602435490808
+                                                            "value": 2013.9712695917344
                                                           }
                                                         }
                                                       },
@@ -2146,7 +2281,77 @@
                                                             "branch_attrs": {
                                                               "mutations": {}
                                                             },
-                                                            "name": "MH5849",
+                                                            "children": [
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "mutations": {}
+                                                                },
+                                                                "name": "MH5708",
+                                                                "node_attrs": {
+                                                                  "clade_membership": {
+                                                                    "value": "6b"
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "usa"
+                                                                  },
+                                                                  "div": 0.01257565947341469,
+                                                                  "division": {
+                                                                    "value": "michigan"
+                                                                  },
+                                                                  "household": {
+                                                                    "value": 4024
+                                                                  },
+                                                                  "num_date": {
+                                                                    "confidence": [
+                                                                      2014.017808219178,
+                                                                      2014.017808219178
+                                                                    ],
+                                                                    "value": 2014.017808219178
+                                                                  },
+                                                                  "region": {
+                                                                    "value": "north america"
+                                                                  },
+                                                                  "vaccination": {
+                                                                    "value": "Not Vaccinated"
+                                                                  }
+                                                                }
+                                                              },
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "mutations": {}
+                                                                },
+                                                                "name": "MH5709",
+                                                                "node_attrs": {
+                                                                  "clade_membership": {
+                                                                    "value": "6b"
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "usa"
+                                                                  },
+                                                                  "div": 0.01257565947341469,
+                                                                  "division": {
+                                                                    "value": "michigan"
+                                                                  },
+                                                                  "household": {
+                                                                    "value": 4024
+                                                                  },
+                                                                  "num_date": {
+                                                                    "confidence": [
+                                                                      2014.017808219178,
+                                                                      2014.017808219178
+                                                                    ],
+                                                                    "value": 2014.017808219178
+                                                                  },
+                                                                  "region": {
+                                                                    "value": "north america"
+                                                                  },
+                                                                  "vaccination": {
+                                                                    "value": "Not Vaccinated"
+                                                                  }
+                                                                }
+                                                              }
+                                                            ],
+                                                            "name": "NODE_0000035",
                                                             "node_attrs": {
                                                               "clade_membership": {
                                                                 "value": "6b"
@@ -2154,19 +2359,13 @@
                                                               "country": {
                                                                 "value": "usa"
                                                               },
-                                                              "div": 0.014869566237386746,
-                                                              "division": {
-                                                                "value": "michigan"
-                                                              },
+                                                              "div": 0.012575659473414675,
                                                               "num_date": {
                                                                 "confidence": [
-                                                                  2014.0397260273974,
-                                                                  2014.0397260273974
+                                                                  2013.9349782132965,
+                                                                  2014.017808219178
                                                                 ],
-                                                                "value": 2014.0397260273974
-                                                              },
-                                                              "region": {
-                                                                "value": "north america"
+                                                                "value": 2014.017808219178
                                                               }
                                                             }
                                                           },
@@ -2174,7 +2373,77 @@
                                                             "branch_attrs": {
                                                               "mutations": {}
                                                             },
-                                                            "name": "MH5848",
+                                                            "children": [
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "mutations": {}
+                                                                },
+                                                                "name": "MH5848",
+                                                                "node_attrs": {
+                                                                  "clade_membership": {
+                                                                    "value": "6b"
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "usa"
+                                                                  },
+                                                                  "div": 0.01257565947341469,
+                                                                  "division": {
+                                                                    "value": "michigan"
+                                                                  },
+                                                                  "household": {
+                                                                    "value": 4159
+                                                                  },
+                                                                  "num_date": {
+                                                                    "confidence": [
+                                                                      2014.0397260273974,
+                                                                      2014.0397260273974
+                                                                    ],
+                                                                    "value": 2014.0397260273974
+                                                                  },
+                                                                  "region": {
+                                                                    "value": "north america"
+                                                                  },
+                                                                  "vaccination": {
+                                                                    "value": "Not Vaccinated"
+                                                                  }
+                                                                }
+                                                              },
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "mutations": {}
+                                                                },
+                                                                "name": "MH5849",
+                                                                "node_attrs": {
+                                                                  "clade_membership": {
+                                                                    "value": "6b"
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "usa"
+                                                                  },
+                                                                  "div": 0.01257565947341469,
+                                                                  "division": {
+                                                                    "value": "michigan"
+                                                                  },
+                                                                  "household": {
+                                                                    "value": 4159
+                                                                  },
+                                                                  "num_date": {
+                                                                    "confidence": [
+                                                                      2014.0397260273974,
+                                                                      2014.0397260273974
+                                                                    ],
+                                                                    "value": 2014.0397260273974
+                                                                  },
+                                                                  "region": {
+                                                                    "value": "north america"
+                                                                  },
+                                                                  "vaccination": {
+                                                                    "value": "Not Vaccinated"
+                                                                  }
+                                                                }
+                                                              }
+                                                            ],
+                                                            "name": "NODE_0000036",
                                                             "node_attrs": {
                                                               "clade_membership": {
                                                                 "value": "6b"
@@ -2182,24 +2451,18 @@
                                                               "country": {
                                                                 "value": "usa"
                                                               },
-                                                              "div": 0.014869566237386746,
-                                                              "division": {
-                                                                "value": "michigan"
-                                                              },
+                                                              "div": 0.012575659473414675,
                                                               "num_date": {
                                                                 "confidence": [
-                                                                  2014.0397260273974,
+                                                                  2013.9419060482314,
                                                                   2014.0397260273974
                                                                 ],
                                                                 "value": 2014.0397260273974
-                                                              },
-                                                              "region": {
-                                                                "value": "north america"
                                                               }
                                                             }
                                                           }
                                                         ],
-                                                        "name": "NODE_0000036",
+                                                        "name": "NODE_0000034",
                                                         "node_attrs": {
                                                           "clade_membership": {
                                                             "value": "6b"
@@ -2207,18 +2470,18 @@
                                                           "country": {
                                                             "value": "usa"
                                                           },
-                                                          "div": 0.01486956623738673,
+                                                          "div": 0.01257565947341466,
                                                           "num_date": {
                                                             "confidence": [
-                                                              2013.870988203778,
-                                                              2014.0397260273974
+                                                              2013.8204184671001,
+                                                              2014.014955474317
                                                             ],
-                                                            "value": 2013.9677701897758
+                                                            "value": 2013.9381637642955
                                                           }
                                                         }
                                                       }
                                                     ],
-                                                    "name": "NODE_0000034",
+                                                    "name": "NODE_0000031",
                                                     "node_attrs": {
                                                       "clade_membership": {
                                                         "value": "6b"
@@ -2226,13 +2489,13 @@
                                                       "country": {
                                                         "value": "usa"
                                                       },
-                                                      "div": 0.014869566237386715,
+                                                      "div": 0.012575659473414644,
                                                       "num_date": {
                                                         "confidence": [
-                                                          2013.8371655787528,
-                                                          2014.0153070572883
+                                                          2013.7409814126006,
+                                                          2013.995700421395
                                                         ],
-                                                        "value": 2013.9110413830367
+                                                        "value": 2013.8545079349476
                                                       }
                                                     }
                                                   }
@@ -2245,13 +2508,13 @@
                                                   "country": {
                                                     "value": "usa"
                                                   },
-                                                  "div": 0.0148695662373867,
+                                                  "div": 0.012005706885427273,
                                                   "num_date": {
                                                     "confidence": [
-                                                      2013.6927609150964,
-                                                      2013.9668926892552
+                                                      2013.6139752742768,
+                                                      2013.8678723100522
                                                     ],
-                                                    "value": 2013.8889037998492
+                                                    "value": 2013.7118676119821
                                                   }
                                                 }
                                               }
@@ -2264,13 +2527,13 @@
                                               "country": {
                                                 "value": "usa"
                                               },
-                                              "div": 0.014299613535522348,
+                                              "div": 0.012005706885427257,
                                               "num_date": {
                                                 "confidence": [
-                                                  2013.5734301563778,
-                                                  2013.9476060640952
+                                                  2013.5512554127781,
+                                                  2013.8670531579821
                                                 ],
-                                                "value": 2013.722549219914
+                                                "value": 2013.6569205882759
                                               }
                                             }
                                           }
@@ -2283,13 +2546,13 @@
                                           "country": {
                                             "value": "usa"
                                           },
-                                          "div": 0.01372958404820252,
+                                          "div": 0.011435677546439683,
                                           "num_date": {
                                             "confidence": [
-                                              2013.2883482774391,
-                                              2013.8189415271022
+                                              2013.2944539209705,
+                                              2013.7704278354147
                                             ],
-                                            "value": 2013.5916841332396
+                                            "value": 2013.6176759743473
                                           }
                                         }
                                       },
@@ -2302,38 +2565,6 @@
                                           }
                                         },
                                         "children": [
-                                          {
-                                            "branch_attrs": {
-                                              "mutations": {
-                                                "nuc": [
-                                                  "T1751A"
-                                                ]
-                                              }
-                                            },
-                                            "name": "MH5300",
-                                            "node_attrs": {
-                                              "clade_membership": {
-                                                "value": "6b"
-                                              },
-                                              "country": {
-                                                "value": "usa"
-                                              },
-                                              "div": 0.014299870271914636,
-                                              "division": {
-                                                "value": "michigan"
-                                              },
-                                              "num_date": {
-                                                "confidence": [
-                                                  2013.9191780821918,
-                                                  2013.9191780821918
-                                                ],
-                                                "value": 2013.9191780821918
-                                              },
-                                              "region": {
-                                                "value": "north america"
-                                              }
-                                            }
-                                          },
                                           {
                                             "branch_attrs": {
                                               "labels": {
@@ -2358,9 +2589,12 @@
                                               "country": {
                                                 "value": "usa"
                                               },
-                                              "div": 0.015442194733453892,
+                                              "div": 0.01314828763936587,
                                               "division": {
                                                 "value": "michigan"
+                                              },
+                                              "household": {
+                                                "value": 4082
                                               },
                                               "num_date": {
                                                 "confidence": [
@@ -2371,193 +2605,9 @@
                                               },
                                               "region": {
                                                 "value": "north america"
-                                              }
-                                            }
-                                          },
-                                          {
-                                            "branch_attrs": {
-                                              "mutations": {
-                                                "nuc": [
-                                                  "T1752C"
-                                                ]
-                                              }
-                                            },
-                                            "children": [
-                                              {
-                                                "branch_attrs": {
-                                                  "mutations": {}
-                                                },
-                                                "name": "MH5229",
-                                                "node_attrs": {
-                                                  "clade_membership": {
-                                                    "value": "6b"
-                                                  },
-                                                  "country": {
-                                                    "value": "usa"
-                                                  },
-                                                  "div": 0.014299613535522364,
-                                                  "division": {
-                                                    "value": "michigan"
-                                                  },
-                                                  "num_date": {
-                                                    "confidence": [
-                                                      2013.8835616438357,
-                                                      2013.8835616438357
-                                                    ],
-                                                    "value": 2013.8835616438357
-                                                  },
-                                                  "region": {
-                                                    "value": "north america"
-                                                  }
-                                                }
                                               },
-                                              {
-                                                "branch_attrs": {
-                                                  "labels": {
-                                                    "aa": "HA1: T185I"
-                                                  },
-                                                  "mutations": {
-                                                    "HA1": [
-                                                      "T185I"
-                                                    ],
-                                                    "nuc": [
-                                                      "G3A",
-                                                      "G4A",
-                                                      "C625T",
-                                                      "G1100A",
-                                                      "T1751A"
-                                                    ]
-                                                  }
-                                                },
-                                                "name": "MH5679",
-                                                "node_attrs": {
-                                                  "clade_membership": {
-                                                    "value": "6b"
-                                                  },
-                                                  "country": {
-                                                    "value": "usa"
-                                                  },
-                                                  "div": 0.017156188648289418,
-                                                  "division": {
-                                                    "value": "michigan"
-                                                  },
-                                                  "num_date": {
-                                                    "confidence": [
-                                                      2014.004109589041,
-                                                      2014.004109589041
-                                                    ],
-                                                    "value": 2014.004109589041
-                                                  },
-                                                  "region": {
-                                                    "value": "north america"
-                                                  }
-                                                }
-                                              }
-                                            ],
-                                            "name": "NODE_0000029",
-                                            "node_attrs": {
-                                              "clade_membership": {
-                                                "value": "6b"
-                                              },
-                                              "country": {
-                                                "value": "usa"
-                                              },
-                                              "div": 0.014299613535522348,
-                                              "num_date": {
-                                                "confidence": [
-                                                  2013.7582418160969,
-                                                  2013.8835616438357
-                                                ],
-                                                "value": 2013.8464287769477
-                                              }
-                                            }
-                                          },
-                                          {
-                                            "branch_attrs": {
-                                              "mutations": {
-                                                "nuc": [
-                                                  "A278G",
-                                                  "G1735A"
-                                                ]
-                                              }
-                                            },
-                                            "children": [
-                                              {
-                                                "branch_attrs": {
-                                                  "mutations": {
-                                                    "nuc": [
-                                                      "T1752A"
-                                                    ]
-                                                  }
-                                                },
-                                                "name": "MH5648",
-                                                "node_attrs": {
-                                                  "clade_membership": {
-                                                    "value": "6b"
-                                                  },
-                                                  "country": {
-                                                    "value": "usa"
-                                                  },
-                                                  "div": 0.015440412155305812,
-                                                  "division": {
-                                                    "value": "michigan"
-                                                  },
-                                                  "num_date": {
-                                                    "confidence": [
-                                                      2013.995890410959,
-                                                      2013.995890410959
-                                                    ],
-                                                    "value": 2013.995890410959
-                                                  },
-                                                  "region": {
-                                                    "value": "north america"
-                                                  }
-                                                }
-                                              },
-                                              {
-                                                "branch_attrs": {
-                                                  "mutations": {}
-                                                },
-                                                "name": "MH5656",
-                                                "node_attrs": {
-                                                  "clade_membership": {
-                                                    "value": "6b"
-                                                  },
-                                                  "country": {
-                                                    "value": "usa"
-                                                  },
-                                                  "div": 0.014870125931593712,
-                                                  "division": {
-                                                    "value": "michigan"
-                                                  },
-                                                  "num_date": {
-                                                    "confidence": [
-                                                      2013.995890410959,
-                                                      2013.995890410959
-                                                    ],
-                                                    "value": 2013.995890410959
-                                                  },
-                                                  "region": {
-                                                    "value": "north america"
-                                                  }
-                                                }
-                                              }
-                                            ],
-                                            "name": "NODE_0000030",
-                                            "node_attrs": {
-                                              "clade_membership": {
-                                                "value": "6b"
-                                              },
-                                              "country": {
-                                                "value": "usa"
-                                              },
-                                              "div": 0.014870125931593696,
-                                              "num_date": {
-                                                "confidence": [
-                                                  2013.8527010710761,
-                                                  2013.9842079211846
-                                                ],
-                                                "value": 2013.958899826005
+                                              "vaccination": {
+                                                "value": "Not Vaccinated"
                                               }
                                             }
                                           },
@@ -2573,9 +2623,88 @@
                                                 "children": [
                                                   {
                                                     "branch_attrs": {
-                                                      "mutations": {}
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "A278G",
+                                                          "G1735A"
+                                                        ]
+                                                      }
                                                     },
-                                                    "name": "MH5193",
+                                                    "children": [
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {
+                                                            "nuc": [
+                                                              "T1752A"
+                                                            ]
+                                                          }
+                                                        },
+                                                        "name": "MH5648",
+                                                        "node_attrs": {
+                                                          "clade_membership": {
+                                                            "value": "6b"
+                                                          },
+                                                          "country": {
+                                                            "value": "usa"
+                                                          },
+                                                          "div": 0.013146505180124389,
+                                                          "division": {
+                                                            "value": "michigan"
+                                                          },
+                                                          "household": {
+                                                            "value": 4157
+                                                          },
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2013.995890410959,
+                                                              2013.995890410959
+                                                            ],
+                                                            "value": 2013.995890410959
+                                                          },
+                                                          "region": {
+                                                            "value": "north america"
+                                                          },
+                                                          "vaccination": {
+                                                            "value": "Vaccinated"
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "name": "MH5656",
+                                                        "node_attrs": {
+                                                          "clade_membership": {
+                                                            "value": "6b"
+                                                          },
+                                                          "country": {
+                                                            "value": "usa"
+                                                          },
+                                                          "div": 0.012576219213713909,
+                                                          "division": {
+                                                            "value": "michigan"
+                                                          },
+                                                          "household": {
+                                                            "value": 4157
+                                                          },
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2013.995890410959,
+                                                              2013.995890410959
+                                                            ],
+                                                            "value": 2013.995890410959
+                                                          },
+                                                          "region": {
+                                                            "value": "north america"
+                                                          },
+                                                          "vaccination": {
+                                                            "value": "Vaccinated"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "name": "NODE_0000030",
                                                     "node_attrs": {
                                                       "clade_membership": {
                                                         "value": "6b"
@@ -2583,27 +2712,109 @@
                                                       "country": {
                                                         "value": "usa"
                                                       },
-                                                      "div": 0.013729584048202566,
-                                                      "division": {
-                                                        "value": "michigan"
-                                                      },
+                                                      "div": 0.012576219213713893,
                                                       "num_date": {
                                                         "confidence": [
-                                                          2013.8643835616438,
-                                                          2013.8643835616438
+                                                          2013.8192954708563,
+                                                          2013.9937897167097
                                                         ],
-                                                        "value": 2013.8643835616438
-                                                      },
-                                                      "region": {
-                                                        "value": "north america"
+                                                        "value": 2013.9302339984488
                                                       }
                                                     }
                                                   },
                                                   {
                                                     "branch_attrs": {
-                                                      "mutations": {}
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "T1752C"
+                                                        ]
+                                                      }
                                                     },
-                                                    "name": "MH5194",
+                                                    "children": [
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "name": "MH5229",
+                                                        "node_attrs": {
+                                                          "clade_membership": {
+                                                            "value": "6b"
+                                                          },
+                                                          "country": {
+                                                            "value": "usa"
+                                                          },
+                                                          "div": 0.012005706885427304,
+                                                          "division": {
+                                                            "value": "michigan"
+                                                          },
+                                                          "household": {
+                                                            "value": 4062
+                                                          },
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2013.8835616438357,
+                                                              2013.8835616438357
+                                                            ],
+                                                            "value": 2013.8835616438357
+                                                          },
+                                                          "region": {
+                                                            "value": "north america"
+                                                          },
+                                                          "vaccination": {
+                                                            "value": "Vaccinated"
+                                                          }
+                                                        }
+                                                      },
+                                                      {
+                                                        "branch_attrs": {
+                                                          "labels": {
+                                                            "aa": "HA1: T185I"
+                                                          },
+                                                          "mutations": {
+                                                            "HA1": [
+                                                              "T185I"
+                                                            ],
+                                                            "nuc": [
+                                                              "G3A",
+                                                              "G4A",
+                                                              "C625T",
+                                                              "G1100A",
+                                                              "T1751A"
+                                                            ]
+                                                          }
+                                                        },
+                                                        "name": "MH5679",
+                                                        "node_attrs": {
+                                                          "clade_membership": {
+                                                            "value": "6b"
+                                                          },
+                                                          "country": {
+                                                            "value": "usa"
+                                                          },
+                                                          "div": 0.014862281514670433,
+                                                          "division": {
+                                                            "value": "michigan"
+                                                          },
+                                                          "household": {
+                                                            "value": 4017
+                                                          },
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2014.004109589041,
+                                                              2014.004109589041
+                                                            ],
+                                                            "value": 2014.004109589041
+                                                          },
+                                                          "region": {
+                                                            "value": "north america"
+                                                          },
+                                                          "vaccination": {
+                                                            "value": "Not Vaccinated"
+                                                          }
+                                                        }
+                                                      }
+                                                    ],
+                                                    "name": "NODE_0000029",
                                                     "node_attrs": {
                                                       "clade_membership": {
                                                         "value": "6b"
@@ -2611,24 +2822,18 @@
                                                       "country": {
                                                         "value": "usa"
                                                       },
-                                                      "div": 0.013729584048202566,
-                                                      "division": {
-                                                        "value": "michigan"
-                                                      },
+                                                      "div": 0.012005706885427288,
                                                       "num_date": {
                                                         "confidence": [
-                                                          2013.8643835616438,
-                                                          2013.8643835616438
+                                                          2013.6600551975714,
+                                                          2013.8835616438357
                                                         ],
-                                                        "value": 2013.8643835616438
-                                                      },
-                                                      "region": {
-                                                        "value": "north america"
+                                                        "value": 2013.7782170721416
                                                       }
                                                     }
                                                   }
                                                 ],
-                                                "name": "NODE_0000045",
+                                                "name": "NODE_0000051",
                                                 "node_attrs": {
                                                   "clade_membership": {
                                                     "value": "6b"
@@ -2636,13 +2841,13 @@
                                                   "country": {
                                                     "value": "usa"
                                                   },
-                                                  "div": 0.01372958404820255,
+                                                  "div": 0.011435677546439715,
                                                   "num_date": {
                                                     "confidence": [
-                                                      2013.799364811728,
-                                                      2013.8643835616438
+                                                      2013.5648439352483,
+                                                      2013.8324414128508
                                                     ],
-                                                    "value": 2013.8643835616438
+                                                    "value": 2013.6524234510894
                                                   }
                                                 }
                                               },
@@ -2653,67 +2858,13 @@
                                                 "children": [
                                                   {
                                                     "branch_attrs": {
-                                                      "mutations": {}
-                                                    },
-                                                    "children": [
-                                                      {
-                                                        "branch_attrs": {
-                                                          "mutations": {}
-                                                        },
-                                                        "name": "MH5499",
-                                                        "node_attrs": {
-                                                          "clade_membership": {
-                                                            "value": "6b"
-                                                          },
-                                                          "country": {
-                                                            "value": "usa"
-                                                          },
-                                                          "div": 0.013729584048202582,
-                                                          "division": {
-                                                            "value": "michigan"
-                                                          },
-                                                          "num_date": {
-                                                            "confidence": [
-                                                              2013.968493150685,
-                                                              2013.968493150685
-                                                            ],
-                                                            "value": 2013.968493150685
-                                                          },
-                                                          "region": {
-                                                            "value": "north america"
-                                                          }
-                                                        }
-                                                      },
-                                                      {
-                                                        "branch_attrs": {
-                                                          "mutations": {}
-                                                        },
-                                                        "name": "MH5295",
-                                                        "node_attrs": {
-                                                          "clade_membership": {
-                                                            "value": "6b"
-                                                          },
-                                                          "country": {
-                                                            "value": "usa"
-                                                          },
-                                                          "div": 0.013729584048202582,
-                                                          "division": {
-                                                            "value": "michigan"
-                                                          },
-                                                          "num_date": {
-                                                            "confidence": [
-                                                              2013.9054794520548,
-                                                              2013.9054794520548
-                                                            ],
-                                                            "value": 2013.9054794520548
-                                                          },
-                                                          "region": {
-                                                            "value": "north america"
-                                                          }
-                                                        }
+                                                      "mutations": {
+                                                        "nuc": [
+                                                          "T1751A"
+                                                        ]
                                                       }
-                                                    ],
-                                                    "name": "NODE_0000048",
+                                                    },
+                                                    "name": "MH5300",
                                                     "node_attrs": {
                                                       "clade_membership": {
                                                         "value": "6b"
@@ -2721,13 +2872,25 @@
                                                       "country": {
                                                         "value": "usa"
                                                       },
-                                                      "div": 0.013729584048202566,
+                                                      "div": 0.01200596351285021,
+                                                      "division": {
+                                                        "value": "michigan"
+                                                      },
+                                                      "household": {
+                                                        "value": 4113
+                                                      },
                                                       "num_date": {
                                                         "confidence": [
-                                                          2013.8396855016672,
-                                                          2013.9054794520548
+                                                          2013.9191780821918,
+                                                          2013.9191780821918
                                                         ],
-                                                        "value": 2013.9054794520548
+                                                        "value": 2013.9191780821918
+                                                      },
+                                                      "region": {
+                                                        "value": "north america"
+                                                      },
+                                                      "vaccination": {
+                                                        "value": "Vaccinated"
                                                       }
                                                     }
                                                   },
@@ -2740,7 +2903,77 @@
                                                         "branch_attrs": {
                                                           "mutations": {}
                                                         },
-                                                        "name": "MH5245",
+                                                        "children": [
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            },
+                                                            "name": "MH5193",
+                                                            "node_attrs": {
+                                                              "clade_membership": {
+                                                                "value": "6b"
+                                                              },
+                                                              "country": {
+                                                                "value": "usa"
+                                                              },
+                                                              "div": 0.011435677546439761,
+                                                              "division": {
+                                                                "value": "michigan"
+                                                              },
+                                                              "household": {
+                                                                "value": 4141
+                                                              },
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2013.8643835616438,
+                                                                  2013.8643835616438
+                                                                ],
+                                                                "value": 2013.8643835616438
+                                                              },
+                                                              "region": {
+                                                                "value": "north america"
+                                                              },
+                                                              "vaccination": {
+                                                                "value": "Not Vaccinated"
+                                                              }
+                                                            }
+                                                          },
+                                                          {
+                                                            "branch_attrs": {
+                                                              "mutations": {}
+                                                            },
+                                                            "name": "MH5194",
+                                                            "node_attrs": {
+                                                              "clade_membership": {
+                                                                "value": "6b"
+                                                              },
+                                                              "country": {
+                                                                "value": "usa"
+                                                              },
+                                                              "div": 0.011435677546439761,
+                                                              "division": {
+                                                                "value": "michigan"
+                                                              },
+                                                              "household": {
+                                                                "value": 4141
+                                                              },
+                                                              "num_date": {
+                                                                "confidence": [
+                                                                  2013.8643835616438,
+                                                                  2013.8643835616438
+                                                                ],
+                                                                "value": 2013.8643835616438
+                                                              },
+                                                              "region": {
+                                                                "value": "north america"
+                                                              },
+                                                              "vaccination": {
+                                                                "value": "Not Vaccinated"
+                                                              }
+                                                            }
+                                                          }
+                                                        ],
+                                                        "name": "NODE_0000045",
                                                         "node_attrs": {
                                                           "clade_membership": {
                                                             "value": "6b"
@@ -2748,19 +2981,13 @@
                                                           "country": {
                                                             "value": "usa"
                                                           },
-                                                          "div": 0.013729584048202582,
-                                                          "division": {
-                                                            "value": "michigan"
-                                                          },
+                                                          "div": 0.011435677546439746,
                                                           "num_date": {
                                                             "confidence": [
-                                                              2013.886301369863,
-                                                              2013.886301369863
+                                                              2013.7635079390443,
+                                                              2013.8643835616438
                                                             ],
-                                                            "value": 2013.886301369863
-                                                          },
-                                                          "region": {
-                                                            "value": "north america"
+                                                            "value": 2013.8643835616438
                                                           }
                                                         }
                                                       },
@@ -2773,7 +3000,77 @@
                                                             "branch_attrs": {
                                                               "mutations": {}
                                                             },
-                                                            "name": "MH6042",
+                                                            "children": [
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "mutations": {}
+                                                                },
+                                                                "name": "MH5295",
+                                                                "node_attrs": {
+                                                                  "clade_membership": {
+                                                                    "value": "6b"
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "usa"
+                                                                  },
+                                                                  "div": 0.011435677546439777,
+                                                                  "division": {
+                                                                    "value": "michigan"
+                                                                  },
+                                                                  "household": {
+                                                                    "value": 4113
+                                                                  },
+                                                                  "num_date": {
+                                                                    "confidence": [
+                                                                      2013.9054794520548,
+                                                                      2013.9054794520548
+                                                                    ],
+                                                                    "value": 2013.9054794520548
+                                                                  },
+                                                                  "region": {
+                                                                    "value": "north america"
+                                                                  },
+                                                                  "vaccination": {
+                                                                    "value": "Vaccinated"
+                                                                  }
+                                                                }
+                                                              },
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "mutations": {}
+                                                                },
+                                                                "name": "MH5499",
+                                                                "node_attrs": {
+                                                                  "clade_membership": {
+                                                                    "value": "6b"
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "usa"
+                                                                  },
+                                                                  "div": 0.011435677546439777,
+                                                                  "division": {
+                                                                    "value": "michigan"
+                                                                  },
+                                                                  "household": {
+                                                                    "value": 4156
+                                                                  },
+                                                                  "num_date": {
+                                                                    "confidence": [
+                                                                      2013.968493150685,
+                                                                      2013.968493150685
+                                                                    ],
+                                                                    "value": 2013.968493150685
+                                                                  },
+                                                                  "region": {
+                                                                    "value": "north america"
+                                                                  },
+                                                                  "vaccination": {
+                                                                    "value": "Not Vaccinated"
+                                                                  }
+                                                                }
+                                                              }
+                                                            ],
+                                                            "name": "NODE_0000048",
                                                             "node_attrs": {
                                                               "clade_membership": {
                                                                 "value": "6b"
@@ -2781,19 +3078,13 @@
                                                               "country": {
                                                                 "value": "usa"
                                                               },
-                                                              "div": 0.013729584048202598,
-                                                              "division": {
-                                                                "value": "michigan"
-                                                              },
+                                                              "div": 0.011435677546439761,
                                                               "num_date": {
                                                                 "confidence": [
-                                                                  2014.0753424657535,
-                                                                  2014.0753424657535
+                                                                  2013.8164407334016,
+                                                                  2013.9054794520548
                                                                 ],
-                                                                "value": 2014.0753424657535
-                                                              },
-                                                              "region": {
-                                                                "value": "north america"
+                                                                "value": 2013.9054794520548
                                                               }
                                                             }
                                                           },
@@ -2801,7 +3092,135 @@
                                                             "branch_attrs": {
                                                               "mutations": {}
                                                             },
-                                                            "name": "MH5817",
+                                                            "children": [
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "mutations": {}
+                                                                },
+                                                                "name": "MH5245",
+                                                                "node_attrs": {
+                                                                  "clade_membership": {
+                                                                    "value": "6b"
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "usa"
+                                                                  },
+                                                                  "div": 0.011435677546439777,
+                                                                  "division": {
+                                                                    "value": "michigan"
+                                                                  },
+                                                                  "household": {
+                                                                    "value": 4113
+                                                                  },
+                                                                  "num_date": {
+                                                                    "confidence": [
+                                                                      2013.886301369863,
+                                                                      2013.886301369863
+                                                                    ],
+                                                                    "value": 2013.886301369863
+                                                                  },
+                                                                  "region": {
+                                                                    "value": "north america"
+                                                                  },
+                                                                  "vaccination": {
+                                                                    "value": "Vaccinated"
+                                                                  }
+                                                                }
+                                                              },
+                                                              {
+                                                                "branch_attrs": {
+                                                                  "mutations": {}
+                                                                },
+                                                                "children": [
+                                                                  {
+                                                                    "branch_attrs": {
+                                                                      "mutations": {}
+                                                                    },
+                                                                    "name": "MH6042",
+                                                                    "node_attrs": {
+                                                                      "clade_membership": {
+                                                                        "value": "6b"
+                                                                      },
+                                                                      "country": {
+                                                                        "value": "usa"
+                                                                      },
+                                                                      "div": 0.011435677546439793,
+                                                                      "division": {
+                                                                        "value": "michigan"
+                                                                      },
+                                                                      "household": {
+                                                                        "value": 4110
+                                                                      },
+                                                                      "num_date": {
+                                                                        "confidence": [
+                                                                          2014.0753424657535,
+                                                                          2014.0753424657535
+                                                                        ],
+                                                                        "value": 2014.0753424657535
+                                                                      },
+                                                                      "region": {
+                                                                        "value": "north america"
+                                                                      },
+                                                                      "vaccination": {
+                                                                        "value": "Vaccinated"
+                                                                      }
+                                                                    }
+                                                                  },
+                                                                  {
+                                                                    "branch_attrs": {
+                                                                      "mutations": {}
+                                                                    },
+                                                                    "name": "MH5817",
+                                                                    "node_attrs": {
+                                                                      "clade_membership": {
+                                                                        "value": "6b"
+                                                                      },
+                                                                      "country": {
+                                                                        "value": "usa"
+                                                                      },
+                                                                      "div": 0.011435677546439793,
+                                                                      "division": {
+                                                                        "value": "michigan"
+                                                                      },
+                                                                      "household": {
+                                                                        "value": 4016
+                                                                      },
+                                                                      "num_date": {
+                                                                        "confidence": [
+                                                                          2014.0342465753424,
+                                                                          2014.0342465753424
+                                                                        ],
+                                                                        "value": 2014.0342465753424
+                                                                      },
+                                                                      "region": {
+                                                                        "value": "north america"
+                                                                      },
+                                                                      "vaccination": {
+                                                                        "value": "Not Vaccinated"
+                                                                      }
+                                                                    }
+                                                                  }
+                                                                ],
+                                                                "name": "NODE_0000050",
+                                                                "node_attrs": {
+                                                                  "clade_membership": {
+                                                                    "value": "6b"
+                                                                  },
+                                                                  "country": {
+                                                                    "value": "usa"
+                                                                  },
+                                                                  "div": 0.011435677546439777,
+                                                                  "num_date": {
+                                                                    "confidence": [
+                                                                      2013.898720025138,
+                                                                      2014.0342465753424
+                                                                    ],
+                                                                    "value": 2014.0342465753424
+                                                                  }
+                                                                }
+                                                              }
+                                                            ],
+                                                            "name": "NODE_0000049",
                                                             "node_attrs": {
                                                               "clade_membership": {
                                                                 "value": "6b"
@@ -2809,24 +3228,18 @@
                                                               "country": {
                                                                 "value": "usa"
                                                               },
-                                                              "div": 0.013729584048202598,
-                                                              "division": {
-                                                                "value": "michigan"
-                                                              },
+                                                              "div": 0.011435677546439761,
                                                               "num_date": {
                                                                 "confidence": [
-                                                                  2014.0342465753424,
-                                                                  2014.0342465753424
+                                                                  2013.806632451462,
+                                                                  2013.886301369863
                                                                 ],
-                                                                "value": 2014.0342465753424
-                                                              },
-                                                              "region": {
-                                                                "value": "north america"
+                                                                "value": 2013.886301369863
                                                               }
                                                             }
                                                           }
                                                         ],
-                                                        "name": "NODE_0000050",
+                                                        "name": "NODE_0000047",
                                                         "node_attrs": {
                                                           "clade_membership": {
                                                             "value": "6b"
@@ -2834,18 +3247,18 @@
                                                           "country": {
                                                             "value": "usa"
                                                           },
-                                                          "div": 0.013729584048202582,
+                                                          "div": 0.011435677546439746,
                                                           "num_date": {
                                                             "confidence": [
-                                                              2013.8510863580602,
-                                                              2014.0342465753424
+                                                              2013.7210925740412,
+                                                              2013.883448625002
                                                             ],
-                                                            "value": 2013.9602131255588
+                                                            "value": 2013.8285152798617
                                                           }
                                                         }
                                                       }
                                                     ],
-                                                    "name": "NODE_0000049",
+                                                    "name": "NODE_0000040",
                                                     "node_attrs": {
                                                       "clade_membership": {
                                                         "value": "6b"
@@ -2853,18 +3266,18 @@
                                                       "country": {
                                                         "value": "usa"
                                                       },
-                                                      "div": 0.013729584048202566,
+                                                      "div": 0.01143567754643973,
                                                       "num_date": {
                                                         "confidence": [
-                                                          2013.8281690740403,
-                                                          2013.886301369863
+                                                          2013.6258811590615,
+                                                          2013.8615308167828
                                                         ],
-                                                        "value": 2013.886301369863
+                                                        "value": 2013.7616847466475
                                                       }
                                                     }
                                                   }
                                                 ],
-                                                "name": "NODE_0000047",
+                                                "name": "NODE_0000054",
                                                 "node_attrs": {
                                                   "clade_membership": {
                                                     "value": "6b"
@@ -2872,18 +3285,18 @@
                                                   "country": {
                                                     "value": "usa"
                                                   },
-                                                  "div": 0.01372958404820255,
+                                                  "div": 0.011435677546439715,
                                                   "num_date": {
                                                     "confidence": [
-                                                      2013.749110197138,
-                                                      2013.8838002079733
+                                                      2013.563873280807,
+                                                      2013.8574271766595
                                                     ],
-                                                    "value": 2013.833655020101
+                                                    "value": 2013.696202375841
                                                   }
                                                 }
                                               }
                                             ],
-                                            "name": "NODE_0000040",
+                                            "name": "NODE_0000037",
                                             "node_attrs": {
                                               "clade_membership": {
                                                 "value": "6b"
@@ -2891,13 +3304,13 @@
                                               "country": {
                                                 "value": "usa"
                                               },
-                                              "div": 0.013729584048202535,
+                                              "div": 0.011435677546439699,
                                               "num_date": {
                                                 "confidence": [
-                                                  2013.6862698210432,
-                                                  2013.861882399754
+                                                  2013.4598885900148,
+                                                  2013.8080938800404
                                                 ],
-                                                "value": 2013.7989492320837
+                                                "value": 2013.6180184350685
                                               }
                                             }
                                           }
@@ -2910,13 +3323,13 @@
                                           "country": {
                                             "value": "usa"
                                           },
-                                          "div": 0.01372958404820252,
+                                          "div": 0.011435677546439683,
                                           "num_date": {
                                             "confidence": [
-                                              2013.5995958605452,
-                                              2013.833158959486
+                                              2013.3102985007722,
+                                              2013.8025280918234
                                             ],
-                                            "value": 2013.7765067075698
+                                            "value": 2013.5858171104423
                                           }
                                         }
                                       }
@@ -2929,13 +3342,13 @@
                                       "country": {
                                         "value": "usa"
                                       },
-                                      "div": 0.013159588759985871,
+                                      "div": 0.010865682623954449,
                                       "num_date": {
                                         "confidence": [
-                                          2012.7858489646487,
-                                          2013.7542326805776
+                                          2012.8210885907172,
+                                          2013.771411326329
                                         ],
-                                        "value": 2013.5210855487855
+                                        "value": 2013.22503004229
                                       }
                                     }
                                   }
@@ -2948,13 +3361,13 @@
                                   "country": {
                                     "value": "usa"
                                   },
-                                  "div": 0.013159588759985855,
+                                  "div": 0.010865682623954433,
                                   "num_date": {
                                     "confidence": [
-                                      2012.7963323428323,
-                                      2013.7851240040022
+                                      2012.5943136287788,
+                                      2013.7733251497536
                                     ],
-                                    "value": 2013.3591390028876
+                                    "value": 2013.0944122597423
                                   }
                                 }
                               }
@@ -2967,13 +3380,13 @@
                               "country": {
                                 "value": "usa"
                               },
-                              "div": 0.012589628624227259,
+                              "div": 0.010295722630855141,
                               "num_date": {
                                 "confidence": [
-                                  2012.616189378782,
-                                  2013.6738873756055
+                                  2012.4120071887935,
+                                  2013.6669248274184
                                 ],
-                                "value": 2013.1006818596115
+                                "value": 2012.963019346218
                               }
                             }
                           }
@@ -2986,13 +3399,13 @@
                           "country": {
                             "value": "usa"
                           },
-                          "div": 0.012589628624227243,
+                          "div": 0.010295722630855125,
                           "num_date": {
                             "confidence": [
-                              2012.6351361227566,
-                              2013.6604180916167
+                              2012.427629297354,
+                              2013.665813369969
                             ],
-                            "value": 2012.9661443730545
+                            "value": 2012.8424854635816
                           }
                         }
                       }
@@ -3005,13 +3418,13 @@
                       "country": {
                         "value": "usa"
                       },
-                      "div": 0.012589628624227227,
+                      "div": 0.01029572263085511,
                       "num_date": {
                         "confidence": [
-                          2012.747687594936,
-                          2013.0183197690496
+                          2012.7105991469944,
+                          2012.9461097686842
                         ],
-                        "value": 2012.8838228797115
+                        "value": 2012.741210826918
                       }
                     }
                   }
@@ -3024,13 +3437,13 @@
                   "country": {
                     "value": "usa"
                   },
-                  "div": 0.005717273964901829,
+                  "div": 0.003423369740009132,
                   "num_date": {
                     "confidence": [
-                      2010.4225613657838,
-                      2010.9524665774427
+                      2010.009354340743,
+                      2010.993541613647
                     ],
-                    "value": 2010.6378174767397
+                    "value": 2010.4361892796728
                   }
                 }
               }
@@ -3043,13 +3456,13 @@
               "country": {
                 "value": "usa"
               },
-              "div": 0.004576337123235798,
+              "div": 0.002282433121999259,
               "num_date": {
                 "confidence": [
-                  2009.8049139581499,
-                  2010.7772808526315
+                  2008.648476503675,
+                  2010.7798255511373
                 ],
-                "value": 2010.4890764676982
+                "value": 2010.2402647307242
               }
             }
           }
@@ -3057,18 +3470,18 @@
         "name": "NODE_0000003",
         "node_attrs": {
           "clade_membership": {
-            "value": "3"
+            "value": "unassigned"
           },
           "country": {
             "value": "usa"
           },
-          "div": 0.004006032878171872,
+          "div": 0.0017121292938939276,
           "num_date": {
             "confidence": [
-              2009.6210917201001,
-              2010.8167887249028
+              2006.738303213665,
+              2010.8441973110198
             ],
-            "value": 2010.0525417893875
+            "value": 2009.4411958729295
           }
         }
       }
@@ -3076,7 +3489,7 @@
     "name": "NODE_0000000",
     "node_attrs": {
       "clade_membership": {
-        "value": "3"
+        "value": "unassigned"
       },
       "country": {
         "value": "usa"
@@ -3084,10 +3497,10 @@
       "div": 0,
       "num_date": {
         "confidence": [
-          2007.8781175611139,
-          2010.3335453052857
+          2005.7771592715524,
+          2010.4607276542174
         ],
-        "value": 2009.144062608515
+        "value": 2008.8399740096356
       }
     }
   },
