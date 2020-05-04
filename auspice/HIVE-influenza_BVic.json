@@ -38,6 +38,16 @@
         ],
         "title": "Region",
         "type": "categorical"
+      },
+      {
+        "key": "vaccination",
+        "title": "Vaccination Status",
+        "type": "categorical"
+      },
+      {
+        "key": "household",
+        "title": "Household ID",
+        "type": "categorical"
       }
     ],
     "display_defaults": {
@@ -183,9 +193,12 @@
               "country": {
                 "value": "usa"
               },
-              "div": 0.007625885031385116,
+              "div": 0.005988159559590824,
               "division": {
                 "value": "michigan"
+              },
+              "household": {
+                "value": 1358
               },
               "num_date": {
                 "confidence": [
@@ -196,6 +209,9 @@
               },
               "region": {
                 "value": "north america"
+              },
+              "vaccination": {
+                "value": "Not Vaccinated"
               }
             }
           },
@@ -236,9 +252,12 @@
                   "country": {
                     "value": "usa"
                   },
-                  "div": 0.00816868152069974,
+                  "div": 0.006530956238632965,
                   "division": {
                     "value": "michigan"
+                  },
+                  "household": {
+                    "value": 1121
                   },
                   "num_date": {
                     "confidence": [
@@ -249,6 +268,9 @@
                   },
                   "region": {
                     "value": "north america"
+                  },
+                  "vaccination": {
+                    "value": "Vaccinated"
                   }
                 }
               },
@@ -271,9 +293,12 @@
                   "country": {
                     "value": "usa"
                   },
-                  "div": 0.00871553068940368,
+                  "div": 0.007077805164397211,
                   "division": {
                     "value": "michigan"
+                  },
+                  "household": {
+                    "value": 1246
                   },
                   "num_date": {
                     "confidence": [
@@ -284,6 +309,9 @@
                   },
                   "region": {
                     "value": "north america"
+                  },
+                  "vaccination": {
+                    "value": "Not Vaccinated"
                   }
                 }
               },
@@ -313,9 +341,12 @@
                       "country": {
                         "value": "usa"
                       },
-                      "div": 0.00816819550730787,
+                      "div": 0.006530470261019553,
                       "division": {
                         "value": "michigan"
+                      },
+                      "household": {
+                        "value": 1060
                       },
                       "num_date": {
                         "confidence": [
@@ -326,6 +357,9 @@
                       },
                       "region": {
                         "value": "north america"
+                      },
+                      "vaccination": {
+                        "value": "Vaccinated"
                       }
                     }
                   },
@@ -350,9 +384,12 @@
                           "country": {
                             "value": "usa"
                           },
-                          "div": 0.007624464723856107,
+                          "div": 0.005986739376759721,
                           "division": {
                             "value": "michigan"
+                          },
+                          "household": {
+                            "value": 1213
                           },
                           "num_date": {
                             "confidence": [
@@ -363,6 +400,9 @@
                           },
                           "region": {
                             "value": "north america"
+                          },
+                          "vaccination": {
+                            "value": "Vaccinated"
                           }
                         }
                       },
@@ -388,9 +428,12 @@
                           "country": {
                             "value": "usa"
                           },
-                          "div": 0.008168072003549309,
+                          "div": 0.00653034684809818,
                           "division": {
                             "value": "michigan"
+                          },
+                          "household": {
+                            "value": 1300
                           },
                           "num_date": {
                             "confidence": [
@@ -401,6 +444,9 @@
                           },
                           "region": {
                             "value": "north america"
+                          },
+                          "vaccination": {
+                            "value": "Not Vaccinated"
                           }
                         }
                       }
@@ -413,13 +459,13 @@
                       "country": {
                         "value": "usa"
                       },
-                      "div": 0.007624464723856092,
+                      "div": 0.005986739376759706,
                       "num_date": {
                         "confidence": [
-                          2008.8743173644095,
+                          2010.6480304315978,
                           2011.1219178082192
                         ],
-                        "value": 2009.4949704182839
+                        "value": 2010.9387502005964
                       }
                     }
                   }
@@ -432,13 +478,13 @@
                   "country": {
                     "value": "usa"
                   },
-                  "div": 0.0070809532624835705,
+                  "div": 0.005443227775526431,
                   "num_date": {
                     "confidence": [
-                      2004.6402903256203,
-                      2010.4087026727727
+                      2009.9547167146736,
+                      2011.0409797184857
                     ],
-                    "value": 2008.9361255797844
+                    "value": 2010.3421771277895
                   }
                 }
               },
@@ -470,9 +516,12 @@
                       "country": {
                         "value": "usa"
                       },
-                      "div": 0.007624588531093709,
+                      "div": 0.005986862487328251,
                       "division": {
                         "value": "michigan"
+                      },
+                      "household": {
+                        "value": 1376
                       },
                       "num_date": {
                         "confidence": [
@@ -483,6 +532,9 @@
                       },
                       "region": {
                         "value": "north america"
+                      },
+                      "vaccination": {
+                        "value": "Not Vaccinated"
                       }
                     }
                   },
@@ -507,9 +559,12 @@
                           "country": {
                             "value": "usa"
                           },
-                          "div": 0.0070809532624836,
+                          "div": 0.005443227775526461,
                           "division": {
                             "value": "michigan"
+                          },
+                          "household": {
+                            "value": 1128
                           },
                           "num_date": {
                             "confidence": [
@@ -520,6 +575,9 @@
                           },
                           "region": {
                             "value": "north america"
+                          },
+                          "vaccination": {
+                            "value": "Vaccinated"
                           }
                         }
                       },
@@ -554,9 +612,12 @@
                               "country": {
                                 "value": "usa"
                               },
-                              "div": 0.007624405383492752,
+                              "div": 0.005986680026218809,
                               "division": {
                                 "value": "michigan"
+                              },
+                              "household": {
+                                "value": 1352
                               },
                               "num_date": {
                                 "confidence": [
@@ -567,6 +628,9 @@
                               },
                               "region": {
                                 "value": "north america"
+                              },
+                              "vaccination": {
+                                "value": "Not Vaccinated"
                               }
                             }
                           },
@@ -586,9 +650,12 @@
                               "country": {
                                 "value": "usa"
                               },
-                              "div": 0.007624200983145576,
+                              "div": 0.00598647538435571,
                               "division": {
                                 "value": "michigan"
+                              },
+                              "household": {
+                                "value": 1239
                               },
                               "num_date": {
                                 "confidence": [
@@ -599,6 +666,9 @@
                               },
                               "region": {
                                 "value": "north america"
+                              },
+                              "vaccination": {
+                                "value": "Vaccinated"
                               }
                             }
                           },
@@ -624,9 +694,12 @@
                               "country": {
                                 "value": "usa"
                               },
-                              "div": 0.007624200983145576,
+                              "div": 0.00598647538435571,
                               "division": {
                                 "value": "michigan"
+                              },
+                              "household": {
+                                "value": 1275
                               },
                               "num_date": {
                                 "confidence": [
@@ -637,6 +710,9 @@
                               },
                               "region": {
                                 "value": "north america"
+                              },
+                              "vaccination": {
+                                "value": "Not Vaccinated"
                               }
                             }
                           },
@@ -657,9 +733,12 @@
                                   "country": {
                                     "value": "usa"
                                   },
-                                  "div": 0.007080897194422976,
+                                  "div": 0.005443171674904034,
                                   "division": {
                                     "value": "michigan"
+                                  },
+                                  "household": {
+                                    "value": 1223
                                   },
                                   "num_date": {
                                     "confidence": [
@@ -670,6 +749,9 @@
                                   },
                                   "region": {
                                     "value": "north america"
+                                  },
+                                  "vaccination": {
+                                    "value": "Vaccinated"
                                   }
                                 }
                               },
@@ -685,9 +767,12 @@
                                   "country": {
                                     "value": "usa"
                                   },
-                                  "div": 0.007080897194422976,
+                                  "div": 0.005443171674904034,
                                   "division": {
                                     "value": "michigan"
+                                  },
+                                  "household": {
+                                    "value": 1223
                                   },
                                   "num_date": {
                                     "confidence": [
@@ -698,6 +783,9 @@
                                   },
                                   "region": {
                                     "value": "north america"
+                                  },
+                                  "vaccination": {
+                                    "value": "Vaccinated"
                                   }
                                 }
                               }
@@ -710,13 +798,13 @@
                               "country": {
                                 "value": "usa"
                               },
-                              "div": 0.007080897194422961,
+                              "div": 0.005443171674904019,
                               "num_date": {
                                 "confidence": [
-                                  2005.656160952122,
+                                  2010.873440985092,
                                   2011.1109589041096
                                 ],
-                                "value": 2009.4797255843923
+                                "value": 2011.0801316373197
                               }
                             }
                           }
@@ -729,13 +817,13 @@
                           "country": {
                             "value": "usa"
                           },
-                          "div": 0.0070808971944229466,
+                          "div": 0.005443171674904004,
                           "num_date": {
                             "confidence": [
-                              2004.5881181809898,
-                              2010.6668235650734
+                              2010.4285387968362,
+                              2011.065619901741
                             ],
-                            "value": 2009.4585390541015
+                            "value": 2010.8015440709244
                           }
                         }
                       }
@@ -748,13 +836,13 @@
                       "country": {
                         "value": "usa"
                       },
-                      "div": 0.006537537749429431,
+                      "div": 0.004899811978554916,
                       "num_date": {
                         "confidence": [
-                          1981.5411889181096,
-                          2010.0324368317254
+                          2009.925857078062,
+                          2010.9170877294423
                         ],
-                        "value": 2009.036618140662
+                        "value": 2010.4473087011756
                       }
                     }
                   }
@@ -767,13 +855,13 @@
                   "country": {
                     "value": "usa"
                   },
-                  "div": 0.0065375377494294165,
+                  "div": 0.004899811978554902,
                   "num_date": {
                     "confidence": [
-                      1981.3759265483136,
-                      2010.1020406154933
+                      2009.698711223519,
+                      2010.9044377761534
                     ],
-                    "value": 2008.52740510523
+                    "value": 2010.160585968053
                   }
                 }
               }
@@ -786,13 +874,13 @@
               "country": {
                 "value": "usa"
               },
-              "div": 0.006537537749429402,
+              "div": 0.004899811978554887,
               "num_date": {
                 "confidence": [
-                  1981.3781477458815,
-                  2010.006920765886
+                  2009.1427198199524,
+                  2010.8235948067686
                 ],
-                "value": 2008.5490065200333
+                "value": 2009.9752188384082
               }
             }
           }
@@ -805,13 +893,13 @@
           "country": {
             "value": "usa"
           },
-          "div": 0.004905326309015121,
+          "div": 0.003267600152295284,
           "num_date": {
             "confidence": [
-              1904.975715127269,
-              2009.8210181577128
+              2000.0842635535075,
+              2011.0679591512546
             ],
-            "value": 2007.452565545775
+            "value": 2008.2400554243427
           }
         }
       },
@@ -854,7 +942,7 @@
                     "branch_attrs": {
                       "mutations": {}
                     },
-                    "name": "MH2666",
+                    "name": "MH2672",
                     "node_attrs": {
                       "clade_membership": {
                         "value": "1A"
@@ -862,9 +950,12 @@
                       "country": {
                         "value": "usa"
                       },
-                      "div": 0.007626773066934409,
+                      "div": 0.009261087576592802,
                       "division": {
                         "value": "michigan"
+                      },
+                      "household": {
+                        "value": 1190
                       },
                       "num_date": {
                         "confidence": [
@@ -875,6 +966,9 @@
                       },
                       "region": {
                         "value": "north america"
+                      },
+                      "vaccination": {
+                        "value": "Vaccinated"
                       }
                     }
                   },
@@ -890,9 +984,12 @@
                       "country": {
                         "value": "usa"
                       },
-                      "div": 0.007626773066934409,
+                      "div": 0.009261087576592802,
                       "division": {
                         "value": "michigan"
+                      },
+                      "household": {
+                        "value": 1190
                       },
                       "num_date": {
                         "confidence": [
@@ -903,6 +1000,9 @@
                       },
                       "region": {
                         "value": "north america"
+                      },
+                      "vaccination": {
+                        "value": "Vaccinated"
                       }
                     }
                   }
@@ -915,13 +1015,13 @@
                   "country": {
                     "value": "usa"
                   },
-                  "div": 0.0076267730669343945,
+                  "div": 0.009261087576592789,
                   "num_date": {
                     "confidence": [
-                      2007.5327188518147,
+                      2012.5286849916617,
                       2013.0068493150684
                     ],
-                    "value": 2011.6658900510174
+                    "value": 2013.0068493150684
                   }
                 }
               },
@@ -934,7 +1034,7 @@
                     "branch_attrs": {
                       "mutations": {}
                     },
-                    "name": "MH2672",
+                    "name": "MH2666",
                     "node_attrs": {
                       "clade_membership": {
                         "value": "1A"
@@ -942,9 +1042,12 @@
                       "country": {
                         "value": "usa"
                       },
-                      "div": 0.007626773066934409,
+                      "div": 0.009261087576592802,
                       "division": {
                         "value": "michigan"
+                      },
+                      "household": {
+                        "value": 1190
                       },
                       "num_date": {
                         "confidence": [
@@ -955,6 +1058,9 @@
                       },
                       "region": {
                         "value": "north america"
+                      },
+                      "vaccination": {
+                        "value": "Vaccinated"
                       }
                     }
                   },
@@ -975,9 +1081,12 @@
                           "country": {
                             "value": "usa"
                           },
-                          "div": 0.007626773066934424,
+                          "div": 0.009261087576592816,
                           "division": {
                             "value": "michigan"
+                          },
+                          "household": {
+                            "value": 1322
                           },
                           "num_date": {
                             "confidence": [
@@ -988,6 +1097,9 @@
                           },
                           "region": {
                             "value": "north america"
+                          },
+                          "vaccination": {
+                            "value": "Vaccinated"
                           }
                         }
                       },
@@ -1003,9 +1115,12 @@
                           "country": {
                             "value": "usa"
                           },
-                          "div": 0.007626773066934424,
+                          "div": 0.009261087576592816,
                           "division": {
                             "value": "michigan"
+                          },
+                          "household": {
+                            "value": 1322
                           },
                           "num_date": {
                             "confidence": [
@@ -1016,6 +1131,9 @@
                           },
                           "region": {
                             "value": "north america"
+                          },
+                          "vaccination": {
+                            "value": "Vaccinated"
                           }
                         }
                       }
@@ -1028,13 +1146,13 @@
                       "country": {
                         "value": "usa"
                       },
-                      "div": 0.007626773066934409,
+                      "div": 0.009261087576592802,
                       "num_date": {
                         "confidence": [
-                          2002.7532429875928,
+                          2012.6006364281614,
                           2013.0671232876712
                         ],
-                        "value": 2011.623013311001
+                        "value": 2013.0671232876712
                       }
                     }
                   }
@@ -1047,13 +1165,13 @@
                   "country": {
                     "value": "usa"
                   },
-                  "div": 0.0076267730669343945,
+                  "div": 0.009261087576592789,
                   "num_date": {
                     "confidence": [
-                      2002.608894815843,
+                      2012.4165801545944,
                       2013.0068493150684
                     ],
-                    "value": 2011.6658900510174
+                    "value": 2012.6085139261306
                   }
                 }
               }
@@ -1066,13 +1184,13 @@
               "country": {
                 "value": "usa"
               },
-              "div": 0.00762677306693438,
+              "div": 0.009261087576592775,
               "num_date": {
                 "confidence": [
-                  1973.7148989976067,
-                  2012.7802839874032
+                  2011.487099208484,
+                  2012.9628926329522
                 ],
-                "value": 2011.5420515415026
+                "value": 2012.424010595062
               }
             }
           },
@@ -1120,9 +1238,12 @@
                   "country": {
                     "value": "usa"
                   },
-                  "div": 0.008167771490372847,
+                  "div": 0.009802085105076167,
                   "division": {
                     "value": "michigan"
+                  },
+                  "household": {
+                    "value": 5100
                   },
                   "num_date": {
                     "confidence": [
@@ -1133,6 +1254,9 @@
                   },
                   "region": {
                     "value": "north america"
+                  },
+                  "vaccination": {
+                    "value": "Vaccinated"
                   }
                 }
               },
@@ -1167,9 +1291,12 @@
                       "country": {
                         "value": "usa"
                       },
-                      "div": 0.008167407054890947,
+                      "div": 0.009801721208957968,
                       "division": {
                         "value": "michigan"
+                      },
+                      "household": {
+                        "value": 1199
                       },
                       "num_date": {
                         "confidence": [
@@ -1180,6 +1307,9 @@
                       },
                       "region": {
                         "value": "north america"
+                      },
+                      "vaccination": {
+                        "value": "Vaccinated"
                       }
                     }
                   },
@@ -1200,9 +1330,12 @@
                           "country": {
                             "value": "usa"
                           },
-                          "div": 0.00762431722415794,
+                          "div": 0.009258630880797132,
                           "division": {
                             "value": "michigan"
+                          },
+                          "household": {
+                            "value": 5072
                           },
                           "num_date": {
                             "confidence": [
@@ -1213,6 +1346,9 @@
                           },
                           "region": {
                             "value": "north america"
+                          },
+                          "vaccination": {
+                            "value": "Not Vaccinated"
                           }
                         }
                       },
@@ -1228,9 +1364,12 @@
                           "country": {
                             "value": "usa"
                           },
-                          "div": 0.00762431722415794,
+                          "div": 0.009258630880797132,
                           "division": {
                             "value": "michigan"
+                          },
+                          "household": {
+                            "value": 3181
                           },
                           "num_date": {
                             "confidence": [
@@ -1241,6 +1380,9 @@
                           },
                           "region": {
                             "value": "north america"
+                          },
+                          "vaccination": {
+                            "value": "Vaccinated"
                           }
                         }
                       }
@@ -1253,13 +1395,13 @@
                       "country": {
                         "value": "usa"
                       },
-                      "div": 0.007624317224157925,
+                      "div": 0.009258630880797118,
                       "num_date": {
                         "confidence": [
-                          2004.6454080345165,
+                          2013.4219432872535,
                           2015.2095890410958
                         ],
-                        "value": 2015.141228798417
+                        "value": 2014.598109892375
                       }
                     }
                   }
@@ -1272,13 +1414,13 @@
                   "country": {
                     "value": "usa"
                   },
-                  "div": 0.00762431722415791,
+                  "div": 0.009258630880797104,
                   "num_date": {
                     "confidence": [
-                      2003.2185922810102,
-                      2015.190740915598
+                      2012.900589652947,
+                      2015.200994398317
                     ],
-                    "value": 2014.163853690575
+                    "value": 2014.1634960747785
                   }
                 }
               },
@@ -1303,9 +1445,12 @@
                       "country": {
                         "value": "usa"
                       },
-                      "div": 0.007624412874345371,
+                      "div": 0.009258726572684494,
                       "division": {
                         "value": "michigan"
+                      },
+                      "household": {
+                        "value": 1129
                       },
                       "num_date": {
                         "confidence": [
@@ -1316,6 +1461,9 @@
                       },
                       "region": {
                         "value": "north america"
+                      },
+                      "vaccination": {
+                        "value": "Vaccinated"
                       }
                     }
                   },
@@ -1336,9 +1484,12 @@
                           "country": {
                             "value": "usa"
                           },
-                          "div": 0.007081352057814685,
+                          "div": 0.008715665544138034,
                           "division": {
                             "value": "michigan"
+                          },
+                          "household": {
+                            "value": 5155
                           },
                           "num_date": {
                             "confidence": [
@@ -1349,6 +1500,9 @@
                           },
                           "region": {
                             "value": "north america"
+                          },
+                          "vaccination": {
+                            "value": "Vaccinated"
                           }
                         }
                       },
@@ -1364,9 +1518,12 @@
                           "country": {
                             "value": "usa"
                           },
-                          "div": 0.007081352057814685,
+                          "div": 0.008715665544138034,
                           "division": {
                             "value": "michigan"
+                          },
+                          "household": {
+                            "value": 5155
                           },
                           "num_date": {
                             "confidence": [
@@ -1377,6 +1534,9 @@
                           },
                           "region": {
                             "value": "north america"
+                          },
+                          "vaccination": {
+                            "value": "Vaccinated"
                           }
                         }
                       }
@@ -1389,13 +1549,13 @@
                       "country": {
                         "value": "usa"
                       },
-                      "div": 0.0070813520578146705,
+                      "div": 0.00871566554413802,
                       "num_date": {
                         "confidence": [
-                          2000.051892277933,
+                          2011.2647024575015,
                           2015.1712328767123
                         ],
-                        "value": 2014.2428764631386
+                        "value": 2014.6067905855855
                       }
                     }
                   }
@@ -1408,13 +1568,13 @@
                   "country": {
                     "value": "usa"
                   },
-                  "div": 0.007081352057814656,
+                  "div": 0.008715665544138006,
                   "num_date": {
                     "confidence": [
-                      1998.5558559733524,
-                      2015.1497546017276
+                      2011.9879862177452,
+                      2015.1561918443153
                     ],
-                    "value": 2014.1318003585966
+                    "value": 2012.6224231558426
                   }
                 }
               },
@@ -1452,9 +1612,12 @@
                           "country": {
                             "value": "usa"
                           },
-                          "div": 0.008167874807584762,
+                          "div": 0.009802188864304515,
                           "division": {
                             "value": "michigan"
+                          },
+                          "household": {
+                            "value": 3121
                           },
                           "num_date": {
                             "confidence": [
@@ -1465,6 +1628,9 @@
                           },
                           "region": {
                             "value": "north america"
+                          },
+                          "vaccination": {
+                            "value": "Not Vaccinated"
                           }
                         }
                       },
@@ -1480,9 +1646,12 @@
                           "country": {
                             "value": "usa"
                           },
-                          "div": 0.008167874807584762,
+                          "div": 0.009802188864304515,
                           "division": {
                             "value": "michigan"
+                          },
+                          "household": {
+                            "value": 3121
                           },
                           "num_date": {
                             "confidence": [
@@ -1493,6 +1662,9 @@
                           },
                           "region": {
                             "value": "north america"
+                          },
+                          "vaccination": {
+                            "value": "Not Vaccinated"
                           }
                         }
                       }
@@ -1505,13 +1677,13 @@
                       "country": {
                         "value": "usa"
                       },
-                      "div": 0.008167874807584748,
+                      "div": 0.009802188864304501,
                       "num_date": {
                         "confidence": [
-                          2004.7264015047228,
+                          2013.6207457606297,
                           2015.176712328767
                         ],
-                        "value": 2014.2483559151933
+                        "value": 2014.6122700376402
                       }
                     }
                   },
@@ -1532,9 +1704,12 @@
                           "country": {
                             "value": "usa"
                           },
-                          "div": 0.008167874807584762,
+                          "div": 0.009802188864304515,
                           "division": {
                             "value": "michigan"
+                          },
+                          "household": {
+                            "value": 3121
                           },
                           "num_date": {
                             "confidence": [
@@ -1545,6 +1720,9 @@
                           },
                           "region": {
                             "value": "north america"
+                          },
+                          "vaccination": {
+                            "value": "Not Vaccinated"
                           }
                         }
                       },
@@ -1560,9 +1738,12 @@
                           "country": {
                             "value": "usa"
                           },
-                          "div": 0.008167874807584762,
+                          "div": 0.009802188864304515,
                           "division": {
                             "value": "michigan"
+                          },
+                          "household": {
+                            "value": 5100
                           },
                           "num_date": {
                             "confidence": [
@@ -1573,6 +1754,9 @@
                           },
                           "region": {
                             "value": "north america"
+                          },
+                          "vaccination": {
+                            "value": "Vaccinated"
                           }
                         }
                       }
@@ -1585,13 +1769,13 @@
                       "country": {
                         "value": "usa"
                       },
-                      "div": 0.008167874807584748,
+                      "div": 0.009802188864304501,
                       "num_date": {
                         "confidence": [
-                          2004.7261890512282,
+                          2013.6288131252531,
                           2015.176712328767
                         ],
-                        "value": 2014.2483559151933
+                        "value": 2014.617287974567
                       }
                     }
                   }
@@ -1604,13 +1788,13 @@
                   "country": {
                     "value": "usa"
                   },
-                  "div": 0.008167874807584734,
+                  "div": 0.009802188864304487,
                   "num_date": {
                     "confidence": [
-                      1996.5895588472204,
-                      2015.1578640224475
+                      2013.2705858243132,
+                      2015.1681175051665
                     ],
-                    "value": 2014.1573246367152
+                    "value": 2014.5364929203986
                   }
                 }
               },
@@ -1650,9 +1834,12 @@
                       "country": {
                         "value": "usa"
                       },
-                      "div": 0.010889419103225311,
+                      "div": 0.012523734140828208,
                       "division": {
                         "value": "michigan"
+                      },
+                      "household": {
+                        "value": 5048
                       },
                       "num_date": {
                         "confidence": [
@@ -1663,6 +1850,9 @@
                       },
                       "region": {
                         "value": "north america"
+                      },
+                      "vaccination": {
+                        "value": "Vaccinated"
                       }
                     }
                   },
@@ -1699,9 +1889,12 @@
                       "country": {
                         "value": "usa"
                       },
-                      "div": 0.012526474965460024,
+                      "div": 0.014160790376371753,
                       "division": {
                         "value": "michigan"
+                      },
+                      "household": {
+                        "value": 3217
                       },
                       "num_date": {
                         "confidence": [
@@ -1712,6 +1905,9 @@
                       },
                       "region": {
                         "value": "north america"
+                      },
+                      "vaccination": {
+                        "value": "Vaccinated"
                       }
                     }
                   },
@@ -1753,9 +1949,12 @@
                                   "country": {
                                     "value": "usa"
                                   },
-                                  "div": 0.009254510456903637,
+                                  "div": 0.010888824741808712,
                                   "division": {
                                     "value": "michigan"
+                                  },
+                                  "household": {
+                                    "value": 3164
                                   },
                                   "num_date": {
                                     "confidence": [
@@ -1766,6 +1965,9 @@
                                   },
                                   "region": {
                                     "value": "north america"
+                                  },
+                                  "vaccination": {
+                                    "value": "Vaccinated"
                                   }
                                 }
                               },
@@ -1781,9 +1983,12 @@
                                   "country": {
                                     "value": "usa"
                                   },
-                                  "div": 0.009254510456903637,
+                                  "div": 0.010888824741808712,
                                   "division": {
                                     "value": "michigan"
+                                  },
+                                  "household": {
+                                    "value": 3164
                                   },
                                   "num_date": {
                                     "confidence": [
@@ -1794,6 +1999,9 @@
                                   },
                                   "region": {
                                     "value": "north america"
+                                  },
+                                  "vaccination": {
+                                    "value": "Vaccinated"
                                   }
                                 }
                               }
@@ -1806,13 +2014,13 @@
                               "country": {
                                 "value": "usa"
                               },
-                              "div": 0.009254510456903623,
+                              "div": 0.010888824741808698,
                               "num_date": {
                                 "confidence": [
-                                  1999.0090895190122,
+                                  2015.9312230023584,
                                   2016.1489071038252
                                 ],
-                                "value": 2015.9426056785867
+                                "value": 2016.1489071038252
                               }
                             }
                           },
@@ -1833,9 +2041,12 @@
                                   "country": {
                                     "value": "usa"
                                   },
-                                  "div": 0.009254510456903637,
+                                  "div": 0.010888824741808712,
                                   "division": {
                                     "value": "michigan"
+                                  },
+                                  "household": {
+                                    "value": 3092
                                   },
                                   "num_date": {
                                     "confidence": [
@@ -1846,6 +2057,9 @@
                                   },
                                   "region": {
                                     "value": "north america"
+                                  },
+                                  "vaccination": {
+                                    "value": "Vaccinated"
                                   }
                                 }
                               },
@@ -1861,9 +2075,12 @@
                                   "country": {
                                     "value": "usa"
                                   },
-                                  "div": 0.009254510456903637,
+                                  "div": 0.010888824741808712,
                                   "division": {
                                     "value": "michigan"
+                                  },
+                                  "household": {
+                                    "value": 3092
                                   },
                                   "num_date": {
                                     "confidence": [
@@ -1874,6 +2091,9 @@
                                   },
                                   "region": {
                                     "value": "north america"
+                                  },
+                                  "vaccination": {
+                                    "value": "Vaccinated"
                                   }
                                 }
                               }
@@ -1886,13 +2106,13 @@
                               "country": {
                                 "value": "usa"
                               },
-                              "div": 0.009254510456903623,
+                              "div": 0.010888824741808698,
                               "num_date": {
                                 "confidence": [
-                                  2003.8893702129644,
+                                  2015.9420533740056,
                                   2016.146174863388
                                 ],
-                                "value": 2015.9398734381496
+                                "value": 2016.146174863388
                               }
                             }
                           }
@@ -1905,13 +2125,13 @@
                           "country": {
                             "value": "usa"
                           },
-                          "div": 0.00925451045690361,
+                          "div": 0.010888824741808684,
                           "num_date": {
                             "confidence": [
-                              1997.684147809922,
-                              2016.1273265050138
+                              2015.6187904821359,
+                              2016.1167692278457
                             ],
-                            "value": 2015.2226053030445
+                            "value": 2015.9796114439014
                           }
                         }
                       },
@@ -1947,9 +2167,12 @@
                                   "country": {
                                     "value": "usa"
                                   },
-                                  "div": 0.008710992046143192,
+                                  "div": 0.010345306101441833,
                                   "division": {
                                     "value": "michigan"
+                                  },
+                                  "household": {
+                                    "value": 3321
                                   },
                                   "num_date": {
                                     "confidence": [
@@ -1960,6 +2183,9 @@
                                   },
                                   "region": {
                                     "value": "north america"
+                                  },
+                                  "vaccination": {
+                                    "value": "Not Vaccinated"
                                   }
                                 }
                               },
@@ -1975,9 +2201,12 @@
                                   "country": {
                                     "value": "usa"
                                   },
-                                  "div": 0.008710992046143192,
+                                  "div": 0.010345306101441833,
                                   "division": {
                                     "value": "michigan"
+                                  },
+                                  "household": {
+                                    "value": 3321
                                   },
                                   "num_date": {
                                     "confidence": [
@@ -1988,6 +2217,9 @@
                                   },
                                   "region": {
                                     "value": "north america"
+                                  },
+                                  "vaccination": {
+                                    "value": "Not Vaccinated"
                                   }
                                 }
                               }
@@ -2000,13 +2232,13 @@
                               "country": {
                                 "value": "usa"
                               },
-                              "div": 0.008710992046143179,
+                              "div": 0.010345306101441819,
                               "num_date": {
                                 "confidence": [
-                                  2003.68972304952,
+                                  2015.9643135266308,
                                   2016.370218579235
                                 ],
-                                "value": 2015.1324100278032
+                                "value": 2016.323181721641
                               }
                             }
                           },
@@ -2039,9 +2271,12 @@
                                   "country": {
                                     "value": "usa"
                                   },
-                                  "div": 0.009798336878502501,
+                                  "div": 0.0114326514620327,
                                   "division": {
                                     "value": "michigan"
+                                  },
+                                  "household": {
+                                    "value": 5317
                                   },
                                   "num_date": {
                                     "confidence": [
@@ -2052,6 +2287,9 @@
                                   },
                                   "region": {
                                     "value": "north america"
+                                  },
+                                  "vaccination": {
+                                    "value": "Not Vaccinated"
                                   }
                                 }
                               },
@@ -2067,9 +2305,12 @@
                                   "country": {
                                     "value": "usa"
                                   },
-                                  "div": 0.009798336878502501,
+                                  "div": 0.0114326514620327,
                                   "division": {
                                     "value": "michigan"
+                                  },
+                                  "household": {
+                                    "value": 5317
                                   },
                                   "num_date": {
                                     "confidence": [
@@ -2080,6 +2321,9 @@
                                   },
                                   "region": {
                                     "value": "north america"
+                                  },
+                                  "vaccination": {
+                                    "value": "Not Vaccinated"
                                   }
                                 }
                               }
@@ -2092,13 +2336,13 @@
                               "country": {
                                 "value": "usa"
                               },
-                              "div": 0.009798336878502487,
+                              "div": 0.011432651462032687,
                               "num_date": {
                                 "confidence": [
-                                  2007.5238496986651,
+                                  2016.496617537076,
                                   2017.127397260274
                                 ],
-                                "value": 2016.5084929845582
+                                "value": 2017.08036040268
                               }
                             }
                           }
@@ -2111,13 +2355,13 @@
                           "country": {
                             "value": "usa"
                           },
-                          "div": 0.008167851686549064,
+                          "div": 0.009802165500273054,
                           "num_date": {
                             "confidence": [
-                              1998.7106446725954,
-                              2015.0804112571425
+                              2011.220911139734,
+                              2016.3583974158034
                             ],
-                            "value": 2012.9568831351403
+                            "value": 2015.9892368357744
                           }
                         }
                       }
@@ -2130,13 +2374,13 @@
                       "country": {
                         "value": "usa"
                       },
-                      "div": 0.00816785168654905,
+                      "div": 0.00980216550027304,
                       "num_date": {
                         "confidence": [
-                          1979.2461406693415,
-                          2014.9814301887652
+                          2010.860734831015,
+                          2016.117790719536
                         ],
-                        "value": 2012.2565802382408
+                        "value": 2015.3718405689349
                       }
                     }
                   }
@@ -2149,13 +2393,13 @@
                   "country": {
                     "value": "usa"
                   },
-                  "div": 0.008167851686549037,
+                  "div": 0.009802165500273026,
                   "num_date": {
                     "confidence": [
-                      1979.4930316599593,
-                      2015.1188009636753
+                      2011.394528740792,
+                      2016.1026217214628
                     ],
-                    "value": 2012.0278651765718
+                    "value": 2012.8595059930256
                   }
                 }
               }
@@ -2168,13 +2412,13 @@
               "country": {
                 "value": "usa"
               },
-              "div": 0.007081352057814641,
+              "div": 0.008715665544137993,
               "num_date": {
                 "confidence": [
-                  1979.2168075625827,
-                  2015.1036168997512
+                  2012.0141412576852,
+                  2014.9644650980483
                 ],
-                "value": 2010.7421209338968
+                "value": 2012.575846651092
               }
             }
           }
@@ -2187,13 +2431,13 @@
           "country": {
             "value": "usa"
           },
-          "div": 0.0016315057843742718,
+          "div": 0.003265816809475985,
           "num_date": {
             "confidence": [
-              1668.0500505979028,
-              2008.1715984859154
+              1988.3853153541552,
+              2011.4822001832035
             ],
-            "value": 1999.2531504680087
+            "value": 2007.3917213372779
           }
         }
       }
@@ -2209,10 +2453,10 @@
       "div": 0,
       "num_date": {
         "confidence": [
-          1637.2973708883346,
-          2008.4814658506082
+          1978.8171865465408,
+          2010.2044772497072
         ],
-        "value": 1998.3834078374625
+        "value": 2003.9510321194364
       }
     }
   },
