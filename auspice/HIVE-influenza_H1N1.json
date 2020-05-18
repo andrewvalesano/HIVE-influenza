@@ -52,7 +52,7 @@
     ],
     "display_defaults": {
       "color_by": "clade_membership",
-      "geo_resolution": "division",
+      "geo_resolution": "city",
       "map_triplicate": true
     },
     "filters": [
@@ -116,6 +116,15 @@
           }
         },
         "key": "region"
+      },
+      {
+        "demes": {
+          "Ann Arbor": {
+            "latitude": 42.2808,
+            "longitude": -83.743
+          }
+        },
+        "key": "city"
       }
     ],
     "maintainers": [
@@ -130,7 +139,7 @@
       "entropy"
     ],
     "title": "Influenza HA Sequences from the HIVE Study",
-    "updated": "2020-05-04"
+    "updated": "2020-05-18"
   },
   "tree": {
     "branch_attrs": {
@@ -169,13 +178,16 @@
             },
             "name": "M53523",
             "node_attrs": {
+              "city": {
+                "value": "Ann Arbor"
+              },
               "clade_membership": {
                 "value": "3"
               },
               "country": {
                 "value": "usa"
               },
-              "div": 0.0062872897011485036,
+              "div": 0.004575498467332366,
               "division": {
                 "value": "michigan"
               },
@@ -238,13 +250,16 @@
                 },
                 "name": "M54028",
                 "node_attrs": {
+                  "city": {
+                    "value": "Ann Arbor"
+                  },
                   "clade_membership": {
                     "value": "3"
                   },
                   "country": {
                     "value": "usa"
                   },
-                  "div": 0.007997556945561816,
+                  "div": 0.006285767289686255,
                   "division": {
                     "value": "michigan"
                   },
@@ -293,13 +308,16 @@
                 },
                 "name": "M54391",
                 "node_attrs": {
+                  "city": {
+                    "value": "Ann Arbor"
+                  },
                   "clade_membership": {
                     "value": "3"
                   },
                   "country": {
                     "value": "usa"
                   },
-                  "div": 0.007426263742048093,
+                  "div": 0.005714473951499231,
                   "division": {
                     "value": "michigan"
                   },
@@ -330,13 +348,13 @@
               "country": {
                 "value": "usa"
               },
-              "div": 0.003423589292329392,
+              "div": 0.0017117958636576687,
               "num_date": {
                 "confidence": [
-                  2009.4396585920304,
-                  2010.6287279378266
+                  2009.5885032948804,
+                  2010.6604765986667
                 ],
-                "value": 2010.1822822229642
+                "value": 2010.222854667152
               }
             }
           }
@@ -349,13 +367,13 @@
           "country": {
             "value": "usa"
           },
-          "div": 0.0017117946010132598,
+          "div": 1.61136841358919e-17,
           "num_date": {
             "confidence": [
-              2008.1318033858495,
-              2010.4343177920505
+              2008.0507632636418,
+              2010.4010224118754
             ],
-            "value": 2009.8527676512174
+            "value": 2009.2948266570977
           }
         }
       },
@@ -446,13 +464,16 @@
                 },
                 "name": "MH2936",
                 "node_attrs": {
+                  "city": {
+                    "value": "Ann Arbor"
+                  },
                   "clade_membership": {
                     "value": "7"
                   },
                   "country": {
                     "value": "usa"
                   },
-                  "div": 0.014325991191326208,
+                  "div": 0.01604560970034594,
                   "division": {
                     "value": "michigan"
                   },
@@ -497,13 +518,16 @@
                 },
                 "name": "MH3978",
                 "node_attrs": {
+                  "city": {
+                    "value": "Ann Arbor"
+                  },
                   "clade_membership": {
                     "value": "7"
                   },
                   "country": {
                     "value": "usa"
                   },
-                  "div": 0.015476395306202654,
+                  "div": 0.01719601430528457,
                   "division": {
                     "value": "michigan"
                   },
@@ -534,13 +558,13 @@
               "country": {
                 "value": "usa"
               },
-              "div": 0.010895371854526959,
+              "div": 0.012614988057274802,
               "num_date": {
                 "confidence": [
-                  2010.2355940431003,
-                  2012.540911017985
+                  2010.616799446246,
+                  2012.5567636683697
                 ],
-                "value": 2012.0759837173275
+                "value": 2012.183871744689
               }
             }
           },
@@ -588,13 +612,16 @@
                     },
                     "name": "M54205",
                     "node_attrs": {
+                      "city": {
+                        "value": "Ann Arbor"
+                      },
                       "clade_membership": {
                         "value": "6"
                       },
                       "country": {
                         "value": "usa"
                       },
-                      "div": 0.005711864334006412,
+                      "div": 0.007431476845260664,
                       "division": {
                         "value": "michigan"
                       },
@@ -627,13 +654,16 @@
                         },
                         "name": "M54207",
                         "node_attrs": {
+                          "city": {
+                            "value": "Ann Arbor"
+                          },
                           "clade_membership": {
                             "value": "6"
                           },
                           "country": {
                             "value": "usa"
                           },
-                          "div": 0.005141259751436407,
+                          "div": 0.0068608718608062025,
                           "division": {
                             "value": "michigan"
                           },
@@ -661,13 +691,16 @@
                         },
                         "name": "M54206",
                         "node_attrs": {
+                          "city": {
+                            "value": "Ann Arbor"
+                          },
                           "clade_membership": {
                             "value": "6"
                           },
                           "country": {
                             "value": "usa"
                           },
-                          "div": 0.005141259751436407,
+                          "div": 0.0068608718608062025,
                           "division": {
                             "value": "michigan"
                           },
@@ -698,13 +731,13 @@
                       "country": {
                         "value": "usa"
                       },
-                      "div": 0.00514125975143639,
+                      "div": 0.006860871860806186,
                       "num_date": {
                         "confidence": [
-                          2010.994920010555,
+                          2010.9711432112128,
                           2011.1465753424657
                         ],
-                        "value": 2011.114629518169
+                        "value": 2011.0889644310892
                       }
                     }
                   }
@@ -717,13 +750,13 @@
                   "country": {
                     "value": "usa"
                   },
-                  "div": 0.005141259751436374,
+                  "div": 0.0068608718608061696,
                   "num_date": {
                     "confidence": [
-                      2010.84448674088,
-                      2011.1437992758908
+                      2010.8607501328272,
+                      2011.1386517001285
                     ],
-                    "value": 2011.0105480803043
+                    "value": 2011.012895256399
                   }
                 }
               },
@@ -769,13 +802,16 @@
                         },
                         "name": "M54062",
                         "node_attrs": {
+                          "city": {
+                            "value": "Ann Arbor"
+                          },
                           "clade_membership": {
                             "value": "6"
                           },
                           "country": {
                             "value": "usa"
                           },
-                          "div": 0.007997333939302149,
+                          "div": 0.009716948517293642,
                           "division": {
                             "value": "michigan"
                           },
@@ -813,13 +849,16 @@
                             },
                             "name": "M54056",
                             "node_attrs": {
+                              "city": {
+                                "value": "Ann Arbor"
+                              },
                               "clade_membership": {
                                 "value": "6"
                               },
                               "country": {
                                 "value": "usa"
                               },
-                              "div": 0.005708250435185674,
+                              "div": 0.007427862943354611,
                               "division": {
                                 "value": "michigan"
                               },
@@ -857,13 +896,16 @@
                                 },
                                 "name": "M54380",
                                 "node_attrs": {
+                                  "city": {
+                                    "value": "Ann Arbor"
+                                  },
                                   "clade_membership": {
                                     "value": "6"
                                   },
                                   "country": {
                                     "value": "usa"
                                   },
-                                  "div": 0.005708628919085985,
+                                  "div": 0.007428241557957482,
                                   "division": {
                                     "value": "michigan"
                                   },
@@ -896,13 +938,16 @@
                                     },
                                     "name": "M54454",
                                     "node_attrs": {
+                                      "city": {
+                                        "value": "Ann Arbor"
+                                      },
                                       "clade_membership": {
                                         "value": "6"
                                       },
                                       "country": {
                                         "value": "usa"
                                       },
-                                      "div": 0.004567777531444435,
+                                      "div": 0.006287389339901226,
                                       "division": {
                                         "value": "michigan"
                                       },
@@ -934,13 +979,16 @@
                                     },
                                     "name": "M53668",
                                     "node_attrs": {
+                                      "city": {
+                                        "value": "Ann Arbor"
+                                      },
                                       "clade_membership": {
                                         "value": "6"
                                       },
                                       "country": {
                                         "value": "usa"
                                       },
-                                      "div": 0.005137892272472327,
+                                      "div": 0.006857504494150301,
                                       "division": {
                                         "value": "michigan"
                                       },
@@ -971,13 +1019,13 @@
                                   "country": {
                                     "value": "usa"
                                   },
-                                  "div": 0.004567777531444418,
+                                  "div": 0.00628738933990121,
                                   "num_date": {
                                     "confidence": [
-                                      2010.864143844221,
-                                      2011.0637018235752
+                                      2010.8976565800297,
+                                      2011.072602739726
                                     ],
-                                    "value": 2011.0133444230069
+                                    "value": 2011.0242122234442
                                   }
                                 }
                               }
@@ -990,13 +1038,13 @@
                               "country": {
                                 "value": "usa"
                               },
-                              "div": 0.004567777531444402,
+                              "div": 0.006287389339901193,
                               "num_date": {
                                 "confidence": [
-                                  2010.7548249144686,
-                                  2011.0556710402889
+                                  2010.6622733281442,
+                                  2011.0700996755204
                                 ],
-                                "value": 2010.9290702895464
+                                "value": 2010.967602926781
                               }
                             }
                           }
@@ -1009,13 +1057,13 @@
                           "country": {
                             "value": "usa"
                           },
-                          "div": 0.004567777531444385,
+                          "div": 0.006287389339901177,
                           "num_date": {
                             "confidence": [
-                              2010.675425620149,
-                              2011.0155885797958
+                              2010.640832729457,
+                              2011.0341032957938
                             ],
-                            "value": 2010.8596840582425
+                            "value": 2010.8828456398776
                           }
                         }
                       }
@@ -1028,13 +1076,13 @@
                       "country": {
                         "value": "usa"
                       },
-                      "div": 0.004567777531444369,
+                      "div": 0.00628738933990116,
                       "num_date": {
                         "confidence": [
-                          2010.4206765171464,
-                          2011.0211649361934
+                          2010.57687512123,
+                          2010.9652964749723
                         ],
-                        "value": 2010.7082835830947
+                        "value": 2010.8141181496737
                       }
                     }
                   },
@@ -1085,13 +1133,16 @@
                         },
                         "name": "MH4087",
                         "node_attrs": {
+                          "city": {
+                            "value": "Ann Arbor"
+                          },
                           "clade_membership": {
                             "value": "6b"
                           },
                           "country": {
                             "value": "usa"
                           },
-                          "div": 0.014297952552560066,
+                          "div": 0.016017571326430193,
                           "division": {
                             "value": "michigan"
                           },
@@ -1136,13 +1187,16 @@
                         },
                         "name": "MH6260",
                         "node_attrs": {
+                          "city": {
+                            "value": "Ann Arbor"
+                          },
                           "clade_membership": {
                             "value": "6b"
                           },
                           "country": {
                             "value": "usa"
                           },
-                          "div": 0.015443947634562423,
+                          "div": 0.017163566893084473,
                           "division": {
                             "value": "michigan"
                           },
@@ -1202,13 +1256,16 @@
                             },
                             "name": "MH6262",
                             "node_attrs": {
+                              "city": {
+                                "value": "Ann Arbor"
+                              },
                               "clade_membership": {
                                 "value": "6b"
                               },
                               "country": {
                                 "value": "usa"
                               },
-                              "div": 0.016012657483201017,
+                              "div": 0.01773227728318865,
                               "division": {
                                 "value": "michigan"
                               },
@@ -1257,13 +1314,16 @@
                                 },
                                 "name": "MH5644",
                                 "node_attrs": {
+                                  "city": {
+                                    "value": "Ann Arbor"
+                                  },
                                   "clade_membership": {
                                     "value": "6b"
                                   },
                                   "country": {
                                     "value": "usa"
                                   },
-                                  "div": 0.016583909967623933,
+                                  "div": 0.018303530514362003,
                                   "division": {
                                     "value": "michigan"
                                   },
@@ -1300,13 +1360,16 @@
                                     },
                                     "name": "MH5645",
                                     "node_attrs": {
+                                      "city": {
+                                        "value": "Ann Arbor"
+                                      },
                                       "clade_membership": {
                                         "value": "6b"
                                       },
                                       "country": {
                                         "value": "usa"
                                       },
-                                      "div": 0.016012902322952292,
+                                      "div": 0.017732522671470945,
                                       "division": {
                                         "value": "michigan"
                                       },
@@ -1334,13 +1397,16 @@
                                     },
                                     "name": "MH5646",
                                     "node_attrs": {
+                                      "city": {
+                                        "value": "Ann Arbor"
+                                      },
                                       "clade_membership": {
                                         "value": "6b"
                                       },
                                       "country": {
                                         "value": "usa"
                                       },
-                                      "div": 0.016012902322952292,
+                                      "div": 0.017732522671470945,
                                       "division": {
                                         "value": "michigan"
                                       },
@@ -1371,13 +1437,13 @@
                                   "country": {
                                     "value": "usa"
                                   },
-                                  "div": 0.016012902322952275,
+                                  "div": 0.017732522671470928,
                                   "num_date": {
                                     "confidence": [
-                                      2013.9207509342489,
+                                      2013.901226570869,
                                       2013.995890410959
                                     ],
-                                    "value": 2013.9799174988107
+                                    "value": 2013.9670849552706
                                   }
                                 }
                               }
@@ -1390,13 +1456,13 @@
                               "country": {
                                 "value": "usa"
                               },
-                              "div": 0.015442518064122099,
+                              "div": 0.017162137938610194,
                               "num_date": {
                                 "confidence": [
-                                  2013.7776077219467,
-                                  2013.9480759607839
+                                  2013.7346476081825,
+                                  2013.9648032969344
                                 ],
-                                "value": 2013.895923512625
+                                "value": 2013.882385171031
                               }
                             }
                           }
@@ -1409,13 +1475,13 @@
                           "country": {
                             "value": "usa"
                           },
-                          "div": 0.014300869242924626,
+                          "div": 0.016020487755011224,
                           "num_date": {
                             "confidence": [
-                              2013.489102747915,
-                              2013.876655305741
+                              2013.445719801772,
+                              2013.8682387986378
                             ],
-                            "value": 2013.766787059601
+                            "value": 2013.6895403533724
                           }
                         }
                       },
@@ -1453,13 +1519,16 @@
                                 },
                                 "name": "MH5549",
                                 "node_attrs": {
+                                  "city": {
+                                    "value": "Ann Arbor"
+                                  },
                                   "clade_membership": {
                                     "value": "6b"
                                   },
                                   "country": {
                                     "value": "usa"
                                   },
-                                  "div": 0.014294252629651233,
+                                  "div": 0.01601387150593611,
                                   "division": {
                                     "value": "michigan"
                                   },
@@ -1492,13 +1561,16 @@
                                     },
                                     "name": "MH5548",
                                     "node_attrs": {
+                                      "city": {
+                                        "value": "Ann Arbor"
+                                      },
                                       "clade_membership": {
                                         "value": "6b"
                                       },
                                       "country": {
                                         "value": "usa"
                                       },
-                                      "div": 0.012581878397315244,
+                                      "div": 0.014301495893301196,
                                       "division": {
                                         "value": "michigan"
                                       },
@@ -1530,13 +1602,16 @@
                                     },
                                     "name": "MH5552",
                                     "node_attrs": {
+                                      "city": {
+                                        "value": "Ann Arbor"
+                                      },
                                       "clade_membership": {
                                         "value": "6b"
                                       },
                                       "country": {
                                         "value": "usa"
                                       },
-                                      "div": 0.013151804485273375,
+                                      "div": 0.014871422258648674,
                                       "division": {
                                         "value": "michigan"
                                       },
@@ -1567,13 +1642,13 @@
                                   "country": {
                                     "value": "usa"
                                   },
-                                  "div": 0.012581878397315229,
+                                  "div": 0.01430149589330118,
                                   "num_date": {
                                     "confidence": [
-                                      2013.810393752041,
-                                      2013.9806011285646
+                                      2013.8042178767696,
+                                      2013.9861202567297
                                     ],
-                                    "value": 2013.9029634704402
+                                    "value": 2013.9585245405037
                                   }
                                 }
                               }
@@ -1586,13 +1661,13 @@
                               "country": {
                                 "value": "usa"
                               },
-                              "div": 0.012581878397315213,
+                              "div": 0.014301495893301165,
                               "num_date": {
                                 "confidence": [
-                                  2013.6318739508356,
-                                  2013.9607927889256
+                                  2013.5207431912838,
+                                  2013.9690104711851
                                 ],
-                                "value": 2013.8049763403226
+                                "value": 2013.7987638797897
                               }
                             }
                           },
@@ -1619,13 +1694,16 @@
                                 },
                                 "name": "MH5455",
                                 "node_attrs": {
+                                  "city": {
+                                    "value": "Ann Arbor"
+                                  },
                                   "clade_membership": {
                                     "value": "6b"
                                   },
                                   "country": {
                                     "value": "usa"
                                   },
-                                  "div": 0.012582320079217765,
+                                  "div": 0.014301937283084189,
                                   "division": {
                                     "value": "michigan"
                                   },
@@ -1684,13 +1762,16 @@
                                         },
                                         "name": "MH5405",
                                         "node_attrs": {
+                                          "city": {
+                                            "value": "Ann Arbor"
+                                          },
                                           "clade_membership": {
                                             "value": "6b"
                                           },
                                           "country": {
                                             "value": "usa"
                                           },
-                                          "div": 0.014295275213398502,
+                                          "div": 0.016014893562977056,
                                           "division": {
                                             "value": "michigan"
                                           },
@@ -1718,13 +1799,16 @@
                                         },
                                         "name": "MH5726",
                                         "node_attrs": {
+                                          "city": {
+                                            "value": "Ann Arbor"
+                                          },
                                           "clade_membership": {
                                             "value": "6b"
                                           },
                                           "country": {
                                             "value": "usa"
                                           },
-                                          "div": 0.014295275213398502,
+                                          "div": 0.016014893562977056,
                                           "division": {
                                             "value": "michigan"
                                           },
@@ -1755,10 +1839,10 @@
                                       "country": {
                                         "value": "usa"
                                       },
-                                      "div": 0.014295275213398486,
+                                      "div": 0.01601489356297704,
                                       "num_date": {
                                         "confidence": [
-                                          2013.85219986234,
+                                          2013.8678582947598,
                                           2013.9575342465753
                                         ],
                                         "value": 2013.9575342465753
@@ -1792,13 +1876,16 @@
                                             },
                                             "name": "MH5651",
                                             "node_attrs": {
+                                              "city": {
+                                                "value": "Ann Arbor"
+                                              },
                                               "clade_membership": {
                                                 "value": "6b"
                                               },
                                               "country": {
                                                 "value": "usa"
                                               },
-                                              "div": 0.014292840971741895,
+                                              "div": 0.016012459735660976,
                                               "division": {
                                                 "value": "michigan"
                                               },
@@ -1859,13 +1946,16 @@
                                                         },
                                                         "name": "MH5639",
                                                         "node_attrs": {
+                                                          "city": {
+                                                            "value": "Ann Arbor"
+                                                          },
                                                           "clade_membership": {
                                                             "value": "6b"
                                                           },
                                                           "country": {
                                                             "value": "usa"
                                                           },
-                                                          "div": 0.013719825292726851,
+                                                          "div": 0.015439443190569616,
                                                           "division": {
                                                             "value": "michigan"
                                                           },
@@ -1893,13 +1983,16 @@
                                                         },
                                                         "name": "MH5677",
                                                         "node_attrs": {
+                                                          "city": {
+                                                            "value": "Ann Arbor"
+                                                          },
                                                           "clade_membership": {
                                                             "value": "6b"
                                                           },
                                                           "country": {
                                                             "value": "usa"
                                                           },
-                                                          "div": 0.013149950141343035,
+                                                          "div": 0.014869567723180143,
                                                           "division": {
                                                             "value": "michigan"
                                                           },
@@ -1930,13 +2023,13 @@
                                                       "country": {
                                                         "value": "usa"
                                                       },
-                                                      "div": 0.01314995014134302,
+                                                      "div": 0.014869567723180127,
                                                       "num_date": {
                                                         "confidence": [
-                                                          2013.8757531031124,
-                                                          2013.9907041506394
+                                                          2013.8548377314933,
+                                                          2013.9798332254898
                                                         ],
-                                                        "value": 2013.972509628857
+                                                        "value": 2013.9609014055086
                                                       }
                                                     }
                                                   },
@@ -1955,13 +2048,16 @@
                                                         },
                                                         "name": "MH5545",
                                                         "node_attrs": {
+                                                          "city": {
+                                                            "value": "Ann Arbor"
+                                                          },
                                                           "clade_membership": {
                                                             "value": "6b"
                                                           },
                                                           "country": {
                                                             "value": "usa"
                                                           },
-                                                          "div": 0.013150062020166246,
+                                                          "div": 0.01486967946109811,
                                                           "division": {
                                                             "value": "michigan"
                                                           },
@@ -1989,13 +2085,16 @@
                                                         },
                                                         "name": "MH5546",
                                                         "node_attrs": {
+                                                          "city": {
+                                                            "value": "Ann Arbor"
+                                                          },
                                                           "clade_membership": {
                                                             "value": "6b"
                                                           },
                                                           "country": {
                                                             "value": "usa"
                                                           },
-                                                          "div": 0.013150062020166246,
+                                                          "div": 0.01486967946109811,
                                                           "division": {
                                                             "value": "michigan"
                                                           },
@@ -2026,13 +2125,13 @@
                                                       "country": {
                                                         "value": "usa"
                                                       },
-                                                      "div": 0.01315006202016623,
+                                                      "div": 0.014869679461098094,
                                                       "num_date": {
                                                         "confidence": [
-                                                          2013.908189129897,
+                                                          2013.887961431878,
                                                           2013.9876712328767
                                                         ],
-                                                        "value": 2013.9876712328767
+                                                        "value": 2013.9588657771883
                                                       }
                                                     }
                                                   }
@@ -2045,13 +2144,13 @@
                                                   "country": {
                                                     "value": "usa"
                                                   },
-                                                  "div": 0.012579997755412011,
+                                                  "div": 0.014299614945813345,
                                                   "num_date": {
                                                     "confidence": [
-                                                      2013.7541410161457,
-                                                      2013.9439812492976
+                                                      2013.6199161764541,
+                                                      2013.9239142166741
                                                     ],
-                                                    "value": 2013.8246627336396
+                                                    "value": 2013.882106996706
                                                   }
                                                 }
                                               },
@@ -2085,13 +2184,16 @@
                                                         },
                                                         "name": "MH5544",
                                                         "node_attrs": {
+                                                          "city": {
+                                                            "value": "Ann Arbor"
+                                                          },
                                                           "clade_membership": {
                                                             "value": "6b"
                                                           },
                                                           "country": {
                                                             "value": "usa"
                                                           },
-                                                          "div": 0.015431376476717638,
+                                                          "div": 0.017150995952687726,
                                                           "division": {
                                                             "value": "michigan"
                                                           },
@@ -2119,13 +2221,16 @@
                                                         },
                                                         "name": "MH5847",
                                                         "node_attrs": {
+                                                          "city": {
+                                                            "value": "Ann Arbor"
+                                                          },
                                                           "clade_membership": {
                                                             "value": "6b"
                                                           },
                                                           "country": {
                                                             "value": "usa"
                                                           },
-                                                          "div": 0.014290694802933736,
+                                                          "div": 0.016010313360542726,
                                                           "division": {
                                                             "value": "michigan"
                                                           },
@@ -2156,13 +2261,13 @@
                                                       "country": {
                                                         "value": "usa"
                                                       },
-                                                      "div": 0.01429069480293372,
+                                                      "div": 0.01601031336054271,
                                                       "num_date": {
                                                         "confidence": [
-                                                          2013.8822619807097,
-                                                          2013.976832747548
+                                                          2013.8677866171208,
+                                                          2013.979809182398
                                                         ],
-                                                        "value": 2013.9438885545073
+                                                        "value": 2013.9401433440482
                                                       }
                                                     }
                                                   },
@@ -2181,13 +2286,16 @@
                                                         },
                                                         "name": "MH5680",
                                                         "node_attrs": {
+                                                          "city": {
+                                                            "value": "Ann Arbor"
+                                                          },
                                                           "clade_membership": {
                                                             "value": "6b"
                                                           },
                                                           "country": {
                                                             "value": "usa"
                                                           },
-                                                          "div": 0.01371982529272685,
+                                                          "div": 0.015439443190569616,
                                                           "division": {
                                                             "value": "michigan"
                                                           },
@@ -2219,13 +2327,16 @@
                                                         },
                                                         "name": "MH5712",
                                                         "node_attrs": {
+                                                          "city": {
+                                                            "value": "Ann Arbor"
+                                                          },
                                                           "clade_membership": {
                                                             "value": "6b"
                                                           },
                                                           "country": {
                                                             "value": "usa"
                                                           },
-                                                          "div": 0.01428965791503295,
+                                                          "div": 0.01600927640497958,
                                                           "division": {
                                                             "value": "michigan"
                                                           },
@@ -2256,13 +2367,13 @@
                                                       "country": {
                                                         "value": "usa"
                                                       },
-                                                      "div": 0.013719825292726834,
+                                                      "div": 0.0154394431905696,
                                                       "num_date": {
                                                         "confidence": [
-                                                          2013.8879427834063,
-                                                          2014.000908940023
+                                                          2013.877895325854,
+                                                          2014.0026269129658
                                                         ],
-                                                        "value": 2013.9749034907718
+                                                        "value": 2013.962123005433
                                                       }
                                                     }
                                                   },
@@ -2282,13 +2393,16 @@
                                                             },
                                                             "name": "MH5708",
                                                             "node_attrs": {
+                                                              "city": {
+                                                                "value": "Ann Arbor"
+                                                              },
                                                               "clade_membership": {
                                                                 "value": "6b"
                                                               },
                                                               "country": {
                                                                 "value": "usa"
                                                               },
-                                                              "div": 0.01314995014134305,
+                                                              "div": 0.014869567723180158,
                                                               "division": {
                                                                 "value": "michigan"
                                                               },
@@ -2316,13 +2430,16 @@
                                                             },
                                                             "name": "MH5709",
                                                             "node_attrs": {
+                                                              "city": {
+                                                                "value": "Ann Arbor"
+                                                              },
                                                               "clade_membership": {
                                                                 "value": "6b"
                                                               },
                                                               "country": {
                                                                 "value": "usa"
                                                               },
-                                                              "div": 0.01314995014134305,
+                                                              "div": 0.014869567723180158,
                                                               "division": {
                                                                 "value": "michigan"
                                                               },
@@ -2353,13 +2470,13 @@
                                                           "country": {
                                                             "value": "usa"
                                                           },
-                                                          "div": 0.013149950141343035,
+                                                          "div": 0.014869567723180143,
                                                           "num_date": {
                                                             "confidence": [
-                                                              2013.9123677601144,
+                                                              2013.884212956533,
                                                               2014.017808219178
                                                             ],
-                                                            "value": 2013.9858623948815
+                                                            "value": 2013.9601973078015
                                                           }
                                                         }
                                                       },
@@ -2372,15 +2489,18 @@
                                                             "branch_attrs": {
                                                               "mutations": {}
                                                             },
-                                                            "name": "MH5849",
+                                                            "name": "MH5848",
                                                             "node_attrs": {
+                                                              "city": {
+                                                                "value": "Ann Arbor"
+                                                              },
                                                               "clade_membership": {
                                                                 "value": "6b"
                                                               },
                                                               "country": {
                                                                 "value": "usa"
                                                               },
-                                                              "div": 0.01314995014134305,
+                                                              "div": 0.014869567723180158,
                                                               "division": {
                                                                 "value": "michigan"
                                                               },
@@ -2406,15 +2526,18 @@
                                                             "branch_attrs": {
                                                               "mutations": {}
                                                             },
-                                                            "name": "MH5848",
+                                                            "name": "MH5849",
                                                             "node_attrs": {
+                                                              "city": {
+                                                                "value": "Ann Arbor"
+                                                              },
                                                               "clade_membership": {
                                                                 "value": "6b"
                                                               },
                                                               "country": {
                                                                 "value": "usa"
                                                               },
-                                                              "div": 0.01314995014134305,
+                                                              "div": 0.014869567723180158,
                                                               "division": {
                                                                 "value": "michigan"
                                                               },
@@ -2445,13 +2568,13 @@
                                                           "country": {
                                                             "value": "usa"
                                                           },
-                                                          "div": 0.013149950141343035,
+                                                          "div": 0.014869567723180143,
                                                           "num_date": {
                                                             "confidence": [
-                                                              2013.9006865039034,
+                                                              2013.8700263936996,
                                                               2014.0397260273974
                                                             ],
-                                                            "value": 2013.975834378804
+                                                            "value": 2013.9677123881766
                                                           }
                                                         }
                                                       }
@@ -2464,13 +2587,13 @@
                                                       "country": {
                                                         "value": "usa"
                                                       },
-                                                      "div": 0.01314995014134302,
+                                                      "div": 0.014869567723180127,
                                                       "num_date": {
                                                         "confidence": [
-                                                          2013.8204055264923,
-                                                          2014.0058754334057
+                                                          2013.8492809319798,
+                                                          2014.015305048123
                                                         ],
-                                                        "value": 2013.9083754162323
+                                                        "value": 2013.901326967297
                                                       }
                                                     }
                                                   }
@@ -2483,13 +2606,13 @@
                                                   "country": {
                                                     "value": "usa"
                                                   },
-                                                  "div": 0.013149950141343004,
+                                                  "div": 0.014869567723180111,
                                                   "num_date": {
                                                     "confidence": [
-                                                      2013.761415439174,
-                                                      2013.935461701914
+                                                      2013.7312503608587,
+                                                      2013.947712386339
                                                     ],
-                                                    "value": 2013.828015418089
+                                                    "value": 2013.8806118387934
                                                   }
                                                 }
                                               }
@@ -2502,13 +2625,13 @@
                                               "country": {
                                                 "value": "usa"
                                               },
-                                              "div": 0.012579997755411996,
+                                              "div": 0.014299614945813329,
                                               "num_date": {
                                                 "confidence": [
-                                                  2013.6563747722578,
-                                                  2013.9008713543988
+                                                  2013.5991313656712,
+                                                  2013.913970468133
                                                 ],
-                                                "value": 2013.804544249172
+                                                "value": 2013.7222602493584
                                               }
                                             }
                                           }
@@ -2521,13 +2644,13 @@
                                           "country": {
                                             "value": "usa"
                                           },
-                                          "div": 0.01200996852635269,
+                                          "div": 0.013729585203245713,
                                           "num_date": {
                                             "confidence": [
-                                              2012.7163156956913,
-                                              2013.8790175814295
+                                              2013.3784102359286,
+                                              2013.8449029328988
                                             ],
-                                            "value": 2013.683808322504
+                                            "value": 2013.5810948916624
                                           }
                                         }
                                       },
@@ -2550,13 +2673,16 @@
                                             },
                                             "name": "MH5300",
                                             "node_attrs": {
+                                              "city": {
+                                                "value": "Ann Arbor"
+                                              },
                                               "clade_membership": {
                                                 "value": "6b"
                                               },
                                               "country": {
                                                 "value": "usa"
                                               },
-                                              "div": 0.012580254055337681,
+                                              "div": 0.014299871164558036,
                                               "division": {
                                                 "value": "michigan"
                                               },
@@ -2596,13 +2722,16 @@
                                             },
                                             "name": "MH5641",
                                             "node_attrs": {
+                                              "city": {
+                                                "value": "Ann Arbor"
+                                              },
                                               "clade_membership": {
                                                 "value": "6b"
                                               },
                                               "country": {
                                                 "value": "usa"
                                               },
-                                              "div": 0.013722578320986958,
+                                              "div": 0.01544219614665413,
                                               "division": {
                                                 "value": "michigan"
                                               },
@@ -2639,13 +2768,16 @@
                                                 },
                                                 "name": "MH5229",
                                                 "node_attrs": {
+                                                  "city": {
+                                                    "value": "Ann Arbor"
+                                                  },
                                                   "clade_membership": {
                                                     "value": "6b"
                                                   },
                                                   "country": {
                                                     "value": "usa"
                                                   },
-                                                  "div": 0.012579997755412011,
+                                                  "div": 0.014299614945813345,
                                                   "division": {
                                                     "value": "michigan"
                                                   },
@@ -2687,13 +2819,16 @@
                                                 },
                                                 "name": "MH5679",
                                                 "node_attrs": {
+                                                  "city": {
+                                                    "value": "Ann Arbor"
+                                                  },
                                                   "clade_membership": {
                                                     "value": "6b"
                                                   },
                                                   "country": {
                                                     "value": "usa"
                                                   },
-                                                  "div": 0.015436571789387912,
+                                                  "div": 0.0171561908996706,
                                                   "division": {
                                                     "value": "michigan"
                                                   },
@@ -2724,13 +2859,13 @@
                                               "country": {
                                                 "value": "usa"
                                               },
-                                              "div": 0.012579997755411996,
+                                              "div": 0.014299614945813329,
                                               "num_date": {
                                                 "confidence": [
-                                                  2013.8035297128804,
+                                                  2013.7189963483827,
                                                   2013.8835616438357
                                                 ],
-                                                "value": 2013.8476953140398
+                                                "value": 2013.8393474737418
                                               }
                                             }
                                           },
@@ -2754,13 +2889,16 @@
                                                 },
                                                 "name": "MH5648",
                                                 "node_attrs": {
+                                                  "city": {
+                                                    "value": "Ann Arbor"
+                                                  },
                                                   "clade_membership": {
                                                     "value": "6b"
                                                   },
                                                   "country": {
                                                     "value": "usa"
                                                   },
-                                                  "div": 0.013720795345979576,
+                                                  "div": 0.015440413097165555,
                                                   "division": {
                                                     "value": "michigan"
                                                   },
@@ -2788,13 +2926,16 @@
                                                 },
                                                 "name": "MH5656",
                                                 "node_attrs": {
+                                                  "city": {
+                                                    "value": "Ann Arbor"
+                                                  },
                                                   "clade_membership": {
                                                     "value": "6b"
                                                   },
                                                   "country": {
                                                     "value": "usa"
                                                   },
-                                                  "div": 0.0131505098169946,
+                                                  "div": 0.014870127135853247,
                                                   "division": {
                                                     "value": "michigan"
                                                   },
@@ -2825,13 +2966,13 @@
                                               "country": {
                                                 "value": "usa"
                                               },
-                                              "div": 0.013150509816994584,
+                                              "div": 0.014870127135853232,
                                               "num_date": {
                                                 "confidence": [
-                                                  2013.872572293401,
-                                                  2013.993835344766
+                                                  2013.8528232570695,
+                                                  2013.9834932014357
                                                 ],
-                                                "value": 2013.9769173259374
+                                                "value": 2013.9588701287719
                                               }
                                             }
                                           },
@@ -2851,13 +2992,16 @@
                                                     },
                                                     "name": "MH5193",
                                                     "node_attrs": {
+                                                      "city": {
+                                                        "value": "Ann Arbor"
+                                                      },
                                                       "clade_membership": {
                                                         "value": "6b"
                                                       },
                                                       "country": {
                                                         "value": "usa"
                                                       },
-                                                      "div": 0.012009968526352737,
+                                                      "div": 0.01372958520324576,
                                                       "division": {
                                                         "value": "michigan"
                                                       },
@@ -2885,13 +3029,16 @@
                                                     },
                                                     "name": "MH5194",
                                                     "node_attrs": {
+                                                      "city": {
+                                                        "value": "Ann Arbor"
+                                                      },
                                                       "clade_membership": {
                                                         "value": "6b"
                                                       },
                                                       "country": {
                                                         "value": "usa"
                                                       },
-                                                      "div": 0.012009968526352737,
+                                                      "div": 0.01372958520324576,
                                                       "division": {
                                                         "value": "michigan"
                                                       },
@@ -2922,10 +3069,10 @@
                                                   "country": {
                                                     "value": "usa"
                                                   },
-                                                  "div": 0.012009968526352721,
+                                                  "div": 0.013729585203245744,
                                                   "num_date": {
                                                     "confidence": [
-                                                      2013.8224237631237,
+                                                      2013.7972938242326,
                                                       2013.8643835616438
                                                     ],
                                                     "value": 2013.8643835616438
@@ -2946,49 +3093,18 @@
                                                         "branch_attrs": {
                                                           "mutations": {}
                                                         },
-                                                        "name": "MH5499",
-                                                        "node_attrs": {
-                                                          "clade_membership": {
-                                                            "value": "6b"
-                                                          },
-                                                          "country": {
-                                                            "value": "usa"
-                                                          },
-                                                          "div": 0.012009968526352752,
-                                                          "division": {
-                                                            "value": "michigan"
-                                                          },
-                                                          "household": {
-                                                            "value": 4156
-                                                          },
-                                                          "num_date": {
-                                                            "confidence": [
-                                                              2013.968493150685,
-                                                              2013.968493150685
-                                                            ],
-                                                            "value": 2013.968493150685
-                                                          },
-                                                          "region": {
-                                                            "value": "north america"
-                                                          },
-                                                          "vaccination": {
-                                                            "value": "Not Vaccinated"
-                                                          }
-                                                        }
-                                                      },
-                                                      {
-                                                        "branch_attrs": {
-                                                          "mutations": {}
-                                                        },
                                                         "name": "MH5295",
                                                         "node_attrs": {
+                                                          "city": {
+                                                            "value": "Ann Arbor"
+                                                          },
                                                           "clade_membership": {
                                                             "value": "6b"
                                                           },
                                                           "country": {
                                                             "value": "usa"
                                                           },
-                                                          "div": 0.012009968526352752,
+                                                          "div": 0.013729585203245775,
                                                           "division": {
                                                             "value": "michigan"
                                                           },
@@ -3009,6 +3125,43 @@
                                                             "value": "Vaccinated"
                                                           }
                                                         }
+                                                      },
+                                                      {
+                                                        "branch_attrs": {
+                                                          "mutations": {}
+                                                        },
+                                                        "name": "MH6042",
+                                                        "node_attrs": {
+                                                          "city": {
+                                                            "value": "Ann Arbor"
+                                                          },
+                                                          "clade_membership": {
+                                                            "value": "6b"
+                                                          },
+                                                          "country": {
+                                                            "value": "usa"
+                                                          },
+                                                          "div": 0.013729585203245775,
+                                                          "division": {
+                                                            "value": "michigan"
+                                                          },
+                                                          "household": {
+                                                            "value": 4110
+                                                          },
+                                                          "num_date": {
+                                                            "confidence": [
+                                                              2014.0753424657535,
+                                                              2014.0753424657535
+                                                            ],
+                                                            "value": 2014.0753424657535
+                                                          },
+                                                          "region": {
+                                                            "value": "north america"
+                                                          },
+                                                          "vaccination": {
+                                                            "value": "Vaccinated"
+                                                          }
+                                                        }
                                                       }
                                                     ],
                                                     "name": "NODE_0000048",
@@ -3019,10 +3172,10 @@
                                                       "country": {
                                                         "value": "usa"
                                                       },
-                                                      "div": 0.012009968526352737,
+                                                      "div": 0.01372958520324576,
                                                       "num_date": {
                                                         "confidence": [
-                                                          2013.8514324012995,
+                                                          2013.8408513036034,
                                                           2013.9054794520548
                                                         ],
                                                         "value": 2013.9054794520548
@@ -3040,13 +3193,16 @@
                                                         },
                                                         "name": "MH5245",
                                                         "node_attrs": {
+                                                          "city": {
+                                                            "value": "Ann Arbor"
+                                                          },
                                                           "clade_membership": {
                                                             "value": "6b"
                                                           },
                                                           "country": {
                                                             "value": "usa"
                                                           },
-                                                          "div": 0.012009968526352752,
+                                                          "div": 0.013729585203245775,
                                                           "division": {
                                                             "value": "michigan"
                                                           },
@@ -3077,33 +3233,36 @@
                                                             "branch_attrs": {
                                                               "mutations": {}
                                                             },
-                                                            "name": "MH6042",
+                                                            "name": "MH5499",
                                                             "node_attrs": {
+                                                              "city": {
+                                                                "value": "Ann Arbor"
+                                                              },
                                                               "clade_membership": {
                                                                 "value": "6b"
                                                               },
                                                               "country": {
                                                                 "value": "usa"
                                                               },
-                                                              "div": 0.012009968526352768,
+                                                              "div": 0.01372958520324579,
                                                               "division": {
                                                                 "value": "michigan"
                                                               },
                                                               "household": {
-                                                                "value": 4110
+                                                                "value": 4156
                                                               },
                                                               "num_date": {
                                                                 "confidence": [
-                                                                  2014.0753424657535,
-                                                                  2014.0753424657535
+                                                                  2013.968493150685,
+                                                                  2013.968493150685
                                                                 ],
-                                                                "value": 2014.0753424657535
+                                                                "value": 2013.968493150685
                                                               },
                                                               "region": {
                                                                 "value": "north america"
                                                               },
                                                               "vaccination": {
-                                                                "value": "Vaccinated"
+                                                                "value": "Not Vaccinated"
                                                               }
                                                             }
                                                           },
@@ -3113,13 +3272,16 @@
                                                             },
                                                             "name": "MH5817",
                                                             "node_attrs": {
+                                                              "city": {
+                                                                "value": "Ann Arbor"
+                                                              },
                                                               "clade_membership": {
                                                                 "value": "6b"
                                                               },
                                                               "country": {
                                                                 "value": "usa"
                                                               },
-                                                              "div": 0.012009968526352768,
+                                                              "div": 0.01372958520324579,
                                                               "division": {
                                                                 "value": "michigan"
                                                               },
@@ -3150,13 +3312,13 @@
                                                           "country": {
                                                             "value": "usa"
                                                           },
-                                                          "div": 0.012009968526352752,
+                                                          "div": 0.013729585203245775,
                                                           "num_date": {
                                                             "confidence": [
-                                                              2013.8779745295994,
-                                                              2014.0342465753424
+                                                              2013.8855997137132,
+                                                              2013.968493150685
                                                             ],
-                                                            "value": 2013.9795049928634
+                                                            "value": 2013.9622329361216
                                                           }
                                                         }
                                                       }
@@ -3169,10 +3331,10 @@
                                                       "country": {
                                                         "value": "usa"
                                                       },
-                                                      "div": 0.012009968526352737,
+                                                      "div": 0.01372958520324576,
                                                       "num_date": {
                                                         "confidence": [
-                                                          2013.8443029399834,
+                                                          2013.8313117107436,
                                                           2013.886301369863
                                                         ],
                                                         "value": 2013.886301369863
@@ -3188,13 +3350,13 @@
                                                   "country": {
                                                     "value": "usa"
                                                   },
-                                                  "div": 0.012009968526352721,
+                                                  "div": 0.013729585203245744,
                                                   "num_date": {
                                                     "confidence": [
-                                                      2013.7953383509878,
-                                                      2013.8835253032883
+                                                      2013.7610458671882,
+                                                      2013.883798198808
                                                     ],
-                                                    "value": 2013.8444624153658
+                                                    "value": 2013.8403479250605
                                                   }
                                                 }
                                               }
@@ -3207,13 +3369,13 @@
                                               "country": {
                                                 "value": "usa"
                                               },
-                                              "div": 0.012009968526352706,
+                                              "div": 0.013729585203245728,
                                               "num_date": {
                                                 "confidence": [
-                                                  2013.7751694008655,
-                                                  2013.861607495069
+                                                  2013.685538242011,
+                                                  2013.8618803905888
                                                 ],
-                                                "value": 2013.8228892709021
+                                                "value": 2013.8018439268603
                                               }
                                             }
                                           }
@@ -3226,13 +3388,13 @@
                                           "country": {
                                             "value": "usa"
                                           },
-                                          "div": 0.01200996852635269,
+                                          "div": 0.013729585203245713,
                                           "num_date": {
                                             "confidence": [
-                                              2013.7351137877988,
-                                              2013.857614158712
+                                              2013.6031747409133,
+                                              2013.8442644331942
                                             ],
-                                            "value": 2013.8042221591304
+                                            "value": 2013.7696373724257
                                           }
                                         }
                                       }
@@ -3245,13 +3407,13 @@
                                       "country": {
                                         "value": "usa"
                                       },
-                                      "div": 0.011439973793839096,
+                                      "div": 0.013159590076247141,
                                       "num_date": {
                                         "confidence": [
-                                          2012.6132622905723,
-                                          2013.8548365709544
+                                          2012.8649465015444,
+                                          2013.8038942778255
                                         ],
-                                        "value": 2013.1854401323678
+                                        "value": 2013.4891625839623
                                       }
                                     }
                                   }
@@ -3264,13 +3426,13 @@
                                   "country": {
                                     "value": "usa"
                                   },
-                                  "div": 0.01143997379383908,
+                                  "div": 0.013159590076247125,
                                   "num_date": {
                                     "confidence": [
-                                      2012.5807778831513,
-                                      2013.8508417353287
+                                      2012.8198347131984,
+                                      2013.8004084544891
                                     ],
-                                    "value": 2013.1811732762676
+                                    "value": 2013.3831396474418
                                   }
                                 }
                               }
@@ -3283,13 +3445,13 @@
                               "country": {
                                 "value": "usa"
                               },
-                              "div": 0.010870013642587072,
+                              "div": 0.01258962988546507,
                               "num_date": {
                                 "confidence": [
-                                  2012.639876356239,
-                                  2013.834850067582
+                                  2012.5910600476082,
+                                  2013.7175441342472
                                 ],
-                                "value": 2012.9661066045658
+                                "value": 2013.1258070443412
                               }
                             }
                           }
@@ -3302,13 +3464,13 @@
                           "country": {
                             "value": "usa"
                           },
-                          "div": 0.010870013642587056,
+                          "div": 0.012589629885465055,
                           "num_date": {
                             "confidence": [
-                              2012.6516211909172,
-                              2013.8326188044407
+                              2012.610714640576,
+                              2013.6953136199452
                             ],
-                            "value": 2012.8398922436372
+                            "value": 2012.977342298267
                           }
                         }
                       }
@@ -3321,13 +3483,13 @@
                       "country": {
                         "value": "usa"
                       },
-                      "div": 0.01087001364258704,
+                      "div": 0.01258962988546504,
                       "num_date": {
                         "confidence": [
-                          2012.6003204958151,
-                          2012.9611762826462
+                          2012.7539804836244,
+                          2013.0186991871774
                         ],
-                        "value": 2012.6986793711385
+                        "value": 2012.8888933643377
                       }
                     }
                   }
@@ -3340,13 +3502,13 @@
                   "country": {
                     "value": "usa"
                   },
-                  "div": 0.003997662857848982,
+                  "div": 0.005717274249248148,
                   "num_date": {
                     "confidence": [
-                      2010.1011843001313,
-                      2010.9949441238748
+                      2010.3546013043406,
+                      2010.890995529583
                     ],
-                    "value": 2010.5485019578814
+                    "value": 2010.7177494221044
                   }
                 }
               }
@@ -3359,13 +3521,13 @@
               "country": {
                 "value": "usa"
               },
-              "div": 0.002856726660841169,
+              "div": 0.004576337202531067,
               "num_date": {
                 "confidence": [
-                  2009.609605274428,
-                  2010.8277419396288
+                  2009.7969592803008,
+                  2010.8381168163075
                 ],
-                "value": 2010.2160297965188
+                "value": 2010.3854562394558
               }
             }
           }
@@ -3378,13 +3540,13 @@
           "country": {
             "value": "usa"
           },
-          "div": 0.0022864228361946875,
+          "div": 0.004006033197771706,
           "num_date": {
             "confidence": [
-              2007.5656652414107,
-              2010.733075971268
+              2009.560575856425,
+              2010.8738023092817
             ],
-            "value": 2009.8739234961506
+            "value": 2009.9840788348438
           }
         }
       }
@@ -3400,10 +3562,10 @@
       "div": 0,
       "num_date": {
         "confidence": [
-          2006.4509149410856,
-          2010.2134127473903
+          2007.916354171323,
+          2010.3088742145128
         ],
-        "value": 2009.0655582333113
+        "value": 2009.1593434017764
       }
     }
   },
